@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="267.7083px" preserveAspectRatio="none" style="width:419px;height:267px;background:#313238;" version="1.1" viewBox="0 0 419 267" width="419.7917px" zoomAndPan="magnify"><defs/><g><!--MD5=[fc811cf51f9c2276167b9320ad74c775]
+class DeepLinkResolver--><rect codeLine="12" fill="#313238" height="67.4723" id="DeepLinkResolver" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="206.25" x="7.2917" y="7.2917"/><rect fill="#227FAB" height="35.3841" rx="4.1667" ry="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="206.25" x="7.2917" y="7.2917"/><rect fill="#227FAB" height="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="206.25" x="7.2917" y="38.5091"/><rect codeLine="12" fill="none" height="67.4723" id="DeepLinkResolver" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="206.25" x="7.2917" y="7.2917"/><ellipse cx="44.375" cy="24.9837" fill="#E840E8" rx="10.4167" ry="10.4167" style="stroke:#444444;stroke-width:1.0416666666666667;"/><path d="M43.3171,25.6673 Q41.9661,25.1465 41.4779,24.5768 Q40.9896,24.0072 40.9896,23.0469 Q40.9896,21.8099 41.7871,21.11 Q42.5846,20.3939 43.9681,20.3939 Q44.6029,20.3939 45.2214,20.5404 Q45.8561,20.6868 46.4746,20.9635 L46.4746,22.7214 Q45.8887,22.3145 45.2865,22.1029 Q44.7005,21.875 44.1146,21.875 Q43.4635,21.875 43.1055,22.1517 Q42.7637,22.4121 42.7637,22.9004 Q42.7637,23.2747 43.0078,23.5189 Q43.2682,23.763 44.0658,24.0723 L44.847,24.3652 Q45.9538,24.7559 46.4583,25.4232 Q46.9792,26.0905 46.9792,27.0996 Q46.9792,28.4831 46.1654,29.1667 Q45.3516,29.8503 43.7077,29.8503 Q43.0241,29.8503 42.3405,29.6875 Q41.6732,29.5247 41.0384,29.1992 L41.0384,27.3438 Q41.7546,27.8646 42.4219,28.1087 Q43.1055,28.3529 43.7565,28.3529 Q44.4238,28.3529 44.7819,28.0599 Q45.1563,27.7507 45.1563,27.2135 Q45.1563,26.8066 44.9121,26.4974 Q44.668,26.1882 44.2122,26.0091 L43.3171,25.6673 Z " fill="#000000"/><text fill="#222222" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="114.5833" x="68.125" y="29.3111">DeepLinkResolver</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="8.3333" x2="212.5" y1="42.6758" y2="42.6758"/><ellipse cx="18.75" cy="54.1341" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="169.7917" x="32.2917" y="62.6867">parse(url: String): DeepLink?</text><!--MD5=[49ec080158085dcbd3ad09715098bc8b]
+class DeepLink--><rect codeLine="8" fill="#313238" height="67.4723" id="DeepLink" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="145.8333" x="250" y="7.2917"/><rect fill="#227FAB" height="35.3841" rx="4.1667" ry="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="145.8333" x="250" y="7.2917"/><rect fill="#227FAB" height="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="145.8333" x="250" y="38.5091"/><rect codeLine="8" fill="none" height="67.4723" id="DeepLink" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="145.8333" x="250" y="7.2917"/><ellipse cx="284.7396" cy="24.9837" fill="#10FF30" rx="10.4167" ry="10.4167" style="stroke:#444444;stroke-width:1.0416666666666667;"/><path d="M287.2786,29.6712 L281.5983,29.6712 L281.5983,20.5566 L287.2786,20.5566 L287.2786,22.1517 L283.4049,22.1517 L283.4049,24.1048 L286.9043,24.1048 L286.9043,25.6999 L283.4049,25.6999 L283.4049,28.0762 L287.2786,28.0762 L287.2786,29.6712 Z " fill="#000000"/><text fill="#222222" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="59.375" x="307.9688" y="29.3111">DeepLink</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="251.0417" x2="394.7917" y1="42.6758" y2="42.6758"/><ellipse cx="261.4583" cy="54.1341" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="109.375" x="275" y="62.6867">neoChat(deviceId:)</text><!--MD5=[21816c44a4785c97d5629c4b9046fd8c]
+class DeepLinkRepository--><rect codeLine="16" fill="#313238" height="123.3154" id="DeepLinkRepository" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="180.2083" x="232.8125" y="137.5"/><rect fill="#227FAB" height="35.3841" rx="4.1667" ry="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="180.2083" x="232.8125" y="137.5"/><rect fill="#227FAB" height="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="180.2083" x="232.8125" y="168.7174"/><rect codeLine="16" fill="none" height="123.3154" id="DeepLinkRepository" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="180.2083" x="232.8125" y="137.5"/><ellipse cx="252.0833" cy="155.1921" fill="#FB8500" rx="10.4167" ry="10.4167" style="stroke:#444444;stroke-width:1.0416666666666667;"/><path d="M253.9876,159.6191 Q253.5645,159.8307 253.0924,159.9447 Q252.6204,160.0586 252.1159,160.0586 Q250.2604,160.0586 249.2839,158.8542 Q248.3236,157.6335 248.3236,155.3385 Q248.3236,153.0273 249.2839,151.8229 Q250.2604,150.6022 252.1159,150.6022 Q252.6204,150.6022 253.0924,150.7161 Q253.5807,150.8138 253.9876,151.0417 L253.9876,153.0436 Q253.5319,152.6204 253.0924,152.4251 Q252.653,152.2135 252.1973,152.2135 Q251.2044,152.2135 250.6999,153.0111 Q250.1953,153.7923 250.1953,155.3385 Q250.1953,156.8685 250.6999,157.6497 Q251.2044,158.431 252.1973,158.431 Q252.653,158.431 253.0924,158.2357 Q253.5319,158.0404 253.9876,157.6172 L253.9876,159.6191 Z " fill="#000000"/><text fill="#222222" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="128.125" x="271.875" y="159.5194">DeepLinkRepository</text><line style="stroke:#55B2DE;stroke-width:1.5625;" x1="233.8542" x2="411.9792" y1="172.8841" y2="172.8841"/><ellipse cx="244.2708" cy="184.3424" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;fill:none;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="119.7917" x="257.8125" y="192.895">deepLink: DeepLink?</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="233.8542" x2="411.9792" y1="204.9723" y2="204.9723"/><ellipse cx="244.2708" cy="216.4307" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="143.75" x="257.8125" y="224.9832">setDeepLink(_:DeepLink)</text><ellipse cx="244.2708" cy="240.1855" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="92.7083" x="257.8125" y="248.7381">resetDeepLink()</text><!--MD5=[c4e996042323fb87f94aea8da27d34dc]
+link DeepLinkResolver to DeepLink--><path codeLine="4" d="M213.7604,41.1458 C223.9271,41.1458 234.0938,41.1458 244.2604,41.1458 " fill="none" id="DeepLinkResolver-to-DeepLink" style="stroke:#2A9FD6;stroke-width:3.125;"/><polygon fill="#2A9FD6" points="249.5729,41.1458,240.1979,36.9792,244.3646,41.1458,240.1979,45.3125,249.5729,41.1458" style="stroke:#2A9FD6;stroke-width:3.125;"/><!--MD5=[5540b54823234a53e1ca9a0fb7a1c62c]
+reverse link DeepLink to DeepLinkRepository--><path codeLine="5" d="M322.9167,80.8542 C322.9167,97.8854 322.9167,118.3021 322.9167,137.2708 " fill="none" id="DeepLink-backto-DeepLinkRepository" style="stroke:#2A9FD6;stroke-width:3.125;"/><polygon fill="#2A9FD6" points="322.9167,75.2188,318.75,84.5938,322.9167,80.4271,327.0833,84.5938,322.9167,75.2188" style="stroke:#2A9FD6;stroke-width:3.125;"/><!--MD5=[779b25431d9b3e26241ee81bfbb62a62]
+@startuml
+!include ../design.puml
+!include deep-links-classes-include.puml
+
+DeepLinkResolver -right-> DeepLink
+DeepLinkRepository -up-> DeepLink
+
+@enduml
+
+@startuml
+
+
+
+
+skinparam backgroundColor transparent
+skinparam useBetaStyle false
+
+
+
+
+
+
+
+skinparam defaultFontName       "Verdana"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           8
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               5
+skinparam ArrowColor            #ADAFAE
+skinparam stereotype {
+    CBackgroundColor #777777
+    CBorderColor #444444
+    ABackgroundColor #5F8F00
+    ABorderColor #92C233
+    IBackgroundColor #a30000
+    IBorderColor #D63333
+    EBackgroundColor #cc6d00
+    EBorderColor #FFA033
+    NBackgroundColor #7a29a3
+    NBorderColor #AD5CD6
+}
+skinparam title {
+	FontColor	                 #2A9FD6
+	BorderColor	                 #777777
+	FontSize	    	         20
+	BorderRoundCorner            8
+	BorderThickness 	         1
+	BackgroundColor              transparent
+}
+
+skinparam legend {
+	BackgroundColor transparent
+	BorderColor #777777
+	FontColor #ADAFAE
+}
+
+skinparam swimlane {
+	BorderColor #9933CC
+	BorderThickness 2
+	TitleBackgroundColor  #444444-#555
+	TitleFontColor #2A9FD6
+}
+
+
+skinparam activity {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	BarColor #77B300
+	StartColor #9933CC
+	EndColor #9933CC
+	DiamondBackgroundColor transparent
+  	DiamondBorderColor #777777
+  	DiamondFontColor #777777
+}
+
+
+skinparam participant {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+skinparam arrow {
+	Thickness 3
+	Color #2A9FD6
+	FontColor #FFF
+}
+
+
+skinparam sequence {
+	BorderColor #2A9FD6
+	TitleFontColor #2A9FD6
+	BackgroundColor transparent
+	StartColor #2A9FD6
+	EndColor #2A9FD6
+	BoxBackgroundColor transparent
+	BoxBorderColor #ADAFAE
+	BoxFontColor #ADAFAE
+	DelayFontColor #ADAFAE
+	LifeLineBorderColor #555
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor transparent
+	GroupBorderColor #ADAFAE
+	GroupFontColor #ADAFAE
+	GroupHeaderFontColor #9933CC
+	GroupBackgroundColor transparent
+	GroupBodyBackgroundColor transparent
+	GroupHeaderBackgroundColor transparent
+	DividerBackgroundColor transparent
+    DividerBorderColor #ADAFAE
+    DividerBorderThickness 2
+    DividerFontColor #ADAFAE
+	ReferenceBackgroundColor transparent
+	ReferenceBorderColor #ADAFAE
+	ReferenceFontColor #ADAFAE
+	ReferenceHeaderFontColor #9933CC
+	ReferenceHeaderBackgroundColor transparent
+	StereotypeFontColor #2A9FD6
+}
+
+
+skinparam partition {
+	BorderColor #2A9FD6
+	FontColor #2A9FD6
+	BackgroundColor transparent
+}
+
+
+skinparam collections {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+}
+
+
+skinparam control {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+skinparam entity {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+skinparam boundary {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+skinparam agent {
+	BackgroundColor transparent
+	BorderColor #cc6d00
+	FontColor #ADAFAE
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor transparent
+	BorderColor #AD5CD6
+	FontColor #AD5CD6
+}
+
+
+skinparam artifact {
+	BackgroundColor transparent
+	BorderColor #BDBFBE
+	FontColor #BDBFBE
+}
+
+
+skinparam component {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+}
+
+
+skinparam interface {
+	BackgroundColor  transparent
+	BorderColor  #CC0000
+	FontColor #ADAFAE
+}
+
+
+skinparam storage {
+	BackgroundColor transparent
+  	BorderColor #FFA033
+	FontColor #FF8800
+}
+
+
+skinparam node {
+	BackgroundColor  transparent
+	BorderColor #ADAFAE
+	FontColor #ADAFAE
+}
+
+
+skinparam cloud {
+	BackgroundColor transparent
+	BorderColor #F2FCFE
+	FontColor #ADAFAE
+}
+
+
+skinparam database {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+
+skinparam class {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+        FontColor #222
+	HeaderBackgroundColor #227FAB
+	StereotypeFontColor #ADAFAE
+	BorderThickness 1
+	AttributeFontColor #ADAFAE
+	AttributeFontSize 11
+}
+
+
+skinparam object {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	StereotypeFontColor #ADAFAE
+	BorderThickness 1
+	AttributeFontColor #777777
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	BorderThickness 2
+	StereotypeFontColor #2A9FD6
+}
+
+
+skinparam rectangle {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	BorderThickness 2
+	StereotypeFontColor #2A9FD6
+}
+
+
+skinparam package {
+	BackgroundColor transparent
+  	BorderColor #2A9FD6
+	FontColor #2A9FD6
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor transparent
+  	BorderColor #FF8800
+	FontColor #FF8800
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor transparent
+  	BorderColor #9933CC
+	FontColor #9933CC
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	StartColor #9933CC
+	EndColor #9933CC
+	AttributeFontColor #777777
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+}
+
+
+skinparam card {
+	BackgroundColor transparent
+	BorderColor #9933CC
+	FontColor #9933CC
+}
+
+
+skinparam file {
+	BackgroundColor transparent
+	BorderColor #555
+	FontColor #555
+}
+
+
+
+skinparam BackgroundColor #313238
+skinparam StereotypeCBackgroundColor #fb8500
+
+skinparam StereotypeCBackgroundColor<<S>> #e840e8
+skinparam SpotChar<<S>> S
+hide <<S>> stereotype
+
+skinparam StereotypeCBackgroundColor<<E>> #10FF30
+skinparam SpotChar<<E>> E
+hide <<E>> stereotype
+
+
+
+
+hide members
+show DeepLinkResolver methods
+show DeepLink methods
+show DeepLinkRepository methods
+
+class DeepLink <<E>> {
++neoChat(deviceId:)
+}
+
+class DeepLinkResolver<<S>> {
++parse(url: String): DeepLink?
+}
+
+class DeepLinkRepository {
++deepLink: DeepLink?
+- -
++setDeepLink(_:DeepLink)
++resetDeepLink()
+}
+
+
+DeepLinkResolver -right-> DeepLink
+DeepLinkRepository -up-> DeepLink
+
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 13:26:11 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

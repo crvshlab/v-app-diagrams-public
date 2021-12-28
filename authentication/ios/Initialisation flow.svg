@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1063.5417px" preserveAspectRatio="none" style="width:800px;height:1063px;background:#313238;" version="1.1" viewBox="0 0 800 1063" width="800px" zoomAndPan="magnify"><defs/><g><line style="stroke:#555555;stroke-width:2.0833333333333335;stroke-dasharray:5.0,5.0;" x1="97.9167" x2="97.9167" y1="45.8008" y2="1018.9779"/><line style="stroke:#555555;stroke-width:2.0833333333333335;stroke-dasharray:5.0,5.0;" x1="404.6875" x2="404.6875" y1="45.8008" y2="1018.9779"/><line style="stroke:#555555;stroke-width:2.0833333333333335;stroke-dasharray:5.0,5.0;" x1="692.1875" x2="692.1875" y1="45.8008" y2="1018.9779"/><rect fill="#313238" height="39.5508" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.5625;" width="50" x="72.9167" y="5.2083"/><text fill="#2A9FD6" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="25" x="85.4167" y="29.3111">App</text><rect fill="#313238" height="39.5508" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.5625;" width="50" x="72.9167" y="1017.9362"/><text fill="#2A9FD6" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="25" x="85.4167" y="1042.039">App</text><rect fill="#313238" height="39.5508" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.5625;" width="142.7083" x="333.8542" y="5.2083"/><text fill="#2A9FD6" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="117.7083" x="346.3542" y="29.3111">IDTMLoginProvider</text><rect fill="#313238" height="39.5508" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.5625;" width="142.7083" x="333.8542" y="1017.9362"/><text fill="#2A9FD6" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="117.7083" x="346.3542" y="1042.039">IDTMLoginProvider</text><rect fill="#313238" height="39.5508" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.5625;" width="55.2083" x="665.1042" y="5.2083"/><text fill="#2A9FD6" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="30.2083" x="677.6042" y="29.3111">IDTM</text><rect fill="#313238" height="39.5508" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.5625;" width="55.2083" x="665.1042" y="1017.9362"/><text fill="#2A9FD6" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="30.2083" x="677.6042" y="1042.039">IDTM</text><rect fill="#313238" height="3.125" style="stroke:#313238;stroke-width:1.0416666666666667;" width="793.2292" x="0" y="82.2428"/><line style="stroke:#ADAFAE;stroke-width:1.0416666666666667;" x1="0" x2="793.2292" y1="82.2428" y2="82.2428"/><line style="stroke:#ADAFAE;stroke-width:1.0416666666666667;" x1="0" x2="793.2292" y1="85.3678" y2="85.3678"/><rect fill="#313238" height="33.3008" style="stroke:#ADAFAE;stroke-width:2.0833333333333335;" width="121.875" x="335.6771" y="66.6341"/><text fill="#ADAFAE" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="92.7083" x="347.1354" y="87.6119">Initialization</text><polygon fill="#2A9FD6" points="392.7083,137.4023,403.125,141.569,392.7083,145.7357,396.875,141.569" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><line style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="97.9167" x2="398.9583" y1="141.569" y2="141.569"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="271.875" x="110.4167" y="131.3293">calls to initialize Provider: initializeProvider</text><line style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="405.2083" x2="448.9583" y1="181.1198" y2="181.1198"/><line style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="448.9583" x2="448.9583" y1="181.1198" y2="194.6615"/><line style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="406.25" x2="448.9583" y1="194.6615" y2="194.6615"/><polygon fill="#2A9FD6" points="416.6667,190.4948,406.25,194.6615,416.6667,198.8281,412.5,194.6615" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="197.9167" x="417.7083" y="170.8801">set providerStatus to .initialize</text><polygon fill="#2A9FD6" points="680.2083,230.0456,690.625,234.2122,680.2083,238.3789,684.375,234.2122" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><line style="stroke:#2A9FD6;stroke-width:3.125;" x1="405.2083" x2="686.4583" y1="234.2122" y2="234.2122"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="90.625" x="417.7083" y="223.9726">getFirebaseID</text><polygon fill="#2A9FD6" points="416.6667,244.6289,406.25,248.7956,416.6667,252.9622,412.5,248.7956" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><line style="stroke:#2A9FD6;stroke-width:3.125;" x1="410.4167" x2="691.6667" y1="248.7956" y2="248.7956"/><line style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="405.2083" x2="448.9583" y1="288.3464" y2="288.3464"/><line style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="448.9583" x2="448.9583" y1="288.3464" y2="301.888"/><line style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="406.25" x2="448.9583" y1="301.888" y2="301.888"/><polygon fill="#2A9FD6" points="416.6667,297.7214,406.25,301.888,416.6667,306.0547,412.5,301.888" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="262.5" x="417.7083" y="278.1067">set FirebaseID using FirebaseInstanceID</text><path d="M14.5833,317.513 L87.5,317.513 L87.5,333.138 L77.0833,343.5547 L10.4167,343.5547 L10.4167,321.6797 A4.1667,4.1667 0 0 1 14.5833,317.513 " fill="#313238" style="stroke:#ADAFAE;stroke-width:1.0416666666666667;"/><rect fill="none" height="683.7565" rx="4.1667" ry="4.1667" style="stroke:#ADAFAE;stroke-width:2.0833333333333335;" width="772.3958" x="10.4167" y="317.513"/><text fill="#9933CC" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="19.7917" x="31.25" y="335.3658">alt</text><text fill="#ADAFAE" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="88.5417" x="108.3333" y="336.4075">[onSuccess]</text><line style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="405.2083" x2="448.9583" y1="385.1237" y2="385.1237"/><line style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="448.9583" x2="448.9583" y1="385.1237" y2="398.6654"/><line style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="406.25" x2="448.9583" y1="398.6654" y2="398.6654"/><polygon fill="#2A9FD6" points="416.6667,394.4987,406.25,398.6654,416.6667,402.832,412.5,398.6654" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="177.0833" x="417.7083" y="374.884">set timeout for 10 seconds</text><polygon fill="#2A9FD6" points="680.2083,434.0495,690.625,438.2161,680.2083,442.3828,684.375,438.2161" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><line style="stroke:#2A9FD6;stroke-width:3.125;" x1="405.2083" x2="686.4583" y1="438.2161" y2="438.2161"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="102.0833" x="417.7083" y="427.9765">setEnvironment</text><polygon fill="#2A9FD6" points="680.2083,473.6003,690.625,477.7669,680.2083,481.9336,684.375,477.7669" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><line style="stroke:#2A9FD6;stroke-width:3.125;" x1="405.2083" x2="686.4583" y1="477.7669" y2="477.7669"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="75" x="417.7083" y="467.5273">enableLogs</text><polygon fill="#2A9FD6" points="680.2083,513.151,690.625,517.3177,680.2083,521.4844,684.375,517.3177" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><line style="stroke:#2A9FD6;stroke-width:3.125;" x1="405.2083" x2="686.4583" y1="517.3177" y2="517.3177"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="51.0417" x="417.7083" y="507.078">initialize</text><path d="M25,532.9427 L97.9167,532.9427 L97.9167,548.5677 L87.5,558.9844 L20.8333,558.9844 L20.8333,537.1094 A4.1667,4.1667 0 0 1 25,532.9427 " fill="#313238" style="stroke:#ADAFAE;stroke-width:1.0416666666666667;"/><rect fill="none" height="394.4336" rx="4.1667" ry="4.1667" style="stroke:#ADAFAE;stroke-width:2.0833333333333335;" width="751.5625" x="20.8333" y="532.9427"/><text fill="#9933CC" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="19.7917" x="41.6667" y="550.7955">alt</text><text fill="#ADAFAE" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="88.5417" x="118.75" y="551.8372">[onSuccess]</text><polygon fill="#2A9FD6" points="416.6667,596.3867,406.25,600.5534,416.6667,604.7201,412.5,600.5534" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><line style="stroke:#2A9FD6;stroke-width:3.125;" x1="410.4167" x2="691.6667" y1="600.5534" y2="600.5534"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="53.125" x="428.125" y="590.3137">success</text><line style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="405.2083" x2="448.9583" y1="640.1042" y2="640.1042"/><line style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="448.9583" x2="448.9583" y1="640.1042" y2="653.6458"/><line style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="406.25" x2="448.9583" y1="653.6458" y2="653.6458"/><polygon fill="#2A9FD6" points="416.6667,649.4792,406.25,653.6458,416.6667,657.8125,412.5,653.6458" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="206.25" x="417.7083" y="629.8645">set providerStatus to .initialized</text><polygon fill="#2A9FD6" points="109.375,689.0299,98.9583,693.1966,109.375,697.3633,105.2083,693.1966" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><line style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="103.125" x2="404.1667" y1="693.1966" y2="693.1966"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="105.2083" x="120.8333" y="682.9569">send completed</text><line style="stroke:#ADAFAE;stroke-width:1.0416666666666667;stroke-dasharray:2.0,2.0;" x1="20.8333" x2="772.3958" y1="702.5716" y2="702.5716"/><text fill="#ADAFAE" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="80.2083" x="31.25" y="719.3827">[onFailure]</text><polygon fill="#2A9FD6" points="416.6667,755.6315,406.25,759.7982,416.6667,763.9648,412.5,759.7982" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><line style="stroke:#2A9FD6;stroke-width:3.125;" x1="410.4167" x2="691.6667" y1="759.7982" y2="759.7982"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="140.625" x="428.125" y="749.5585">failure with sdkStatus</text><line style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="405.2083" x2="448.9583" y1="799.349" y2="799.349"/><line style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="448.9583" x2="448.9583" y1="799.349" y2="812.8906"/><line style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="406.25" x2="448.9583" y1="812.8906" y2="812.8906"/><polygon fill="#2A9FD6" points="416.6667,808.724,406.25,812.8906,416.6667,817.0573,412.5,812.8906" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="234.375" x="417.7083" y="789.1093">send analytics event with sdkStatus</text><polygon fill="#2A9FD6" points="109.375,848.2747,98.9583,852.4414,109.375,856.6081,105.2083,852.4414" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><line style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="103.125" x2="404.1667" y1="852.4414" y2="852.4414"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="104.1667" x="120.8333" y="842.2017">send back error</text><line style="stroke:#ADAFAE;stroke-width:1.0416666666666667;stroke-dasharray:2.0,2.0;" x1="20.8333" x2="772.3958" y1="861.8164" y2="861.8164"/><text fill="#ADAFAE" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="88.5417" x="31.25" y="878.6275">[onTimeout]</text><polygon fill="#2A9FD6" points="109.375,914.8763,98.9583,919.043,109.375,923.2096,105.2083,919.043" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><line style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="103.125" x2="404.1667" y1="919.043" y2="919.043"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="104.1667" x="120.8333" y="908.8033">send back error</text><line style="stroke:#ADAFAE;stroke-width:1.0416666666666667;stroke-dasharray:2.0,2.0;" x1="10.4167" x2="782.8125" y1="935.7096" y2="935.7096"/><text fill="#ADAFAE" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="80.2083" x="20.8333" y="952.5208">[onFailure]</text><polygon fill="#2A9FD6" points="109.375,988.7695,98.9583,992.9362,109.375,997.1029,105.2083,992.9362" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><line style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="103.125" x2="404.1667" y1="992.9362" y2="992.9362"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="104.1667" x="120.8333" y="982.6965">send back error</text><!--MD5=[03d948e098c6cfd769e586412682df11]
+@startuml Initialisation flow
+!include theme.puml
+
+== Initialization ==
+
+App - -> IDTMLoginProvider: calls to initialize Provider: initializeProvider
+IDTMLoginProvider - -> IDTMLoginProvider: set providerStatus to .initialize
+IDTMLoginProvider -> IDTM: getFirebaseID
+IDTM -> IDTMLoginProvider
+IDTMLoginProvider - -> IDTMLoginProvider: set FirebaseID using FirebaseInstanceID
+
+alt onSuccess
+    IDTMLoginProvider - -> IDTMLoginProvider: set timeout for 10 seconds
+    IDTMLoginProvider -> IDTM: setEnvironment
+    IDTMLoginProvider -> IDTM: enableLogs
+    IDTMLoginProvider -> IDTM: initialize
+    alt onSuccess
+        IDTM -> IDTMLoginProvider: success
+        IDTMLoginProvider - -> IDTMLoginProvider: set providerStatus to .initialized
+        IDTMLoginProvider - -> App: send completed
+    else onFailure
+        IDTM -> IDTMLoginProvider: failure with sdkStatus
+        IDTMLoginProvider - -> IDTMLoginProvider: send analytics event with sdkStatus
+        IDTMLoginProvider - -> App: send back error
+    else onTimeout
+        IDTMLoginProvider - -> App: send back error
+    end
+else onFailure
+    IDTMLoginProvider - -> App: send back error
+end
+@enduml
+
+@startuml Initialisation flow
+
+
+
+
+
+skinparam backgroundColor transparent
+skinparam useBetaStyle false
+
+
+
+
+
+
+
+skinparam defaultFontName       "Verdana"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           8
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               5
+skinparam ArrowColor            #ADAFAE
+skinparam stereotype {
+    CBackgroundColor #777777
+    CBorderColor #444444
+    ABackgroundColor #5F8F00
+    ABorderColor #92C233
+    IBackgroundColor #a30000
+    IBorderColor #D63333
+    EBackgroundColor #cc6d00
+    EBorderColor #FFA033
+    NBackgroundColor #7a29a3
+    NBorderColor #AD5CD6
+}
+skinparam title {
+	FontColor	                 #2A9FD6
+	BorderColor	                 #777777
+	FontSize	    	         20
+	BorderRoundCorner            8
+	BorderThickness 	         1
+	BackgroundColor              transparent
+}
+
+skinparam legend {
+	BackgroundColor transparent
+	BorderColor #777777
+	FontColor #ADAFAE
+}
+
+skinparam swimlane {
+	BorderColor #9933CC
+	BorderThickness 2
+	TitleBackgroundColor  #444444-#555
+	TitleFontColor #2A9FD6
+}
+
+
+skinparam activity {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	BarColor #77B300
+	StartColor #9933CC
+	EndColor #9933CC
+	DiamondBackgroundColor transparent
+  	DiamondBorderColor #777777
+  	DiamondFontColor #777777
+}
+
+
+skinparam participant {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+skinparam arrow {
+	Thickness 3
+	Color #2A9FD6
+	FontColor #FFF
+}
+
+
+skinparam sequence {
+	BorderColor #2A9FD6
+	TitleFontColor #2A9FD6
+	BackgroundColor transparent
+	StartColor #2A9FD6
+	EndColor #2A9FD6
+	BoxBackgroundColor transparent
+	BoxBorderColor #ADAFAE
+	BoxFontColor #ADAFAE
+	DelayFontColor #ADAFAE
+	LifeLineBorderColor #555
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor transparent
+	GroupBorderColor #ADAFAE
+	GroupFontColor #ADAFAE
+	GroupHeaderFontColor #9933CC
+	GroupBackgroundColor transparent
+	GroupBodyBackgroundColor transparent
+	GroupHeaderBackgroundColor transparent
+	DividerBackgroundColor transparent
+    DividerBorderColor #ADAFAE
+    DividerBorderThickness 2
+    DividerFontColor #ADAFAE
+	ReferenceBackgroundColor transparent
+	ReferenceBorderColor #ADAFAE
+	ReferenceFontColor #ADAFAE
+	ReferenceHeaderFontColor #9933CC
+	ReferenceHeaderBackgroundColor transparent
+	StereotypeFontColor #2A9FD6
+}
+
+
+skinparam partition {
+	BorderColor #2A9FD6
+	FontColor #2A9FD6
+	BackgroundColor transparent
+}
+
+
+skinparam collections {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+}
+
+
+skinparam control {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+skinparam entity {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+skinparam boundary {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+skinparam agent {
+	BackgroundColor transparent
+	BorderColor #cc6d00
+	FontColor #ADAFAE
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor transparent
+	BorderColor #AD5CD6
+	FontColor #AD5CD6
+}
+
+
+skinparam artifact {
+	BackgroundColor transparent
+	BorderColor #BDBFBE
+	FontColor #BDBFBE
+}
+
+
+skinparam component {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+}
+
+
+skinparam interface {
+	BackgroundColor  transparent
+	BorderColor  #CC0000
+	FontColor #ADAFAE
+}
+
+
+skinparam storage {
+	BackgroundColor transparent
+  	BorderColor #FFA033
+	FontColor #FF8800
+}
+
+
+skinparam node {
+	BackgroundColor  transparent
+	BorderColor #ADAFAE
+	FontColor #ADAFAE
+}
+
+
+skinparam cloud {
+	BackgroundColor transparent
+	BorderColor #F2FCFE
+	FontColor #ADAFAE
+}
+
+
+skinparam database {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+
+skinparam class {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+        FontColor #222
+	HeaderBackgroundColor #227FAB
+	StereotypeFontColor #ADAFAE
+	BorderThickness 1
+	AttributeFontColor #ADAFAE
+	AttributeFontSize 11
+}
+
+
+skinparam object {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	StereotypeFontColor #ADAFAE
+	BorderThickness 1
+	AttributeFontColor #777777
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	BorderThickness 2
+	StereotypeFontColor #2A9FD6
+}
+
+
+skinparam rectangle {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	BorderThickness 2
+	StereotypeFontColor #2A9FD6
+}
+
+
+skinparam package {
+	BackgroundColor transparent
+  	BorderColor #2A9FD6
+	FontColor #2A9FD6
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor transparent
+  	BorderColor #FF8800
+	FontColor #FF8800
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor transparent
+  	BorderColor #9933CC
+	FontColor #9933CC
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	StartColor #9933CC
+	EndColor #9933CC
+	AttributeFontColor #777777
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+}
+
+
+skinparam card {
+	BackgroundColor transparent
+	BorderColor #9933CC
+	FontColor #9933CC
+}
+
+
+skinparam file {
+	BackgroundColor transparent
+	BorderColor #555
+	FontColor #555
+}
+
+
+
+skinparam BackgroundColor #313238
+skinparam StereotypeCBackgroundColor #fb8500
+
+skinparam StereotypeCBackgroundColor<<S>> #e840e8
+skinparam SpotChar<<S>> S
+hide <<S>> stereotype
+
+skinparam StereotypeCBackgroundColor<<E>> #10FF30
+skinparam SpotChar<<E>> E
+hide <<E>> stereotype
+
+
+
+
+
+== Initialization ==
+
+App - -> IDTMLoginProvider: calls to initialize Provider: initializeProvider
+IDTMLoginProvider - -> IDTMLoginProvider: set providerStatus to .initialize
+IDTMLoginProvider -> IDTM: getFirebaseID
+IDTM -> IDTMLoginProvider
+IDTMLoginProvider - -> IDTMLoginProvider: set FirebaseID using FirebaseInstanceID
+
+alt onSuccess
+    IDTMLoginProvider - -> IDTMLoginProvider: set timeout for 10 seconds
+    IDTMLoginProvider -> IDTM: setEnvironment
+    IDTMLoginProvider -> IDTM: enableLogs
+    IDTMLoginProvider -> IDTM: initialize
+    alt onSuccess
+        IDTM -> IDTMLoginProvider: success
+        IDTMLoginProvider - -> IDTMLoginProvider: set providerStatus to .initialized
+        IDTMLoginProvider - -> App: send completed
+    else onFailure
+        IDTM -> IDTMLoginProvider: failure with sdkStatus
+        IDTMLoginProvider - -> IDTMLoginProvider: send analytics event with sdkStatus
+        IDTMLoginProvider - -> App: send back error
+    else onTimeout
+        IDTMLoginProvider - -> App: send back error
+    end
+else onFailure
+    IDTMLoginProvider - -> App: send back error
+end
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 13:26:11 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

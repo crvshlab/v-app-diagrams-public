@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="650px" preserveAspectRatio="none" style="width:745px;height:650px;background:#313238;" version="1.1" viewBox="0 0 745 650" width="745.8333px" zoomAndPan="magnify"><defs/><g><line style="stroke:#555555;stroke-width:2.0833333333333335;stroke-dasharray:5.0,5.0;" x1="87.5" x2="87.5" y1="45.8008" y2="605.7617"/><line style="stroke:#555555;stroke-width:2.0833333333333335;stroke-dasharray:5.0,5.0;" x1="401.5625" x2="401.5625" y1="45.8008" y2="605.7617"/><line style="stroke:#555555;stroke-width:2.0833333333333335;stroke-dasharray:5.0,5.0;" x1="711.9792" x2="711.9792" y1="45.8008" y2="605.7617"/><rect fill="#313238" height="39.5508" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.5625;" width="50" x="62.5" y="5.2083"/><text fill="#2A9FD6" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="25" x="75" y="29.3111">App</text><rect fill="#313238" height="39.5508" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.5625;" width="50" x="62.5" y="604.7201"/><text fill="#2A9FD6" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="25" x="75" y="628.8228">App</text><rect fill="#313238" height="39.5508" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.5625;" width="142.7083" x="330.7292" y="5.2083"/><text fill="#2A9FD6" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="117.7083" x="343.2292" y="29.3111">IDTMLoginProvider</text><rect fill="#313238" height="39.5508" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.5625;" width="142.7083" x="330.7292" y="604.7201"/><text fill="#2A9FD6" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="117.7083" x="343.2292" y="628.8228">IDTMLoginProvider</text><rect fill="#313238" height="39.5508" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.5625;" width="55.2083" x="684.8958" y="5.2083"/><text fill="#2A9FD6" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="30.2083" x="697.3958" y="29.3111">IDTM</text><rect fill="#313238" height="39.5508" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.5625;" width="55.2083" x="684.8958" y="604.7201"/><text fill="#2A9FD6" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="30.2083" x="697.3958" y="628.8228">IDTM</text><polygon fill="#2A9FD6" points="389.5833,83.2682,400,87.4349,389.5833,91.6016,393.75,87.4349" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><line style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="87.5" x2="395.8333" y1="87.4349" y2="87.4349"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="187.5" x="100" y="77.1952">autheticate method is called</text><line style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="402.0833" x2="445.8333" y1="126.9857" y2="126.9857"/><line style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="445.8333" x2="445.8333" y1="126.9857" y2="140.5273"/><line style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="403.125" x2="445.8333" y1="140.5273" y2="140.5273"/><polygon fill="#2A9FD6" points="413.5417,136.3607,403.125,140.5273,413.5417,144.694,409.375,140.5273" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="162.5" x="414.5833" y="116.746">check if IDTM is Initialized</text><path d="M282.8125,156.1523 L355.7292,156.1523 L355.7292,171.7773 L345.3125,182.194 L278.6458,182.194 L278.6458,160.319 A4.1667,4.1667 0 0 1 282.8125,156.1523 " fill="#313238" style="stroke:#ADAFAE;stroke-width:1.0416666666666667;"/><rect fill="none" height="89.4857" rx="4.1667" ry="4.1667" style="stroke:#ADAFAE;stroke-width:2.0833333333333335;" width="246.875" x="278.6458" y="156.1523"/><text fill="#9933CC" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="19.7917" x="299.4792" y="174.0051">alt</text><text fill="#ADAFAE" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="129.1667" x="376.5625" y="175.0468">[is not Initialized]</text><line style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="402.0833" x2="445.8333" y1="223.763" y2="223.763"/><line style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="445.8333" x2="445.8333" y1="223.763" y2="237.3047"/><line style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="403.125" x2="445.8333" y1="237.3047" y2="237.3047"/><polygon fill="#2A9FD6" points="413.5417,233.138,403.125,237.3047,413.5417,241.4714,409.375,237.3047" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="77.0833" x="414.5833" y="213.5234">Initalize flow</text><polygon fill="#2A9FD6" points="700,279.9805,710.4167,284.1471,700,288.3138,704.1667,284.1471" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><line style="stroke:#2A9FD6;stroke-width:3.125;" x1="402.0833" x2="706.25" y1="284.1471" y2="284.1471"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="275" x="414.5833" y="273.9075">autheticate with openWebView set to true</text><path d="M14.5833,299.7721 L87.5,299.7721 L87.5,315.3971 L77.0833,325.8138 L10.4167,325.8138 L10.4167,303.9388 A4.1667,4.1667 0 0 1 14.5833,299.7721 " fill="#313238" style="stroke:#ADAFAE;stroke-width:1.0416666666666667;"/><rect fill="none" height="288.2813" rx="4.1667" ry="4.1667" style="stroke:#ADAFAE;stroke-width:2.0833333333333335;" width="692.7083" x="10.4167" y="299.7721"/><text fill="#9933CC" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="19.7917" x="31.25" y="317.6249">alt</text><text fill="#ADAFAE" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="88.5417" x="108.3333" y="318.6666">[onSuccess]</text><polygon fill="#2A9FD6" points="98.9583,363.2161,88.5417,367.3828,98.9583,371.5495,94.7917,367.3828" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><line style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="92.7083" x2="401.0417" y1="367.3828" y2="367.3828"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="186.4583" x="110.4167" y="357.1431">send sub id post notification</text><polygon fill="#2A9FD6" points="98.9583,402.7669,88.5417,406.9336,98.9583,411.1003,94.7917,406.9336" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><line style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="92.7083" x2="401.0417" y1="406.9336" y2="406.9336"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="279.1667" x="110.4167" y="396.6939">send access token, token type, and sub id</text><line style="stroke:#ADAFAE;stroke-width:1.0416666666666667;stroke-dasharray:2.0,2.0;" x1="10.4167" x2="703.125" y1="416.3086" y2="416.3086"/><text fill="#ADAFAE" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="80.2083" x="20.8333" y="433.1197">[onFailure]</text><line style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="402.0833" x2="445.8333" y1="473.5352" y2="473.5352"/><line style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="445.8333" x2="445.8333" y1="473.5352" y2="487.0768"/><line style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="403.125" x2="445.8333" y1="487.0768" y2="487.0768"/><polygon fill="#2A9FD6" points="413.5417,482.9102,403.125,487.0768,413.5417,491.2435,409.375,487.0768" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="270.8333" x="414.5833" y="463.2955">send analytics event with sdkStatus code</text><polygon fill="#2A9FD6" points="98.9583,522.4609,88.5417,526.6276,98.9583,530.7943,94.7917,526.6276" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><line style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="92.7083" x2="401.0417" y1="526.6276" y2="526.6276"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="104.1667" x="110.4167" y="516.3879">send back error</text><line style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="402.0833" x2="445.8333" y1="566.1784" y2="566.1784"/><line style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="445.8333" x2="445.8333" y1="566.1784" y2="579.7201"/><line style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="403.125" x2="445.8333" y1="579.7201" y2="579.7201"/><polygon fill="#2A9FD6" points="413.5417,575.5534,403.125,579.7201,413.5417,583.8867,409.375,579.7201" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="173.9583" x="414.5833" y="555.9387">set isUserLoggedIn to true</text><!--MD5=[e801c782ba3d0e3f2ee9a6f4e9f281e1]
+@startuml Authenticate Flow
+
+!include theme.puml
+
+App - -> IDTMLoginProvider: autheticate method is called
+
+IDTMLoginProvider - -> IDTMLoginProvider: check if IDTM is Initialized 
+alt is not Initialized
+    IDTMLoginProvider - -> IDTMLoginProvider: Initalize flow
+        end
+IDTMLoginProvider -> IDTM: autheticate with openWebView set to true
+alt onSuccess
+    IDTMLoginProvider - -> App: send sub id post notification
+    IDTMLoginProvider - -> App: send access token, token type, and sub id
+else onFailure
+    IDTMLoginProvider - -> IDTMLoginProvider: send analytics event with sdkStatus code
+    IDTMLoginProvider - -> App: send back error
+    IDTMLoginProvider - -> IDTMLoginProvider: set isUserLoggedIn to true
+end
+
+@enduml
+
+@startuml Authenticate Flow
+
+
+
+
+
+
+skinparam backgroundColor transparent
+skinparam useBetaStyle false
+
+
+
+
+
+
+
+skinparam defaultFontName       "Verdana"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           8
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               5
+skinparam ArrowColor            #ADAFAE
+skinparam stereotype {
+    CBackgroundColor #777777
+    CBorderColor #444444
+    ABackgroundColor #5F8F00
+    ABorderColor #92C233
+    IBackgroundColor #a30000
+    IBorderColor #D63333
+    EBackgroundColor #cc6d00
+    EBorderColor #FFA033
+    NBackgroundColor #7a29a3
+    NBorderColor #AD5CD6
+}
+skinparam title {
+	FontColor	                 #2A9FD6
+	BorderColor	                 #777777
+	FontSize	    	         20
+	BorderRoundCorner            8
+	BorderThickness 	         1
+	BackgroundColor              transparent
+}
+
+skinparam legend {
+	BackgroundColor transparent
+	BorderColor #777777
+	FontColor #ADAFAE
+}
+
+skinparam swimlane {
+	BorderColor #9933CC
+	BorderThickness 2
+	TitleBackgroundColor  #444444-#555
+	TitleFontColor #2A9FD6
+}
+
+
+skinparam activity {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	BarColor #77B300
+	StartColor #9933CC
+	EndColor #9933CC
+	DiamondBackgroundColor transparent
+  	DiamondBorderColor #777777
+  	DiamondFontColor #777777
+}
+
+
+skinparam participant {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+skinparam arrow {
+	Thickness 3
+	Color #2A9FD6
+	FontColor #FFF
+}
+
+
+skinparam sequence {
+	BorderColor #2A9FD6
+	TitleFontColor #2A9FD6
+	BackgroundColor transparent
+	StartColor #2A9FD6
+	EndColor #2A9FD6
+	BoxBackgroundColor transparent
+	BoxBorderColor #ADAFAE
+	BoxFontColor #ADAFAE
+	DelayFontColor #ADAFAE
+	LifeLineBorderColor #555
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor transparent
+	GroupBorderColor #ADAFAE
+	GroupFontColor #ADAFAE
+	GroupHeaderFontColor #9933CC
+	GroupBackgroundColor transparent
+	GroupBodyBackgroundColor transparent
+	GroupHeaderBackgroundColor transparent
+	DividerBackgroundColor transparent
+    DividerBorderColor #ADAFAE
+    DividerBorderThickness 2
+    DividerFontColor #ADAFAE
+	ReferenceBackgroundColor transparent
+	ReferenceBorderColor #ADAFAE
+	ReferenceFontColor #ADAFAE
+	ReferenceHeaderFontColor #9933CC
+	ReferenceHeaderBackgroundColor transparent
+	StereotypeFontColor #2A9FD6
+}
+
+
+skinparam partition {
+	BorderColor #2A9FD6
+	FontColor #2A9FD6
+	BackgroundColor transparent
+}
+
+
+skinparam collections {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+}
+
+
+skinparam control {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+skinparam entity {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+skinparam boundary {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+skinparam agent {
+	BackgroundColor transparent
+	BorderColor #cc6d00
+	FontColor #ADAFAE
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor transparent
+	BorderColor #AD5CD6
+	FontColor #AD5CD6
+}
+
+
+skinparam artifact {
+	BackgroundColor transparent
+	BorderColor #BDBFBE
+	FontColor #BDBFBE
+}
+
+
+skinparam component {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+}
+
+
+skinparam interface {
+	BackgroundColor  transparent
+	BorderColor  #CC0000
+	FontColor #ADAFAE
+}
+
+
+skinparam storage {
+	BackgroundColor transparent
+  	BorderColor #FFA033
+	FontColor #FF8800
+}
+
+
+skinparam node {
+	BackgroundColor  transparent
+	BorderColor #ADAFAE
+	FontColor #ADAFAE
+}
+
+
+skinparam cloud {
+	BackgroundColor transparent
+	BorderColor #F2FCFE
+	FontColor #ADAFAE
+}
+
+
+skinparam database {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+
+skinparam class {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+        FontColor #222
+	HeaderBackgroundColor #227FAB
+	StereotypeFontColor #ADAFAE
+	BorderThickness 1
+	AttributeFontColor #ADAFAE
+	AttributeFontSize 11
+}
+
+
+skinparam object {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	StereotypeFontColor #ADAFAE
+	BorderThickness 1
+	AttributeFontColor #777777
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	BorderThickness 2
+	StereotypeFontColor #2A9FD6
+}
+
+
+skinparam rectangle {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	BorderThickness 2
+	StereotypeFontColor #2A9FD6
+}
+
+
+skinparam package {
+	BackgroundColor transparent
+  	BorderColor #2A9FD6
+	FontColor #2A9FD6
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor transparent
+  	BorderColor #FF8800
+	FontColor #FF8800
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor transparent
+  	BorderColor #9933CC
+	FontColor #9933CC
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	StartColor #9933CC
+	EndColor #9933CC
+	AttributeFontColor #777777
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+}
+
+
+skinparam card {
+	BackgroundColor transparent
+	BorderColor #9933CC
+	FontColor #9933CC
+}
+
+
+skinparam file {
+	BackgroundColor transparent
+	BorderColor #555
+	FontColor #555
+}
+
+
+
+skinparam BackgroundColor #313238
+skinparam StereotypeCBackgroundColor #fb8500
+
+skinparam StereotypeCBackgroundColor<<S>> #e840e8
+skinparam SpotChar<<S>> S
+hide <<S>> stereotype
+
+skinparam StereotypeCBackgroundColor<<E>> #10FF30
+skinparam SpotChar<<E>> E
+hide <<E>> stereotype
+
+
+
+
+
+App - -> IDTMLoginProvider: autheticate method is called
+
+IDTMLoginProvider - -> IDTMLoginProvider: check if IDTM is Initialized 
+alt is not Initialized
+    IDTMLoginProvider - -> IDTMLoginProvider: Initalize flow
+        end
+IDTMLoginProvider -> IDTM: autheticate with openWebView set to true
+alt onSuccess
+    IDTMLoginProvider - -> App: send sub id post notification
+    IDTMLoginProvider - -> App: send access token, token type, and sub id
+else onFailure
+    IDTMLoginProvider - -> IDTMLoginProvider: send analytics event with sdkStatus code
+    IDTMLoginProvider - -> App: send back error
+    IDTMLoginProvider - -> IDTMLoginProvider: set isUserLoggedIn to true
+end
+
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 13:26:11 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

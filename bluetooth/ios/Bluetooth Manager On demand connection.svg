@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="795px" preserveAspectRatio="none" style="width:671px;height:795px;background:#FFFFFF;" version="1.1" viewBox="0 0 671 795" width="671px" zoomAndPan="magnify"><defs><filter height="300%" id="frnbha6plqrqg" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFA500" filter="url(#frnbha6plqrqg)" height="593" style="stroke:#A80036;stroke-width:1.0;" width="10" x="142.5" y="95.5625"/><rect fill="#F08080" filter="url(#frnbha6plqrqg)" height="593" style="stroke:#A80036;stroke-width:1.0;" width="10" x="313.5" y="95.5625"/><rect fill="#FFA07A" filter="url(#frnbha6plqrqg)" height="29.1328" style="stroke:#A80036;stroke-width:1.0;" width="10" x="575.5" y="190.9609"/><rect fill="#FFA07A" filter="url(#frnbha6plqrqg)" height="195.7969" style="stroke:#A80036;stroke-width:1.0;" width="10" x="575.5" y="318.1641"/><rect fill="#ADD8E6" filter="url(#frnbha6plqrqg)" height="678.2656" style="stroke:#000000;stroke-width:2.0;" width="647.5" x="10" y="57.2969"/><rect fill="#ADD8E6" filter="url(#frnbha6plqrqg)" height="550.8672" style="stroke:#000000;stroke-width:2.0;" width="627.5" x="20" y="152.6953"/><rect fill="#ADD8E6" height="446.3359" style="stroke:none;stroke-width:1.0;" width="627.5" x="20" y="257.2266"/><rect fill="#ADD8E6" filter="url(#frnbha6plqrqg)" height="321.2656" style="stroke:#000000;stroke-width:2.0;" width="607.5" x="30" y="375.2969"/><rect fill="#ADD8E6" height="145.4688" style="stroke:none;stroke-width:1.0;" width="607.5" x="30" y="551.0938"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="147" x2="147" y1="40.2969" y2="752.5625"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="318.5" x2="318.5" y1="40.2969" y2="752.5625"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="580.5" x2="580.5" y1="40.2969" y2="752.5625"/><rect fill="#FEFECE" filter="url(#frnbha6plqrqg)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="211" x="40" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="197" x="47" y="24.9951">BLEDeviceControlRepository</text><rect fill="#FEFECE" filter="url(#frnbha6plqrqg)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="211" x="40" y="751.5625"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="197" x="47" y="771.5576">BLEDeviceControlRepository</text><rect fill="#FEFECE" filter="url(#frnbha6plqrqg)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="100" x="266.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="273.5" y="24.9951">BLEManager</text><rect fill="#FEFECE" filter="url(#frnbha6plqrqg)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="100" x="266.5" y="751.5625"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="273.5" y="771.5576">BLEManager</text><rect fill="#FEFECE" filter="url(#frnbha6plqrqg)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="90" x="533.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="540.5" y="24.9951">BLEService</text><rect fill="#FEFECE" filter="url(#frnbha6plqrqg)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="90" x="533.5" y="751.5625"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="540.5" y="771.5576">BLEService</text><rect fill="#FFA500" filter="url(#frnbha6plqrqg)" height="593" style="stroke:#A80036;stroke-width:1.0;" width="10" x="142.5" y="95.5625"/><rect fill="#F08080" filter="url(#frnbha6plqrqg)" height="593" style="stroke:#A80036;stroke-width:1.0;" width="10" x="313.5" y="95.5625"/><rect fill="#FFA07A" filter="url(#frnbha6plqrqg)" height="29.1328" style="stroke:#A80036;stroke-width:1.0;" width="10" x="575.5" y="190.9609"/><rect fill="#FFA07A" filter="url(#frnbha6plqrqg)" height="195.7969" style="stroke:#A80036;stroke-width:1.0;" width="10" x="575.5" y="318.1641"/><path d="M10,57.2969 L186,57.2969 L186,64.2969 L176,74.2969 L10,74.2969 L10,57.2969 " fill="#90EE90" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="678.2656" style="stroke:#000000;stroke-width:2.0;" width="647.5" x="10" y="57.2969"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="131" x="25" y="70.3638">Read/Write/Notify</text><polygon fill="#A80036" points="301.5,91.5625,311.5,95.5625,301.5,99.5625,305.5,95.5625" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="152.5" x2="307.5" y1="95.5625" y2="95.5625"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="65" x="159.5" y="90.4966">command</text><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="323.5" x2="365.5" y1="124.6953" y2="124.6953"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="365.5" x2="365.5" y1="124.6953" y2="137.6953"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="324.5" x2="365.5" y1="137.6953" y2="137.6953"/><polygon fill="#A80036" points="334.5,133.6953,324.5,137.6953,334.5,141.6953,330.5,137.6953" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="108" x="330.5" y="119.6294">get active device</text><path d="M20,152.6953 L84,152.6953 L84,159.6953 L74,169.6953 L20,169.6953 L20,152.6953 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="550.8672" style="stroke:#000000;stroke-width:2.0;" width="627.5" x="20" y="152.6953"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="19" x="35" y="165.7622">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="139" x="99" y="164.9058">[Device is connected]</text><polygon fill="#A80036" points="563.5,186.9609,573.5,190.9609,563.5,194.9609,567.5,190.9609" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="323.5" x2="569.5" y1="190.9609" y2="190.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="120" x="330.5" y="185.895">execute command</text><polygon fill="#A80036" points="334.5,216.0938,324.5,220.0938,334.5,224.0938,330.5,220.0938" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="328.5" x2="579.5" y1="220.0938" y2="220.0938"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="105" x="340.5" y="215.0278">command result</text><polygon fill="#A80036" points="163.5,245.2266,153.5,249.2266,163.5,253.2266,159.5,249.2266" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="157.5" x2="312.5" y1="249.2266" y2="249.2266"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="36" x="169.5" y="244.1606">result</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="20" x2="647.5" y1="258.2266" y2="258.2266"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="164" x="25" y="268.437">[Device is not connected]</text><polygon fill="#A80036" points="563.5,314.1641,573.5,318.1641,563.5,322.1641,567.5,318.1641" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="323.5" x2="569.5" y1="318.1641" y2="318.1641"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="51" x="330.5" y="313.0981">connect</text><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="323.5" x2="365.5" y1="347.2969" y2="347.2969"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="365.5" x2="365.5" y1="347.2969" y2="360.2969"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="324.5" x2="365.5" y1="360.2969" y2="360.2969"/><polygon fill="#A80036" points="334.5,356.2969,324.5,360.2969,334.5,364.2969,330.5,360.2969" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="223" x="330.5" y="342.231">update active devices [connecting]</text><path d="M30,375.2969 L94,375.2969 L94,382.2969 L84,392.2969 L30,392.2969 L30,375.2969 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="321.2656" style="stroke:#000000;stroke-width:2.0;" width="607.5" x="30" y="375.2969"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="19" x="45" y="388.3638">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="160" x="109" y="387.5073">[Successfull Connection]</text><polygon fill="#A80036" points="334.5,409.5625,324.5,413.5625,334.5,417.5625,330.5,413.5625" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="328.5" x2="574.5" y1="413.5625" y2="413.5625"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="70" x="340.5" y="408.4966">connection</text><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="323.5" x2="365.5" y1="442.6953" y2="442.6953"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="365.5" x2="365.5" y1="442.6953" y2="455.6953"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="324.5" x2="365.5" y1="455.6953" y2="455.6953"/><polygon fill="#A80036" points="334.5,451.6953,324.5,455.6953,334.5,459.6953,330.5,455.6953" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="220" x="330.5" y="437.6294">update active devices [connected]</text><polygon fill="#A80036" points="563.5,480.8281,573.5,484.8281,563.5,488.8281,567.5,484.8281" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="323.5" x2="569.5" y1="484.8281" y2="484.8281"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="120" x="330.5" y="479.7622">execute command</text><polygon fill="#A80036" points="334.5,509.9609,324.5,513.9609,334.5,517.9609,330.5,513.9609" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="328.5" x2="579.5" y1="513.9609" y2="513.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="105" x="340.5" y="508.895">command result</text><polygon fill="#A80036" points="163.5,539.0938,153.5,543.0938,163.5,547.0938,159.5,543.0938" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="157.5" x2="312.5" y1="543.0938" y2="543.0938"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="36" x="169.5" y="538.0278">result</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="30" x2="637.5" y1="552.0938" y2="552.0938"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacing" textLength="127" x="35" y="562.3042">[Connection Failed]</text><line style="stroke:#A80036;stroke-width:2.0;" x1="329.5" x2="339.5" y1="597.1641" y2="607.1641"/><line style="stroke:#A80036;stroke-width:2.0;" x1="329.5" x2="339.5" y1="607.1641" y2="597.1641"/><line style="stroke:#A80036;stroke-width:1.0;" x1="335.5" x2="579.5" y1="602.1641" y2="602.1641"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="133" x="340.5" y="581.9653">deviceNotConnected</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="133" x="344.5" y="597.0981">bluetoothPoweredOff</text><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="323.5" x2="365.5" y1="631.2969" y2="631.2969"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="365.5" x2="365.5" y1="631.2969" y2="644.2969"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="324.5" x2="365.5" y1="644.2969" y2="644.2969"/><polygon fill="#A80036" points="334.5,640.2969,324.5,644.2969,334.5,648.2969,330.5,644.2969" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="238" x="330.5" y="626.231">update active devices [disconnected]</text><line style="stroke:#A80036;stroke-width:2.0;" x1="153.5" x2="163.5" y1="683.5625" y2="693.5625"/><line style="stroke:#A80036;stroke-width:2.0;" x1="153.5" x2="163.5" y1="693.5625" y2="683.5625"/><line style="stroke:#A80036;stroke-width:1.0;" x1="159.5" x2="317.5" y1="688.5625" y2="688.5625"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="133" x="164.5" y="668.3638">deviceNotConnected</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="133" x="164.5" y="683.4966">bluetoothPoweredOff</text><!--MD5=[b8babca65b7e0e6cba5c61ac42e65b61]
+@startuml Bluetooth Manager On demand connection
+
+participant     BLEDeviceControlRepository
+participant     BLEManager
+participant     BLEService
+
+' Read/Write/Notify flow
+group#LightGreen #LightBlue Read/Write/Notify 
+    BLEDeviceControlRepository - -> BLEManager: command
+    activate BLEDeviceControlRepository #Orange
+    activate BLEManager #LightCoral
+    BLEManager - -> BLEManager: get active device
+
+    alt #LightBlue Device is connected
+        BLEManager - -> BLEService: execute command
+        activate BLEService #LightSalmon
+        BLEService - -> BLEManager: command result
+        deactivate BLEService
+        BLEManager - -> BLEDeviceControlRepository: result
+
+    else Device is not connected
+        |||
+        BLEManager - -> BLEService: connect
+        activate BLEService #LightSalmon
+        BLEManager - -> BLEManager: update active devices [connecting]
+        alt #LightBlue Successfull Connection 
+            BLEService - -> BLEManager: connection
+            BLEManager - -> BLEManager: update active devices [connected]
+            BLEManager - -> BLEService: execute command
+            BLEService - -> BLEManager: command result
+            deactivate BLEService
+            BLEManager - -> BLEDeviceControlRepository: result
+        else Connection Failed
+            BLEService ->x BLEManager: deviceNotConnected \n bluetoothPoweredOff
+            deactivate BLEService
+            BLEManager - -> BLEManager: update active devices [disconnected]
+            BLEManager ->x BLEDeviceControlRepository: deviceNotConnected \nbluetoothPoweredOff
+            deactivate BLEManager
+            deactivate BLEDeviceControlRepository
+        end
+    end
+
+    ' ViewModel ->o BLEDeviceControlRepository: fetchDeviceState X
+    ' activate ViewModel #Cyan
+    ' activate BLEDeviceControlRepository #Cyan
+    ' BLEDeviceControlRepository - -> BLEManager : fetchDeviceState X
+    ' activate BLEManager #Cyan
+    ' BLEManager - -> BLEDeviceControlRepository: result
+    ' BLEDeviceControlRepository - -> BLEDeviceControlRepository: update cache
+    ' deactivate BLEManager
+    ' BLEDeviceControlRepository - -> ViewModel: update latestDeviceState <color #118888>[query]
+    ' deactivate BLEDeviceControlRepository
+    ' deactivate ViewModel
+    |||
+end
+
+' group#LightGreen #LightBlue Success with Notify Characteristic
+'     ViewModel ->o BLEDeviceControlRepository: subscribe X
+'     activate ViewModel #Cyan
+'     activate BLEDeviceControlRepository #Cyan
+'     BLEDeviceControlRepository - -> BLEManager : subscribe X
+'     activate BLEManager #Cyan
+'     BLEManager - -> BLEDeviceControlRepository: result
+'     BLEDeviceControlRepository - -> BLEDeviceControlRepository: update cache
+'     BLEDeviceControlRepository - -> ViewModel: update latestDeviceState <color #118888>[query]
+'     BLEManager - -> BLEDeviceControlRepository: result
+'     BLEDeviceControlRepository - -> BLEDeviceControlRepository: update cache
+'     BLEDeviceControlRepository - -> ViewModel: update latestDeviceState <color #118888>[query]
+'     BLEManager - -> BLEDeviceControlRepository: result
+'     deactivate BLEManager
+'     BLEDeviceControlRepository - -> BLEDeviceControlRepository: update cache
+'     BLEDeviceControlRepository - -> ViewModel: update latestDeviceState <color #118888>[query]
+'     deactivate BLEDeviceControlRepository
+'     deactivate ViewModel
+'     |||
+' end
+
+
+' ' Failures
+' group#Salmon #LightBlue Failure
+'     group#LightSalmon #LightBlue Device Not Found
+'         ViewModel ->o BLEDeviceControlRepository: fetchDeviceState X
+'         activate ViewModel #Cyan
+'         activate BLEDeviceControlRepository #Cyan
+'         BLEDeviceControlRepository - -> BLEManager : readDeviceState X
+'         activate BLEManager #Cyan
+'         BLEManager ->x BLEDeviceControlRepository : device not found
+'         deactivate BLEManager #Cyan
+'         BLEDeviceControlRepository ->x ViewModel: device not found
+'         deactivate BLEDeviceControlRepository
+'         deactivate ViewModel
+'         |||
+'     end
+
+'     group#LightSalmon #LightBlue Connection Failed
+'         ViewModel ->o BLEDeviceControlRepository: fetchDeviceState X
+'         activate ViewModel #Cyan
+'         activate BLEDeviceControlRepository #Cyan
+'         BLEDeviceControlRepository - -> BLEManager : fetchDeviceState X
+'         activate BLEManager #Cyan
+'         BLEManager ->x BLEDeviceControlRepository : device not connected
+'         deactivate BLEManager #Cyan
+'         BLEDeviceControlRepository ->x ViewModel: device not connected
+'         deactivate BLEDeviceControlRepository
+'         deactivate ViewModel
+'         |||
+'     end
+' end
+
+@enduml
+
+@startuml Bluetooth Manager On demand connection
+
+participant     BLEDeviceControlRepository
+participant     BLEManager
+participant     BLEService
+
+group#LightGreen #LightBlue Read/Write/Notify 
+    BLEDeviceControlRepository - -> BLEManager: command
+    activate BLEDeviceControlRepository #Orange
+    activate BLEManager #LightCoral
+    BLEManager - -> BLEManager: get active device
+
+    alt #LightBlue Device is connected
+        BLEManager - -> BLEService: execute command
+        activate BLEService #LightSalmon
+        BLEService - -> BLEManager: command result
+        deactivate BLEService
+        BLEManager - -> BLEDeviceControlRepository: result
+
+    else Device is not connected
+        |||
+        BLEManager - -> BLEService: connect
+        activate BLEService #LightSalmon
+        BLEManager - -> BLEManager: update active devices [connecting]
+        alt #LightBlue Successfull Connection 
+            BLEService - -> BLEManager: connection
+            BLEManager - -> BLEManager: update active devices [connected]
+            BLEManager - -> BLEService: execute command
+            BLEService - -> BLEManager: command result
+            deactivate BLEService
+            BLEManager - -> BLEDeviceControlRepository: result
+        else Connection Failed
+            BLEService ->x BLEManager: deviceNotConnected \n bluetoothPoweredOff
+            deactivate BLEService
+            BLEManager - -> BLEManager: update active devices [disconnected]
+            BLEManager ->x BLEDeviceControlRepository: deviceNotConnected \nbluetoothPoweredOff
+            deactivate BLEManager
+            deactivate BLEDeviceControlRepository
+        end
+    end
+
+    |||
+end
+
+
+
+
+
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 13:26:11 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

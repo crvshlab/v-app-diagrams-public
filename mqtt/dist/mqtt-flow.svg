@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="928.125px" preserveAspectRatio="none" style="width:1797px;height:928px;background:#313238;" version="1.1" viewBox="0 0 1797 928" width="1797.9167px" zoomAndPan="magnify"><defs/><g><!--MD5=[4cd462deac42bd9d22c7081dd288b9b7]
+class MQTTService--><rect codeLine="3" fill="#313238" height="125.7187" id="MQTTService" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="526.0417" x="915.625" y="437.5"/><rect fill="#227FAB" height="36.025" rx="4.1667" ry="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="526.0417" x="915.625" y="437.5"/><rect fill="#227FAB" height="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="526.0417" x="915.625" y="469.3583"/><rect codeLine="3" fill="none" height="125.7187" id="MQTTService" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="526.0417" x="915.625" y="437.5"/><ellipse cx="1129.6875" cy="455.5125" fill="#FB8500" rx="10.4167" ry="10.4167" style="stroke:#444444;stroke-width:1.0416666666666667;"/><path d="M1131.5979,459.9375 Q1131.1707,460.1573 1130.7007,460.2671 Q1130.2307,460.377 1129.7119,460.377 Q1127.8687,460.377 1126.8982,459.1624 Q1125.9277,457.9478 1125.9277,455.6529 Q1125.9277,453.3518 1126.8982,452.1372 Q1127.8687,450.9226 1129.7119,450.9226 Q1130.2307,450.9226 1130.7068,451.0325 Q1131.1829,451.1424 1131.5979,451.3621 L1131.5979,453.3641 Q1131.134,452.9368 1130.6976,452.7384 Q1130.2612,452.5401 1129.7974,452.5401 Q1128.8086,452.5401 1128.3051,453.3244 Q1127.8015,454.1087 1127.8015,455.6529 Q1127.8015,457.191 1128.3051,457.9753 Q1128.8086,458.7596 1129.7974,458.7596 Q1130.2612,458.7596 1130.6976,458.5612 Q1131.134,458.3628 1131.5979,457.9356 Z " fill="#000000"/><text fill="#222222" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="79.1667" x="1154.6875" y="460.4838">MQTTService</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="916.6667" x2="1440.625" y1="473.525" y2="473.525"/><rect fill="none" height="6.25" style="stroke:#C82930;stroke-width:1.0416666666666667;" width="6.25" x="923.9583" y="481.8583"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="313.5417" x="940.625" y="494.4199">deviceEvent: SignalProducer&lt;MQTTPayload, Never&gt;</text><rect fill="none" height="6.25" style="stroke:#C82930;stroke-width:1.0416666666666667;" width="6.25" x="923.9583" y="506.2007"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="447.9167" x="940.625" y="518.7622">connectionStatus: SignalProducer&lt;MQTTService.ConnectionStatus, Never&gt;</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="916.6667" x2="1440.625" y1="530.543" y2="530.543"/><ellipse cx="927.0833" cy="542.0013" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="489.5833" x="940.625" y="551.4379">subscribe(to: Topic): SignalProducer&lt;Never, MQTTService.TopicConnectionError&gt;</text><!--MD5=[5253385a509709157f9d4c9e73b759a3]
+class MQTTService.ConnectionStatus--><rect codeLine="10" fill="#313238" height="125.7187" id="MQTTService.ConnectionStatus" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="235.4167" x="1060.9375" y="653.125"/><rect fill="#227FAB" height="36.025" rx="4.1667" ry="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="235.4167" x="1060.9375" y="653.125"/><rect fill="#227FAB" height="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="235.4167" x="1060.9375" y="684.9833"/><rect codeLine="10" fill="none" height="125.7187" id="MQTTService.ConnectionStatus" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="235.4167" x="1060.9375" y="653.125"/><ellipse cx="1075.5208" cy="671.1375" fill="#CC6D00" rx="10.4167" ry="10.4167" style="stroke:#FFA033;stroke-width:1.0416666666666667;"/><path d="M1078.5767,675.825 L1072.9004,675.825 L1072.9004,666.7124 L1078.5767,666.7124 L1078.5767,668.2994 L1074.7009,668.2994 L1074.7009,670.2647 L1078.2104,670.2647 L1078.2104,671.8516 L1074.7009,671.8516 L1074.7009,674.2381 L1078.5767,674.2381 Z " fill="#000000"/><text fill="#222222" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="193.75" x="1094.2708" y="676.1088">MQTTService.ConnectionStatus</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="1061.9792" x2="1295.3125" y1="689.15" y2="689.15"/><ellipse cx="1072.3958" cy="700.6083" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;fill:none;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="63.5417" x="1085.9375" y="710.0449">connecting</text><ellipse cx="1072.3958" cy="724.9507" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;fill:none;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="60.4167" x="1085.9375" y="734.3872">connected</text><ellipse cx="1072.3958" cy="749.293" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;fill:none;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="1085.9375" y="758.7296">notConnected</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="1061.9792" x2="1295.3125" y1="770.5104" y2="770.5104"/><!--MD5=[1d7f89d46fe5890de77e49145f8259d3]
+class Topic--><rect codeLine="16" fill="#313238" height="101.3763" id="Topic" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="107.2917" x="916.6667" y="665.625"/><rect fill="#227FAB" height="36.025" rx="4.1667" ry="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="107.2917" x="916.6667" y="665.625"/><rect fill="#227FAB" height="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="107.2917" x="916.6667" y="697.4833"/><rect codeLine="16" fill="none" height="101.3763" id="Topic" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="107.2917" x="916.6667" y="665.625"/><ellipse cx="946.7188" cy="683.6375" fill="#CC6D00" rx="10.4167" ry="10.4167" style="stroke:#FFA033;stroke-width:1.0416666666666667;"/><path d="M949.7746,688.325 L944.0983,688.325 L944.0983,679.2124 L949.7746,679.2124 L949.7746,680.7994 L945.8988,680.7994 L945.8988,682.7647 L949.4084,682.7647 L949.4084,684.3516 L945.8988,684.3516 L945.8988,686.7381 L949.7746,686.7381 Z " fill="#000000"/><text fill="#222222" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="31.25" x="968.9063" y="688.6088">Topic</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="917.7083" x2="1022.9167" y1="701.65" y2="701.65"/><rect fill="none" height="6.25" style="stroke:#C82930;stroke-width:1.0416666666666667;" width="6.25" x="925" y="709.9833"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="70.8333" x="941.6667" y="722.5449">path: String</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="917.7083" x2="1022.9167" y1="734.3257" y2="734.3257"/><ellipse cx="928.125" cy="745.784" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="67.7083" x="941.6667" y="755.2205">Device(.all)</text><!--MD5=[3c50f1e7d6562869ffb1c6f3825bd897]
+class MQTTPayload--><rect codeLine="21" fill="#313238" height="101.3763" id="MQTTPayload" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="122.9167" x="1332.8125" y="665.625"/><rect fill="#227FAB" height="36.025" rx="4.1667" ry="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="122.9167" x="1332.8125" y="665.625"/><rect fill="#227FAB" height="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="122.9167" x="1332.8125" y="697.4833"/><rect codeLine="21" fill="none" height="101.3763" id="MQTTPayload" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="122.9167" x="1332.8125" y="665.625"/><ellipse cx="1347.3958" cy="683.6375" fill="#E840E8" rx="10.4167" ry="10.4167" style="stroke:#444444;stroke-width:1.0416666666666667;"/><path d="M1346.8628,684.3272 Q1345.5017,683.8084 1345.0195,683.2377 Q1344.5374,682.667 1344.5374,681.7027 Q1344.5374,680.4637 1345.3308,679.7557 Q1346.1243,679.0476 1347.5098,679.0476 Q1348.1384,679.0476 1348.7671,679.1911 Q1349.3958,679.3345 1350.0122,679.6153 L1350.0122,681.3731 Q1349.4324,680.9642 1348.8342,680.7505 Q1348.2361,680.5369 1347.6501,680.5369 Q1346.9971,680.5369 1346.6492,680.7994 Q1346.3013,681.0618 1346.3013,681.5501 Q1346.3013,681.9285 1346.5546,682.1757 Q1346.8079,682.4229 1347.6135,682.722 L1348.3887,683.0149 Q1349.4873,683.4178 1350.0061,684.083 Q1350.5249,684.7483 1350.5249,685.7615 Q1350.5249,687.1409 1349.7101,687.8215 Q1348.8953,688.502 1347.2473,688.502 Q1346.5698,688.502 1345.8893,688.3403 Q1345.2087,688.1785 1344.574,687.8611 L1344.574,685.9996 Q1345.2942,686.5122 1345.9686,686.7625 Q1346.6431,687.0127 1347.3022,687.0127 Q1347.9675,687.0127 1348.3337,686.7106 Q1348.7,686.4085 1348.7,685.8653 Q1348.7,685.4563 1348.4558,685.1481 Q1348.2117,684.8399 1347.7478,684.6629 Z " fill="#000000"/><text fill="#222222" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="81.25" x="1366.1458" y="688.6088">MQTTPayload</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="1333.8542" x2="1454.6875" y1="701.65" y2="701.65"/><rect fill="none" height="6.25" style="stroke:#C82930;stroke-width:1.0416666666666667;" width="6.25" x="1341.1458" y="709.9833"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="66.6667" x="1357.8125" y="722.5449">data: Topic</text><rect fill="none" height="6.25" style="stroke:#C82930;stroke-width:1.0416666666666667;" width="6.25" x="1341.1458" y="734.3257"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="62.5" x="1357.8125" y="746.8872">data: Data</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="1333.8542" x2="1454.6875" y1="758.668" y2="758.668"/><!--MD5=[2be96786ca1406bdbf7bb97eeb62d0fa]
+class ConnectionManager--><rect codeLine="26" fill="#313238" height="150.061" id="ConnectionManager" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="961.4583" x="7.2917" y="197.9167"/><rect fill="#227FAB" height="36.025" rx="4.1667" ry="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="961.4583" x="7.2917" y="197.9167"/><rect fill="#227FAB" height="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="961.4583" x="7.2917" y="229.775"/><rect codeLine="26" fill="none" height="150.061" id="ConnectionManager" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="961.4583" x="7.2917" y="197.9167"/><ellipse cx="417.1875" cy="215.9292" fill="#FB8500" rx="10.4167" ry="10.4167" style="stroke:#444444;stroke-width:1.0416666666666667;"/><path d="M419.0979,220.3542 Q418.6707,220.5739 418.2007,220.6838 Q417.7307,220.7937 417.2119,220.7937 Q415.3687,220.7937 414.3982,219.5791 Q413.4277,218.3645 413.4277,216.0695 Q413.4277,213.7685 414.3982,212.5539 Q415.3687,211.3393 417.2119,211.3393 Q417.7307,211.3393 418.2068,211.4492 Q418.6829,211.559 419.0979,211.7788 L419.0979,213.7807 Q418.634,213.3535 418.1976,213.1551 Q417.7612,212.9567 417.2974,212.9567 Q416.3086,212.9567 415.8051,213.741 Q415.3015,214.5253 415.3015,216.0695 Q415.3015,217.6076 415.8051,218.3919 Q416.3086,219.1762 417.2974,219.1762 Q417.7612,219.1762 418.1976,218.9779 Q418.634,218.7795 419.0979,218.3523 Z " fill="#000000"/><text fill="#222222" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="122.9167" x="442.1875" y="220.9005">ConnectionManager</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="8.3333" x2="967.7083" y1="233.9417" y2="233.9417"/><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="8.3333" x2="967.7083" y1="242.275" y2="242.275"/><ellipse cx="18.75" cy="253.7333" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="925" x="32.2917" y="263.1699">connect(clientId: String, cleanSession: Bool, certificateId: String): SignalProducer&lt;MQTTService.ConnectionStatus, MQTTService.SessionConnectionError&gt;</text><ellipse cx="18.75" cy="278.0757" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="72.9167" x="32.2917" y="287.5122">disconnect()</text><ellipse cx="18.75" cy="302.418" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="555.2083" x="32.2917" y="311.8546">subscribe(topic: String): SignalProducer&lt;MQTTPayload, MQTTService.TopicConnectionError&gt;</text><ellipse cx="18.75" cy="326.7604" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="154.1667" x="32.2917" y="336.1969">unsubscribe(topic: String)</text><!--MD5=[3487d9ad0d8a9e3497681a4aac08f3f2]
+class CertificateRepository--><rect codeLine="33" fill="#313238" height="101.3763" id="CertificateRepository" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="514.5833" x="1005.7292" y="222.3958"/><rect fill="#227FAB" height="36.025" rx="4.1667" ry="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="514.5833" x="1005.7292" y="222.3958"/><rect fill="#227FAB" height="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="514.5833" x="1005.7292" y="254.2542"/><rect codeLine="33" fill="none" height="101.3763" id="CertificateRepository" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="514.5833" x="1005.7292" y="222.3958"/><ellipse cx="1190.1042" cy="240.4083" fill="#FB8500" rx="10.4167" ry="10.4167" style="stroke:#444444;stroke-width:1.0416666666666667;"/><path d="M1192.0146,244.8334 Q1191.5873,245.0531 1191.1174,245.163 Q1190.6474,245.2728 1190.1286,245.2728 Q1188.2853,245.2728 1187.3149,244.0582 Q1186.3444,242.8436 1186.3444,240.5487 Q1186.3444,238.2477 1187.3149,237.0331 Q1188.2853,235.8185 1190.1286,235.8185 Q1190.6474,235.8185 1191.1235,235.9283 Q1191.5995,236.0382 1192.0146,236.2579 L1192.0146,238.2599 Q1191.5507,237.8326 1191.1143,237.6343 Q1190.6779,237.4359 1190.214,237.4359 Q1189.2253,237.4359 1188.7217,238.2202 Q1188.2182,239.0045 1188.2182,240.5487 Q1188.2182,242.0868 1188.7217,242.8711 Q1189.2253,243.6554 1190.214,243.6554 Q1190.6779,243.6554 1191.1143,243.457 Q1191.5507,243.2587 1192.0146,242.8314 Z " fill="#000000"/><text fill="#222222" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="127.0833" x="1215.1042" y="245.3796">CertificateRepository</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="1006.7708" x2="1519.2708" y1="258.4208" y2="258.4208"/><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="1006.7708" x2="1519.2708" y1="266.7542" y2="266.7542"/><ellipse cx="1017.1875" cy="278.2125" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="478.125" x="1030.7292" y="287.649">certificate(customerId: String): SignalProducer&lt;CertificatePayload, Swift.Error&gt;</text><ellipse cx="1017.1875" cy="302.5548" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="358.3333" x="1030.7292" y="311.9914">deleteCertificateIfNeeded(): SignalProducer&lt;Never, Never&gt;</text><!--MD5=[90ebb56c2afebcbb1e67cdd0fd1f62e1]
+class CertificateBroker--><rect codeLine="38" fill="#313238" height="101.3763" id="CertificateBroker" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="437.5" x="1044.2708" y="7.2917"/><rect fill="#227FAB" height="36.025" rx="4.1667" ry="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="437.5" x="1044.2708" y="7.2917"/><rect fill="#227FAB" height="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="437.5" x="1044.2708" y="39.15"/><rect codeLine="38" fill="none" height="101.3763" id="CertificateBroker" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="437.5" x="1044.2708" y="7.2917"/><ellipse cx="1202.0833" cy="25.3042" fill="#FB8500" rx="10.4167" ry="10.4167" style="stroke:#444444;stroke-width:1.0416666666666667;"/><path d="M1203.9937,29.7292 Q1203.5665,29.9489 1203.0965,30.0588 Q1202.6265,30.1687 1202.1077,30.1687 Q1200.2645,30.1687 1199.294,28.9541 Q1198.3236,27.7395 1198.3236,25.4445 Q1198.3236,23.1435 1199.294,21.9289 Q1200.2645,20.7143 1202.1077,20.7143 Q1202.6265,20.7143 1203.1026,20.8242 Q1203.5787,20.934 1203.9937,21.1538 L1203.9937,23.1557 Q1203.5299,22.7285 1203.0935,22.5301 Q1202.6571,22.3317 1202.1932,22.3317 Q1201.2044,22.3317 1200.7009,23.116 Q1200.1973,23.9003 1200.1973,25.4445 Q1200.1973,26.9826 1200.7009,27.7669 Q1201.2044,28.5512 1202.1932,28.5512 Q1202.6571,28.5512 1203.0935,28.3529 Q1203.5299,28.1545 1203.9937,27.7273 Z " fill="#000000"/><text fill="#222222" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="103.125" x="1227.0833" y="30.2755">CertificateBroker</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="1045.3125" x2="1480.7292" y1="43.3167" y2="43.3167"/><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="1045.3125" x2="1480.7292" y1="51.65" y2="51.65"/><ellipse cx="1055.7292" cy="63.1083" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="272.9167" x="1069.2708" y="72.5449">createKeysAndCertificate(customerId: String)</text><ellipse cx="1055.7292" cy="87.4507" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="401.0417" x="1069.2708" y="96.8872">validateCertificate(certificateId: String, completion: (Bool) -&gt; Void)</text><!--MD5=[a54a8055f2f7b251c384019829ad5c2f]
+class MQTTDebugViewModel--><rect codeLine="5" fill="#313238" height="52.6917" id="MQTTDebugViewModel" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="180.2083" x="1088.5417" y="868.75"/><rect fill="#227FAB" height="36.025" rx="4.1667" ry="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="180.2083" x="1088.5417" y="868.75"/><rect fill="#227FAB" height="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="180.2083" x="1088.5417" y="900.6083"/><rect codeLine="5" fill="none" height="52.6917" id="MQTTDebugViewModel" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="180.2083" x="1088.5417" y="868.75"/><ellipse cx="1103.125" cy="886.7625" fill="#FB8500" rx="10.4167" ry="10.4167" style="stroke:#444444;stroke-width:1.0416666666666667;"/><path d="M1105.0354,891.1875 Q1104.6082,891.4073 1104.1382,891.5171 Q1103.6682,891.627 1103.1494,891.627 Q1101.3062,891.627 1100.3357,890.4124 Q1099.3652,889.1978 1099.3652,886.9029 Q1099.3652,884.6018 1100.3357,883.3872 Q1101.3062,882.1726 1103.1494,882.1726 Q1103.6682,882.1726 1104.1443,882.2825 Q1104.6204,882.3924 1105.0354,882.6121 L1105.0354,884.6141 Q1104.5715,884.1868 1104.1351,883.9884 Q1103.6987,883.7901 1103.2349,883.7901 Q1102.2461,883.7901 1101.7426,884.5744 Q1101.239,885.3587 1101.239,886.9029 Q1101.239,888.441 1101.7426,889.2253 Q1102.2461,890.0096 1103.2349,890.0096 Q1103.6987,890.0096 1104.1351,889.8112 Q1104.5715,889.6128 1105.0354,889.1856 Z " fill="#000000"/><text fill="#222222" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="138.5417" x="1121.875" y="891.7338">MQTTDebugViewModel</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="1089.5833" x2="1267.7083" y1="904.775" y2="904.775"/><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="1089.5833" x2="1267.7083" y1="913.1083" y2="913.1083"/><!--MD5=[0aea9aa41c8b1295f1392763f563b075]
+entity AppLaunch--><ellipse cx="1605.7292" cy="237.5" rx="8.3333" ry="8.3333" style="stroke:#55B2DE;stroke-width:1.5625;fill:none;"/><path d="M1605.7292,245.8333 L1605.7292,273.9583 M1592.1875,254.1667 L1619.2708,254.1667 M1605.7292,273.9583 L1592.1875,289.5833 M1605.7292,273.9583 L1619.2708,289.5833 " fill="none" style="stroke:#55B2DE;stroke-width:1.5625;"/><text fill="#2A9FD6" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="68.75" x="1571.3542" y="309.963">AppLaunch</text><!--MD5=[b5093b81aaccd85ae34427a3be284e2c]
+link AppLaunch to MQTTService--><path codeLine="8" d="M1594.5313,318.4792 C1584.9896,347.5208 1568.375,384.0417 1541.1458,406.25 C1513.4271,428.8542 1480.875,446.0521 1446.8333,459.1146 " fill="none" id="AppLaunch-to-MQTTService" style="stroke:#2A9FD6;stroke-width:3.125;"/><polygon fill="#2A9FD6" points="1441.8021,461.0208,1452.0448,461.6031,1446.6739,459.1791,1449.0979,453.8082,1441.8021,461.0208" style="stroke:#2A9FD6;stroke-width:3.125;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="214.5833" x="1570.3125" y="397.9838">Initialize passing customerIdSignal</text><!--MD5=[84f21a9e6516c03e84a0dc034d578f94]
+reverse link CertificateRepository to MQTTService--><path codeLine="10" d="M1141.7188,326.6146 C1121.8542,340.7396 1103.9479,358.1042 1092.1875,379.1667 C1081.2083,398.8125 1087.8438,419.0833 1101.3229,437.2604 " fill="none" id="CertificateRepository-backto-MQTTService" style="stroke:#2A9FD6;stroke-width:3.125;"/><polygon fill="#2A9FD6" points="1146.25,323.4583,1136.1685,325.3598,1141.9651,326.4191,1140.9057,332.2157,1146.25,323.4583" style="stroke:#2A9FD6;stroke-width:3.125;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="113.5417" x="1098.4375" y="397.9838">Asks for certificate</text><!--MD5=[84f21a9e6516c03e84a0dc034d578f94]
+reverse link CertificateRepository to MQTTService--><path codeLine="13" d="M1248.125,328.5938 C1241.0729,352.6667 1232.0833,381.1354 1222.3958,406.25 C1218.4688,416.4271 1213.9271,427.0417 1209.2917,437.3229 " fill="none" id="CertificateRepository-backto-MQTTService-1" style="stroke:#2A9FD6;stroke-width:3.125;"/><polygon fill="#2A9FD6" points="1249.5938,323.5208,1242.9903,331.3723,1248.1491,328.5248,1250.9967,333.6837,1249.5938,323.5208" style="stroke:#2A9FD6;stroke-width:3.125;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="288.5417" x="1238.0208" y="397.9838">Ask for certificate deletion if it's no longer valid</text><!--MD5=[c6a45ecbfc58a9dbf376d5504c5b7cfb]
+reverse link CertificateBroker to CertificateRepository--><path codeLine="11" d="M1149.8333,112.2812 C1141.0833,120.2917 1133.4167,129.3542 1127.6042,139.5833 C1109.8333,170.875 1132.0313,199.6042 1163.2708,222.2292 " fill="none" id="CertificateBroker-backto-CertificateRepository" style="stroke:#2A9FD6;stroke-width:3.125;"/><polygon fill="#2A9FD6" points="1154.2188,108.4271,1144.4319,111.5042,1150.3129,111.8725,1149.9446,117.7536,1154.2188,108.4271" style="stroke:#2A9FD6;stroke-width:3.125;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="211.4583" x="1133.8542" y="158.4005">Requests new certificate if needed</text><!--MD5=[c6a45ecbfc58a9dbf376d5504c5b7cfb]
+reverse link CertificateBroker to CertificateRepository--><path codeLine="14" d="M1341.6458,112.4688 C1355.3646,128.4375 1363.1667,146.9792 1355.7292,166.6667 C1347.9896,187.1667 1334.2292,206.25 1319.6458,222.3854 " fill="none" id="CertificateBroker-backto-CertificateRepository-1" style="stroke:#2A9FD6;stroke-width:3.125;"/><polygon fill="#2A9FD6" points="1338.0417,108.4688,1341.2555,118.2116,1341.5415,112.326,1347.4271,112.6119,1338.0417,108.4688" style="stroke:#2A9FD6;stroke-width:3.125;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="234.375" x="1364.0625" y="158.4005">Checks weather certificate is still valid</text><!--MD5=[21a185c6e323f9a48a300b900ec1d21a]
+reverse link ConnectionManager to MQTTService--><path codeLine="16" d="M593.5833,350.9583 C625.9271,371.5625 662.4896,392.0313 698.4375,406.25 C766.6563,433.2188 843.5,452.6042 915.3958,466.4479 " fill="none" id="ConnectionManager-backto-MQTTService" style="stroke:#2A9FD6;stroke-width:3.125;"/><polygon fill="#2A9FD6" points="588.8438,347.9271,594.4899,356.4929,593.2292,350.7368,598.9854,349.4761,588.8438,347.9271" style="stroke:#2A9FD6;stroke-width:3.125;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="367.7083" x="704.6875" y="397.9838">Connects/disconnects session, subscribe/unsubscribe topics</text><!--MD5=[b7ec087a98a748e8d7b1d98142b1f60a]
+reverse link Topic to MQTTDebugViewModel--><path codeLine="18" d="M1023.8229,770.5625 C1046.2396,792.0833 1072.9688,816.6979 1098.4375,837.5 C1111.6458,848.2917 1126.7813,859.3125 1140.3125,868.7396 " fill="none" id="Topic-backto-MQTTDebugViewModel" style="stroke:#2A9FD6;stroke-width:3.125;"/><polygon fill="#2A9FD6" points="1019.9792,766.8646,1023.8738,776.3558,1023.7429,770.4647,1029.634,770.3338,1019.9792,766.8646" style="stroke:#2A9FD6;stroke-width:3.125;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="59.375" x="1104.6875" y="829.2338">Subscribe</text><!--MD5=[8e4f5a209a70f87d8b1b25f75fcf8598]
+reverse link MQTTService to Topic--><path codeLine="19" d="M1114.375,567.4375 C1083.5417,599.0417 1047.2188,636.2708 1018.7604,665.4479 " fill="none" id="MQTTService-backto-Topic" style="stroke:#2A9FD6;stroke-width:3.125;"/><polygon fill="#2A9FD6" points="1118.1042,563.6146,1108.5742,567.4135,1114.4663,567.3419,1114.5379,573.234,1118.1042,563.6146" style="stroke:#2A9FD6;stroke-width:3.125;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="59.375" x="1093.2292" y="613.6088">Subscribe</text><!--MD5=[f24188d77d15a64f1d622b615f1ca428]
+link MQTTService to MQTTPayload--><path codeLine="21" d="M1264.7188,563.7188 C1276.8021,573.6563 1288.75,584.1667 1299.4792,594.7917 C1319.8542,614.9583 1339.875,639.4792 1356.2396,661.1042 " fill="none" id="MQTTService-to-MQTTPayload" style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:7.0,7.0;"/><polygon fill="#2A9FD6" points="1359.4583,665.3958,1357.1495,655.3998,1356.3262,661.2345,1350.4914,660.4112,1359.4583,665.3958" style="stroke:#2A9FD6;stroke-width:3.125;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="103.125" x="1327.6042" y="613.6088">Publishes events</text><!--MD5=[769648b4d8baadb6456f32d06f260b80]
+link MQTTPayload to MQTTDebugViewModel--><path codeLine="22" d="M1363.1771,766.7708 C1346.4792,790.4375 1324.2604,817.8125 1299.4792,837.5 C1285.4167,848.6667 1268.8021,858.2813 1252.4583,866.25 " fill="none" id="MQTTPayload-to-MQTTDebugViewModel" style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:7.0,7.0;"/><polygon fill="#2A9FD6" points="1247.3958,868.6667,1257.6512,868.3841,1252.0952,866.4211,1254.0582,860.8651,1247.3958,868.6667" style="stroke:#2A9FD6;stroke-width:3.125;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="103.125" x="1332.8125" y="829.2338">Publishes events</text><!--MD5=[af3b8ca2b16d6f03e19cc02e4813b4cb]
+link MQTTService to MQTTService.ConnectionStatus--><path codeLine="24" d="M1178.6458,563.6146 C1178.6458,589.9375 1178.6458,620.6875 1178.6458,647.5729 " fill="none" id="MQTTService-to-MQTTService.ConnectionStatus" style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:7.0,7.0;"/><polygon fill="#2A9FD6" points="1178.6458,652.8958,1182.8125,643.5208,1178.6458,647.6875,1174.4792,643.5208,1178.6458,652.8958" style="stroke:#2A9FD6;stroke-width:3.125;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="100" x="1184.8958" y="613.6088">Publishes status</text><!--MD5=[2693cd886087435334407738468ebe41]
+link MQTTService.ConnectionStatus to MQTTDebugViewModel--><path codeLine="25" d="M1178.6458,779.625 C1178.6458,807.8333 1178.6458,839.9167 1178.6458,862.9688 " fill="none" id="MQTTService.ConnectionStatus-to-MQTTDebugViewModel" style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:7.0,7.0;"/><polygon fill="#2A9FD6" points="1178.6458,868.3229,1182.8125,858.9479,1178.6458,863.1146,1174.4792,858.9479,1178.6458,868.3229" style="stroke:#2A9FD6;stroke-width:3.125;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="100" x="1184.8958" y="829.2338">Publishes status</text><!--MD5=[ab45387547840214aa9edfea3171a87e]
+@startuml
+!include ../design.puml
+!include mqtt-classes.puml
+allowmixing
+
+class MQTTDebugViewModel
+actor AppLaunch
+
+AppLaunch - -> MQTTService: Initialize passing customerIdSignal
+
+MQTTService -u-> CertificateRepository: Asks for certificate
+CertificateRepository -u-> CertificateBroker: Requests new certificate if needed
+
+MQTTService -u-> CertificateRepository: Ask for certificate deletion if it's no longer valid
+CertificateRepository -u-> CertificateBroker: Checks weather certificate is still valid
+
+MQTTService -u-> ConnectionManager: Connects/disconnects session, subscribe/unsubscribe topics
+
+MQTTDebugViewModel -u-> Topic: Subscribe
+Topic -u-> MQTTService: Subscribe
+
+MQTTService .d.> MQTTPayload: Publishes events
+MQTTPayload .d.> MQTTDebugViewModel: Publishes events
+
+MQTTService .d.> MQTTService.ConnectionStatus: Publishes status
+MQTTService.ConnectionStatus .d.> MQTTDebugViewModel: Publishes status
+
+@enduml
+
+@startuml
+
+
+
+
+skinparam backgroundColor transparent
+skinparam useBetaStyle false
+
+
+
+
+
+
+
+skinparam defaultFontName       "Verdana"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           8
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               5
+skinparam ArrowColor            #ADAFAE
+skinparam stereotype {
+    CBackgroundColor #777777
+    CBorderColor #444444
+    ABackgroundColor #5F8F00
+    ABorderColor #92C233
+    IBackgroundColor #a30000
+    IBorderColor #D63333
+    EBackgroundColor #cc6d00
+    EBorderColor #FFA033
+    NBackgroundColor #7a29a3
+    NBorderColor #AD5CD6
+}
+skinparam title {
+	FontColor	                 #2A9FD6
+	BorderColor	                 #777777
+	FontSize	    	         20
+	BorderRoundCorner            8
+	BorderThickness 	         1
+	BackgroundColor              transparent
+}
+
+skinparam legend {
+	BackgroundColor transparent
+	BorderColor #777777
+	FontColor #ADAFAE
+}
+
+skinparam swimlane {
+	BorderColor #9933CC
+	BorderThickness 2
+	TitleBackgroundColor  #444444-#555
+	TitleFontColor #2A9FD6
+}
+
+
+skinparam activity {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	BarColor #77B300
+	StartColor #9933CC
+	EndColor #9933CC
+	DiamondBackgroundColor transparent
+  	DiamondBorderColor #777777
+  	DiamondFontColor #777777
+}
+
+
+skinparam participant {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+skinparam arrow {
+	Thickness 3
+	Color #2A9FD6
+	FontColor #FFF
+}
+
+
+skinparam sequence {
+	BorderColor #2A9FD6
+	TitleFontColor #2A9FD6
+	BackgroundColor transparent
+	StartColor #2A9FD6
+	EndColor #2A9FD6
+	BoxBackgroundColor transparent
+	BoxBorderColor #ADAFAE
+	BoxFontColor #ADAFAE
+	DelayFontColor #ADAFAE
+	LifeLineBorderColor #555
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor transparent
+	GroupBorderColor #ADAFAE
+	GroupFontColor #ADAFAE
+	GroupHeaderFontColor #9933CC
+	GroupBackgroundColor transparent
+	GroupBodyBackgroundColor transparent
+	GroupHeaderBackgroundColor transparent
+	DividerBackgroundColor transparent
+    DividerBorderColor #ADAFAE
+    DividerBorderThickness 2
+    DividerFontColor #ADAFAE
+	ReferenceBackgroundColor transparent
+	ReferenceBorderColor #ADAFAE
+	ReferenceFontColor #ADAFAE
+	ReferenceHeaderFontColor #9933CC
+	ReferenceHeaderBackgroundColor transparent
+	StereotypeFontColor #2A9FD6
+}
+
+
+skinparam partition {
+	BorderColor #2A9FD6
+	FontColor #2A9FD6
+	BackgroundColor transparent
+}
+
+
+skinparam collections {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+}
+
+
+skinparam control {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+skinparam entity {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+skinparam boundary {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+skinparam agent {
+	BackgroundColor transparent
+	BorderColor #cc6d00
+	FontColor #ADAFAE
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor transparent
+	BorderColor #AD5CD6
+	FontColor #AD5CD6
+}
+
+
+skinparam artifact {
+	BackgroundColor transparent
+	BorderColor #BDBFBE
+	FontColor #BDBFBE
+}
+
+
+skinparam component {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+}
+
+
+skinparam interface {
+	BackgroundColor  transparent
+	BorderColor  #CC0000
+	FontColor #ADAFAE
+}
+
+
+skinparam storage {
+	BackgroundColor transparent
+  	BorderColor #FFA033
+	FontColor #FF8800
+}
+
+
+skinparam node {
+	BackgroundColor  transparent
+	BorderColor #ADAFAE
+	FontColor #ADAFAE
+}
+
+
+skinparam cloud {
+	BackgroundColor transparent
+	BorderColor #F2FCFE
+	FontColor #ADAFAE
+}
+
+
+skinparam database {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+
+skinparam class {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+        FontColor #222
+	HeaderBackgroundColor #227FAB
+	StereotypeFontColor #ADAFAE
+	BorderThickness 1
+	AttributeFontColor #ADAFAE
+	AttributeFontSize 11
+}
+
+
+skinparam object {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	StereotypeFontColor #ADAFAE
+	BorderThickness 1
+	AttributeFontColor #777777
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	BorderThickness 2
+	StereotypeFontColor #2A9FD6
+}
+
+
+skinparam rectangle {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	BorderThickness 2
+	StereotypeFontColor #2A9FD6
+}
+
+
+skinparam package {
+	BackgroundColor transparent
+  	BorderColor #2A9FD6
+	FontColor #2A9FD6
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor transparent
+  	BorderColor #FF8800
+	FontColor #FF8800
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor transparent
+  	BorderColor #9933CC
+	FontColor #9933CC
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	StartColor #9933CC
+	EndColor #9933CC
+	AttributeFontColor #777777
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+}
+
+
+skinparam card {
+	BackgroundColor transparent
+	BorderColor #9933CC
+	FontColor #9933CC
+}
+
+
+skinparam file {
+	BackgroundColor transparent
+	BorderColor #555
+	FontColor #555
+}
+
+
+
+skinparam BackgroundColor #313238
+skinparam StereotypeCBackgroundColor #fb8500
+
+skinparam StereotypeCBackgroundColor<<S>> #e840e8
+skinparam SpotChar<<S>> S
+hide <<S>> stereotype
+
+skinparam StereotypeCBackgroundColor<<E>> #10FF30
+skinparam SpotChar<<E>> E
+hide <<E>> stereotype
+
+
+
+
+class MQTTService {
+    + subscribe(to: Topic): SignalProducer<Never, MQTTService.TopicConnectionError>
+
+    - deviceEvent: SignalProducer<MQTTPayload, Never>
+    - connectionStatus: SignalProducer<MQTTService.ConnectionStatus, Never>
+}
+
+enum MQTTService.ConnectionStatus {
+    + connecting
+    + connected
+    + notConnected
+}
+
+enum Topic {
+    + Device(.all)
+    - path: String
+}
+
+class MQTTPayload<<S>> {
+    - data: Topic
+    - data: Data
+}
+
+class ConnectionManager {
+    + connect(clientId: String, cleanSession: Bool, certificateId: String): SignalProducer<MQTTService.ConnectionStatus, MQTTService.SessionConnectionError>
+    + disconnect()
+    + subscribe(topic: String): SignalProducer<MQTTPayload, MQTTService.TopicConnectionError>
+    + unsubscribe(topic: String)
+}
+
+class CertificateRepository {
+    + certificate(customerId: String): SignalProducer<CertificatePayload, Swift.Error>
+    + deleteCertificateIfNeeded(): SignalProducer<Never, Never>
+}
+
+class CertificateBroker {
+    + createKeysAndCertificate(customerId: String)
+    + validateCertificate(certificateId: String, completion: (Bool) -> Void)
+}
+
+allowmixing
+
+class MQTTDebugViewModel
+actor AppLaunch
+
+AppLaunch - -> MQTTService: Initialize passing customerIdSignal
+
+MQTTService -u-> CertificateRepository: Asks for certificate
+CertificateRepository -u-> CertificateBroker: Requests new certificate if needed
+
+MQTTService -u-> CertificateRepository: Ask for certificate deletion if it's no longer valid
+CertificateRepository -u-> CertificateBroker: Checks weather certificate is still valid
+
+MQTTService -u-> ConnectionManager: Connects/disconnects session, subscribe/unsubscribe topics
+
+MQTTDebugViewModel -u-> Topic: Subscribe
+Topic -u-> MQTTService: Subscribe
+
+MQTTService .d.> MQTTPayload: Publishes events
+MQTTPayload .d.> MQTTDebugViewModel: Publishes events
+
+MQTTService .d.> MQTTService.ConnectionStatus: Publishes status
+MQTTService.ConnectionStatus .d.> MQTTDebugViewModel: Publishes status
+
+@enduml
+
+PlantUML version 1.2021.7(Sun May 23 14:40:07 CEST 2021)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: PL
+--></g></svg>

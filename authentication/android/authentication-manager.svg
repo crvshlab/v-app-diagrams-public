@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="868.75px" preserveAspectRatio="none" style="width:2257px;height:868px;background:#313238;" version="1.1" viewBox="0 0 2257 868" width="2257.2917px" zoomAndPan="magnify"><defs/><g><!--MD5=[d6f1608c30fd6869d0da1db17620128f]
+class AuthenticationLib--><rect codeLine="3" fill="#313238" height="170.8252" id="AuthenticationLib" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="614.5833" x="383.8542" y="433.3333"/><rect fill="#227FAB" height="35.3841" rx="4.1667" ry="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="614.5833" x="383.8542" y="433.3333"/><rect fill="#227FAB" height="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="614.5833" x="383.8542" y="464.5508"/><rect codeLine="3" fill="none" height="170.8252" id="AuthenticationLib" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="614.5833" x="383.8542" y="433.3333"/><ellipse cx="624.4792" cy="451.0254" fill="#A30000" rx="10.4167" ry="10.4167" style="stroke:#D63333;stroke-width:1.0416666666666667;"/><path d="M621.3704,448.1934 L621.3704,446.5983 L626.7904,446.5983 L626.7904,448.1934 L624.9837,448.1934 L624.9837,454.1178 L626.7904,454.1178 L626.7904,455.7129 L621.3704,455.7129 L621.3704,454.1178 L623.1771,454.1178 L623.1771,448.1934 L621.3704,448.1934 Z " fill="#000000"/><text fill="#222222" font-family="Verdana" font-size="12.5" font-style="italic" lengthAdjust="spacing" textLength="114.5833" x="649.4792" y="455.3528">AuthenticationLib</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="384.8958" x2="997.3958" y1="468.7174" y2="468.7174"/><ellipse cx="395.3125" cy="480.1758" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;fill:none;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="75" x="408.8542" y="488.7283">sdkId: String</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="384.8958" x2="997.3958" y1="500.8057" y2="500.8057"/><ellipse cx="395.3125" cy="512.264" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="578.125" x="408.8542" y="520.8165">authenticate(showIdGateway: Boolean, invalidateToken: String?, observer: AuthenticateObserver)</text><ellipse cx="395.3125" cy="536.0189" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="454.1667" x="408.8542" y="544.5714">fetchAccessToken(invalidateToken: String?, observer: AuthenticateObserver)</text><ellipse cx="395.3125" cy="559.7738" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="289.5833" x="408.8542" y="568.3263">initialize(initializationObserver: InitializeObserver)</text><ellipse cx="395.3125" cy="583.5286" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="67.7083" x="408.8542" y="592.0812">fun logout()</text><!--MD5=[4fe1fcdbc9068749afa975104f4ea047]
+class IDTMLib--><rect codeLine="11" fill="#313238" height="194.5801" id="IDTMLib" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="614.5833" x="57.8125" y="667.7083"/><rect fill="#227FAB" height="35.3841" rx="4.1667" ry="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="614.5833" x="57.8125" y="667.7083"/><rect fill="#227FAB" height="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="614.5833" x="57.8125" y="698.9258"/><rect codeLine="11" fill="none" height="194.5801" id="IDTMLib" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="614.5833" x="57.8125" y="667.7083"/><ellipse cx="331.7708" cy="685.4004" fill="#FB8500" rx="10.4167" ry="10.4167" style="stroke:#444444;stroke-width:1.0416666666666667;"/><path d="M333.6751,689.8275 Q333.252,690.0391 332.7799,690.153 Q332.3079,690.2669 331.8034,690.2669 Q329.9479,690.2669 328.9714,689.0625 Q328.0111,687.8418 328.0111,685.5469 Q328.0111,683.2357 328.9714,682.0313 Q329.9479,680.8105 331.8034,680.8105 Q332.3079,680.8105 332.7799,680.9245 Q333.2682,681.0221 333.6751,681.25 L333.6751,683.252 Q333.2194,682.8288 332.7799,682.6335 Q332.3405,682.4219 331.8848,682.4219 Q330.8919,682.4219 330.3874,683.2194 Q329.8828,684.0007 329.8828,685.5469 Q329.8828,687.0768 330.3874,687.8581 Q330.8919,688.6393 331.8848,688.6393 Q332.3405,688.6393 332.7799,688.444 Q333.2194,688.2487 333.6751,687.8255 L333.6751,689.8275 Z " fill="#000000"/><text fill="#222222" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="47.9167" x="356.7708" y="689.7278">IDTMLib</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="58.8542" x2="671.3542" y1="703.0924" y2="703.0924"/><ellipse cx="69.2708" cy="714.5508" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;fill:none;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="75" x="82.8125" y="723.1033">sdkId: String</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="58.8542" x2="671.3542" y1="735.1807" y2="735.1807"/><ellipse cx="69.2708" cy="746.639" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="529.1667" x="82.8125" y="755.1915">fetchAccessToken(invalidateToken: String?, authenticateObserver: AuthenticateObserver)</text><ellipse cx="69.2708" cy="770.3939" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="44.7917" x="82.8125" y="778.9464">logout()</text><ellipse cx="69.2708" cy="794.1488" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="218.75" x="82.8125" y="802.7013">initialize(observer: InitializeObserver)</text><ellipse cx="69.2708" cy="817.9036" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="578.125" x="82.8125" y="826.4562">authenticate(showIdGateway: Boolean, invalidateToken: String?, observer: AuthenticateObserver)</text><ellipse cx="69.2708" cy="841.6585" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="128.125" x="82.8125" y="850.2111">getInstance(): IdtmLib</text><!--MD5=[95391c5bf41ae095fe7cd6b505129016]
+class MockIDTMLib--><rect codeLine="20" fill="#313238" height="147.0703" id="MockIDTMLib" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="614.5833" x="708.8542" y="691.6667"/><rect fill="#227FAB" height="35.3841" rx="4.1667" ry="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="614.5833" x="708.8542" y="691.6667"/><rect fill="#227FAB" height="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="614.5833" x="708.8542" y="722.8841"/><rect codeLine="20" fill="none" height="147.0703" id="MockIDTMLib" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="614.5833" x="708.8542" y="691.6667"/><ellipse cx="966.1458" cy="709.3587" fill="#FB8500" rx="10.4167" ry="10.4167" style="stroke:#444444;stroke-width:1.0416666666666667;"/><path d="M968.0501,713.7858 Q967.627,713.9974 967.1549,714.1113 Q966.6829,714.2253 966.1784,714.2253 Q964.3229,714.2253 963.3464,713.0208 Q962.3861,711.8001 962.3861,709.5052 Q962.3861,707.194 963.3464,705.9896 Q964.3229,704.7689 966.1784,704.7689 Q966.6829,704.7689 967.1549,704.8828 Q967.6432,704.9805 968.0501,705.2083 L968.0501,707.2103 Q967.5944,706.7871 967.1549,706.5918 Q966.7155,706.3802 966.2598,706.3802 Q965.2669,706.3802 964.7624,707.1777 Q964.2578,707.959 964.2578,709.5052 Q964.2578,711.0352 964.7624,711.8164 Q965.2669,712.5977 966.2598,712.5977 Q966.7155,712.5977 967.1549,712.4023 Q967.5944,712.207 968.0501,711.7839 L968.0501,713.7858 Z " fill="#000000"/><text fill="#222222" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="81.25" x="991.1458" y="713.6861">MockIDTMLib</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="709.8958" x2="1322.3958" y1="727.0508" y2="727.0508"/><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="709.8958" x2="1322.3958" y1="735.3841" y2="735.3841"/><ellipse cx="720.3125" cy="746.8424" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="578.125" x="733.8542" y="755.395">authenticate(showIdGateway: Boolean, invalidateToken: String?, observer: AuthenticateObserver)</text><ellipse cx="720.3125" cy="770.5973" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="454.1667" x="733.8542" y="779.1499">fetchAccessToken(invalidateToken: String?, observer: AuthenticateObserver)</text><ellipse cx="720.3125" cy="794.3522" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="289.5833" x="733.8542" y="802.9048">initialize(initializationObserver: InitializeObserver)</text><ellipse cx="720.3125" cy="818.1071" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="44.7917" x="733.8542" y="826.6596">logout()</text><!--MD5=[55d4ff87441f71cb92c304f4365a4235]
+class Events--><!--MD5=[353bd4dceeadb240fcd7dbd160e5b6c4]
+class StatusProvider--><!--MD5=[fe171506cad3efc9ccc65cb039b8148a]
+class TaskProcessor--><!--MD5=[d3b8b572bebae7b58e75123213b35eb7]
+class AuthenticationManagement--><!--MD5=[c7e69fcc6446aa1688d8e21bb85da6b3]
+class InitializeManagement--><!--MD5=[9c584f4605eff5e02969ddead110f659]
+class AuthenticateManagement--><!--MD5=[aebb90d2ec00eb1a78a6cb60340b5036]
+class RefreshTokenManagement--><!--MD5=[25a72bbdc3d0b17776ac49fcd96124b8]
+class AuthenticationManagerN--><rect codeLine="12" fill="#313238" height="337.1094" id="AuthenticationManagerN" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="369.7917" x="506.25" y="7.2917"/><rect fill="#227FAB" height="35.3841" rx="4.1667" ry="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="369.7917" x="506.25" y="7.2917"/><rect fill="#227FAB" height="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="369.7917" x="506.25" y="38.5091"/><rect codeLine="12" fill="none" height="337.1094" id="AuthenticationManagerN" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="369.7917" x="506.25" y="7.2917"/><ellipse cx="600.5208" cy="24.9837" fill="#FB8500" rx="10.4167" ry="10.4167" style="stroke:#444444;stroke-width:1.0416666666666667;"/><path d="M602.4251,29.4108 Q602.002,29.6224 601.5299,29.7363 Q601.0579,29.8503 600.5534,29.8503 Q598.6979,29.8503 597.7214,28.6458 Q596.7611,27.4251 596.7611,25.1302 Q596.7611,22.819 597.7214,21.6146 Q598.6979,20.3939 600.5534,20.3939 Q601.0579,20.3939 601.5299,20.5078 Q602.0182,20.6055 602.4251,20.8333 L602.4251,22.8353 Q601.9694,22.4121 601.5299,22.2168 Q601.0905,22.0052 600.6348,22.0052 Q599.6419,22.0052 599.1374,22.8027 Q598.6328,23.584 598.6328,25.1302 Q598.6328,26.6602 599.1374,27.4414 Q599.6419,28.2227 600.6348,28.2227 Q601.0905,28.2227 601.5299,28.0273 Q601.9694,27.832 602.4251,27.4089 L602.4251,29.4108 Z " fill="#000000"/><text fill="#222222" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="162.5" x="625.5208" y="29.3111">AuthenticationManagerN</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="507.2917" x2="875" y1="42.6758" y2="42.6758"/><rect fill="none" height="6.25" style="stroke:#C82930;stroke-width:1.0416666666666667;" width="6.25" x="514.5833" y="51.0091"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="85.4167" x="531.25" y="62.6867">taskProcessor</text><rect fill="none" height="6.25" style="stroke:#C82930;stroke-width:1.0416666666666667;" width="6.25" x="514.5833" y="74.764"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="86.4583" x="531.25" y="86.4415">statusProvider</text><rect fill="none" height="6.25" style="stroke:#C82930;stroke-width:1.0416666666666667;" width="6.25" x="514.5833" y="98.5189"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="122.9167" x="531.25" y="110.1964">initializeManagement</text><rect fill="none" height="6.25" style="stroke:#C82930;stroke-width:1.0416666666666667;" width="6.25" x="514.5833" y="122.2738"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="155.2083" x="531.25" y="133.9513">refreshTokenManagement</text><rect fill="none" height="6.25" style="stroke:#C82930;stroke-width:1.0416666666666667;" width="6.25" x="514.5833" y="146.0286"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="148.9583" x="531.25" y="157.7062">authenticateManagement</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="507.2917" x2="875" y1="169.7835" y2="169.7835"/><ellipse cx="517.7083" cy="181.2419" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="188.5417" x="531.25" y="189.7944">observeAuthenticationUpdates()</text><ellipse cx="517.7083" cy="204.9967" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="175" x="531.25" y="213.5493">observeLoginStatusUpdates()</text><ellipse cx="517.7083" cy="228.7516" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="133.3333" x="531.25" y="237.3042">observeAccessToken()</text><ellipse cx="517.7083" cy="252.5065" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="333.3333" x="531.25" y="261.0591">initialize(loginHint: String? = null, onInitialized: () -&gt; Unit)</text><ellipse cx="517.7083" cy="276.2614" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="531.25" y="284.8139">authenticate()</text><ellipse cx="517.7083" cy="300.0163" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="253.125" x="531.25" y="308.5688">refreshToken(accessToken: String? = null)</text><ellipse cx="517.7083" cy="323.7712" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="44.7917" x="531.25" y="332.3237">logout()</text><!--MD5=[f3a9563f6cf965595c825d3532b671a1]
+reverse link AuthenticationLib to IDTMLib--><path d="M561.5938,616.8542 C539.25,633.5938 516.0313,650.9896 493.7188,667.7083 " fill="none" id="AuthenticationLib-backto-IDTMLib" style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="557.4375,610.8542,578.4792,604.1979,566.1875,622.5208,557.4375,610.8542" style="stroke:#2A9FD6;stroke-width:3.125;"/><!--MD5=[fe5a957dc110cb141052193e501bb307]
+reverse link AuthenticationLib to MockIDTMLib--><path d="M820.5521,617.0521 C853.6667,641.9375 888.6875,668.2604 919.8021,691.6458 " fill="none" id="AuthenticationLib-backto-MockIDTMLib" style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="815.7188,622.5417,803.4479,604.1979,824.4792,610.8854,815.7188,622.5417" style="stroke:#2A9FD6;stroke-width:3.125;"/><!--MD5=[a2b625d1976ade2fd2054f26d3c98189]
+reverse link AuthenticationManagement to InitializeManagement--><!--MD5=[779b8f92d5fb1d98c8c589048174b262]
+reverse link AuthenticationManagement to AuthenticateManagement--><!--MD5=[f1dff566fb9a5c2b535396a92cf93baa]
+reverse link AuthenticationManagement to RefreshTokenManagement--><!--MD5=[a8134c57e1fcfff5cab9115c0c9f2c46]
+link AuthenticationManagerN to AuthenticationLib--><path codeLine="27" d="M691.1458,344.9063 C691.1458,373.4375 691.1458,402.0625 691.1458,427.5729 " fill="none" id="AuthenticationManagerN-to-AuthenticationLib" style="stroke:#2A9FD6;stroke-width:3.125;"/><polygon fill="#2A9FD6" points="691.1458,432.9688,695.3125,423.5938,691.1458,427.7604,686.9792,423.5938,691.1458,432.9688" style="stroke:#2A9FD6;stroke-width:3.125;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="43.75" x="697.3958" y="393.8944">«calls»</text><!--MD5=[164354a829607e610fa5c4ed16b69d3c]
+link Events to StatusProvider--><!--MD5=[6afd69a1ae00900f6c7d4db5008d16f0]
+link Events to TaskProcessor--><!--MD5=[d1505495c65a02a3aaadcefdbf22c0af]
+@startuml
+!include authentication-manager-classes-include.puml
+
+hide AuthenticationManager
+hide Events
+hide InitializeManagement
+hide AuthenticateManagement
+hide RefreshTokenManagement
+hide AuthenticationManagement
+hide TaskProcessor
+hide StatusProvider
+
+class AuthenticationManagerN {
+  -taskProcessor
+  -statusProvider
+  -initializeManagement
+  -refreshTokenManagement
+  -authenticateManagement
+  +observeAuthenticationUpdates()
+  +observeLoginStatusUpdates()
+  +observeAccessToken()
+  +initialize(loginHint: String? = null, onInitialized: () -> Unit)
+  +authenticate()
+  +refreshToken(accessToken: String? = null)
+  +logout()
+}
+
+AuthenticationManagerN -down-> AuthenticationLib: <<calls>>
+
+@enduml
+
+@startuml
+
+
+
+
+skinparam backgroundColor transparent
+skinparam useBetaStyle false
+
+
+
+
+
+
+
+skinparam defaultFontName       "Verdana"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           8
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               5
+skinparam ArrowColor            #ADAFAE
+skinparam stereotype {
+    CBackgroundColor #777777
+    CBorderColor #444444
+    ABackgroundColor #5F8F00
+    ABorderColor #92C233
+    IBackgroundColor #a30000
+    IBorderColor #D63333
+    EBackgroundColor #cc6d00
+    EBorderColor #FFA033
+    NBackgroundColor #7a29a3
+    NBorderColor #AD5CD6
+}
+skinparam title {
+	FontColor	                 #2A9FD6
+	BorderColor	                 #777777
+	FontSize	    	         20
+	BorderRoundCorner            8
+	BorderThickness 	         1
+	BackgroundColor              transparent
+}
+
+skinparam legend {
+	BackgroundColor transparent
+	BorderColor #777777
+	FontColor #ADAFAE
+}
+
+skinparam swimlane {
+	BorderColor #9933CC
+	BorderThickness 2
+	TitleBackgroundColor  #444444-#555
+	TitleFontColor #2A9FD6
+}
+
+
+skinparam activity {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	BarColor #77B300
+	StartColor #9933CC
+	EndColor #9933CC
+	DiamondBackgroundColor transparent
+  	DiamondBorderColor #777777
+  	DiamondFontColor #777777
+}
+
+
+skinparam participant {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+skinparam arrow {
+	Thickness 3
+	Color #2A9FD6
+	FontColor #FFF
+}
+
+
+skinparam sequence {
+	BorderColor #2A9FD6
+	TitleFontColor #2A9FD6
+	BackgroundColor transparent
+	StartColor #2A9FD6
+	EndColor #2A9FD6
+	BoxBackgroundColor transparent
+	BoxBorderColor #ADAFAE
+	BoxFontColor #ADAFAE
+	DelayFontColor #ADAFAE
+	LifeLineBorderColor #555
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor transparent
+	GroupBorderColor #ADAFAE
+	GroupFontColor #ADAFAE
+	GroupHeaderFontColor #9933CC
+	GroupBackgroundColor transparent
+	GroupBodyBackgroundColor transparent
+	GroupHeaderBackgroundColor transparent
+	DividerBackgroundColor transparent
+    DividerBorderColor #ADAFAE
+    DividerBorderThickness 2
+    DividerFontColor #ADAFAE
+	ReferenceBackgroundColor transparent
+	ReferenceBorderColor #ADAFAE
+	ReferenceFontColor #ADAFAE
+	ReferenceHeaderFontColor #9933CC
+	ReferenceHeaderBackgroundColor transparent
+	StereotypeFontColor #2A9FD6
+}
+
+
+skinparam partition {
+	BorderColor #2A9FD6
+	FontColor #2A9FD6
+	BackgroundColor transparent
+}
+
+
+skinparam collections {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+}
+
+
+skinparam control {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+skinparam entity {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+skinparam boundary {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+skinparam agent {
+	BackgroundColor transparent
+	BorderColor #cc6d00
+	FontColor #ADAFAE
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor transparent
+	BorderColor #AD5CD6
+	FontColor #AD5CD6
+}
+
+
+skinparam artifact {
+	BackgroundColor transparent
+	BorderColor #BDBFBE
+	FontColor #BDBFBE
+}
+
+
+skinparam component {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+}
+
+
+skinparam interface {
+	BackgroundColor  transparent
+	BorderColor  #CC0000
+	FontColor #ADAFAE
+}
+
+
+skinparam storage {
+	BackgroundColor transparent
+  	BorderColor #FFA033
+	FontColor #FF8800
+}
+
+
+skinparam node {
+	BackgroundColor  transparent
+	BorderColor #ADAFAE
+	FontColor #ADAFAE
+}
+
+
+skinparam cloud {
+	BackgroundColor transparent
+	BorderColor #F2FCFE
+	FontColor #ADAFAE
+}
+
+
+skinparam database {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+
+skinparam class {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+        FontColor #222
+	HeaderBackgroundColor #227FAB
+	StereotypeFontColor #ADAFAE
+	BorderThickness 1
+	AttributeFontColor #ADAFAE
+	AttributeFontSize 11
+}
+
+
+skinparam object {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	StereotypeFontColor #ADAFAE
+	BorderThickness 1
+	AttributeFontColor #777777
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	BorderThickness 2
+	StereotypeFontColor #2A9FD6
+}
+
+
+skinparam rectangle {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	BorderThickness 2
+	StereotypeFontColor #2A9FD6
+}
+
+
+skinparam package {
+	BackgroundColor transparent
+  	BorderColor #2A9FD6
+	FontColor #2A9FD6
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor transparent
+  	BorderColor #FF8800
+	FontColor #FF8800
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor transparent
+  	BorderColor #9933CC
+	FontColor #9933CC
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	StartColor #9933CC
+	EndColor #9933CC
+	AttributeFontColor #777777
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+}
+
+
+skinparam card {
+	BackgroundColor transparent
+	BorderColor #9933CC
+	FontColor #9933CC
+}
+
+
+skinparam file {
+	BackgroundColor transparent
+	BorderColor #555
+	FontColor #555
+}
+
+
+
+skinparam BackgroundColor #313238
+skinparam StereotypeCBackgroundColor #fb8500
+
+skinparam StereotypeCBackgroundColor<<S>> #e840e8
+skinparam SpotChar<<S>> S
+hide <<S>> stereotype
+
+skinparam StereotypeCBackgroundColor<<E>> #10FF30
+skinparam SpotChar<<E>> E
+hide <<E>> stereotype
+
+
+
+
+interface AuthenticationLib {
+  +sdkId: String
+  +authenticate(showIdGateway: Boolean, invalidateToken: String?, observer: AuthenticateObserver)
+  +fetchAccessToken(invalidateToken: String?, observer: AuthenticateObserver)
+  +initialize(initializationObserver: InitializeObserver)
+  +fun logout()
+}
+
+class IDTMLib implements AuthenticationLib {
+  +sdkId: String
+  +fetchAccessToken(invalidateToken: String?, authenticateObserver: AuthenticateObserver)
+  +logout()
+  +initialize(observer: InitializeObserver)
+  +authenticate(showIdGateway: Boolean, invalidateToken: String?, observer: AuthenticateObserver)
+  +getInstance(): IdtmLib
+}
+
+class MockIDTMLib implements AuthenticationLib {
+
+    +authenticate(showIdGateway: Boolean, invalidateToken: String?, observer: AuthenticateObserver)
+    +fetchAccessToken(invalidateToken: String?, observer: AuthenticateObserver)
+    +initialize(initializationObserver: InitializeObserver)
+    +logout()
+}
+
+class Events {
+  +sendIDTMErrorEvents()
+  +sendSmapiEvents()
+}
+
+class StatusProvider {
+  +status: Status
+  +idtmStatus: IDTMStatus
+  +loginStatus: LoginStatus
+}
+
+class TaskProcessor {
+  -pendingTasks: ConcurrentLinkedQueue<Task>
+  +addTask(task:Task)
+  +processNextTask()
+}
+
+interface AuthenticationManagement {
+  +cleanup()
+}
+
+class InitializeManagement implements AuthenticationManagement {
+  -initializationDisposable: CompositeDisposable
+  +initializeIdtm()
+  -initializeIdtmObservable(): Completable
+}
+
+class AuthenticateManagement implements AuthenticationManagement {
+  -authenticationDisposable: CompositeDisposable
+  -timeoutDisposable: CompositeDisposable
+  +authenticate()
+  -handleAuthenticateSuccess(accessToken: AccessToken?)
+}
+
+class RefreshTokenManagement implements AuthenticationManagement {
+ +fetchAccessToken(accessToken: String? = null): Single<AccessToken>
+ -rawFetchAccessToken(accessToken: String?): Single<AccessToken>
+}
+
+
+hide AuthenticationManager
+hide Events
+hide InitializeManagement
+hide AuthenticateManagement
+hide RefreshTokenManagement
+hide AuthenticationManagement
+hide TaskProcessor
+hide StatusProvider
+
+class AuthenticationManagerN {
+  -taskProcessor
+  -statusProvider
+  -initializeManagement
+  -refreshTokenManagement
+  -authenticateManagement
+  +observeAuthenticationUpdates()
+  +observeLoginStatusUpdates()
+  +observeAccessToken()
+  +initialize(loginHint: String? = null, onInitialized: () -> Unit)
+  +authenticate()
+  +refreshToken(accessToken: String? = null)
+  +logout()
+}
+
+AuthenticationManagerN -down-> AuthenticationLib: <<calls>>
+
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 13:26:11 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

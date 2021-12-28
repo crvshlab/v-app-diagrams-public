@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="903.125px" preserveAspectRatio="none" style="width:1329px;height:903px;background:#313238;" version="1.1" viewBox="0 0 1329 903" width="1329.1667px" zoomAndPan="magnify"><defs/><g><!--MD5=[fc811cf51f9c2276167b9320ad74c775]
+class DeepLinkResolver--><rect codeLine="12" fill="#313238" height="67.4723" id="DeepLinkResolver" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="206.25" x="17.1875" y="7.2917"/><rect fill="#227FAB" height="35.3841" rx="4.1667" ry="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="206.25" x="17.1875" y="7.2917"/><rect fill="#227FAB" height="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="206.25" x="17.1875" y="38.5091"/><rect codeLine="12" fill="none" height="67.4723" id="DeepLinkResolver" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="206.25" x="17.1875" y="7.2917"/><ellipse cx="54.2708" cy="24.9837" fill="#E840E8" rx="10.4167" ry="10.4167" style="stroke:#444444;stroke-width:1.0416666666666667;"/><path d="M53.2129,25.6673 Q51.862,25.1465 51.3737,24.5768 Q50.8854,24.0072 50.8854,23.0469 Q50.8854,21.8099 51.6829,21.11 Q52.4805,20.3939 53.8639,20.3939 Q54.4987,20.3939 55.1172,20.5404 Q55.752,20.6868 56.3704,20.9635 L56.3704,22.7214 Q55.7845,22.3145 55.1823,22.1029 Q54.5964,21.875 54.0104,21.875 Q53.3594,21.875 53.0013,22.1517 Q52.6595,22.4121 52.6595,22.9004 Q52.6595,23.2747 52.9036,23.5189 Q53.1641,23.763 53.9616,24.0723 L54.7428,24.3652 Q55.8496,24.7559 56.3542,25.4232 Q56.875,26.0905 56.875,27.0996 Q56.875,28.4831 56.0612,29.1667 Q55.2474,29.8503 53.6035,29.8503 Q52.9199,29.8503 52.2363,29.6875 Q51.569,29.5247 50.9342,29.1992 L50.9342,27.3438 Q51.6504,27.8646 52.3177,28.1087 Q53.0013,28.3529 53.6523,28.3529 Q54.3197,28.3529 54.6777,28.0599 Q55.0521,27.7507 55.0521,27.2135 Q55.0521,26.8066 54.8079,26.4974 Q54.5638,26.1882 54.1081,26.0091 L53.2129,25.6673 Z " fill="#000000"/><text fill="#222222" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="114.5833" x="78.0208" y="29.3111">DeepLinkResolver</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="18.2292" x2="222.3958" y1="42.6758" y2="42.6758"/><ellipse cx="28.6458" cy="54.1341" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="169.7917" x="42.1875" y="62.6867">parse(url: String): DeepLink?</text><!--MD5=[49ec080158085dcbd3ad09715098bc8b]
+class DeepLink--><rect codeLine="8" fill="#313238" height="67.4723" id="DeepLink" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="145.8333" x="259.8958" y="7.2917"/><rect fill="#227FAB" height="35.3841" rx="4.1667" ry="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="145.8333" x="259.8958" y="7.2917"/><rect fill="#227FAB" height="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="145.8333" x="259.8958" y="38.5091"/><rect codeLine="8" fill="none" height="67.4723" id="DeepLink" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="145.8333" x="259.8958" y="7.2917"/><ellipse cx="294.6354" cy="24.9837" fill="#10FF30" rx="10.4167" ry="10.4167" style="stroke:#444444;stroke-width:1.0416666666666667;"/><path d="M297.1745,29.6712 L291.4941,29.6712 L291.4941,20.5566 L297.1745,20.5566 L297.1745,22.1517 L293.3008,22.1517 L293.3008,24.1048 L296.8001,24.1048 L296.8001,25.6999 L293.3008,25.6999 L293.3008,28.0762 L297.1745,28.0762 L297.1745,29.6712 Z " fill="#000000"/><text fill="#222222" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="59.375" x="317.8646" y="29.3111">DeepLink</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="260.9375" x2="404.6875" y1="42.6758" y2="42.6758"/><ellipse cx="271.3542" cy="54.1341" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="109.375" x="284.8958" y="62.6867">neoChat(deviceId:)</text><!--MD5=[21816c44a4785c97d5629c4b9046fd8c]
+class DeepLinkRepository--><rect codeLine="16" fill="#313238" height="123.3154" id="DeepLinkRepository" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="180.2083" x="30.2083" y="772.9167"/><rect fill="#227FAB" height="35.3841" rx="4.1667" ry="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="180.2083" x="30.2083" y="772.9167"/><rect fill="#227FAB" height="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="180.2083" x="30.2083" y="804.1341"/><rect codeLine="16" fill="none" height="123.3154" id="DeepLinkRepository" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="180.2083" x="30.2083" y="772.9167"/><ellipse cx="49.4792" cy="790.6087" fill="#FB8500" rx="10.4167" ry="10.4167" style="stroke:#444444;stroke-width:1.0416666666666667;"/><path d="M51.3835,795.0358 Q50.9603,795.2474 50.4883,795.3613 Q50.0163,795.4753 49.5117,795.4753 Q47.6563,795.4753 46.6797,794.2708 Q45.7194,793.0501 45.7194,790.7552 Q45.7194,788.444 46.6797,787.2396 Q47.6563,786.0189 49.5117,786.0189 Q50.0163,786.0189 50.4883,786.1328 Q50.9766,786.2305 51.3835,786.4583 L51.3835,788.4603 Q50.9277,788.0371 50.4883,787.8418 Q50.0488,787.6302 49.5931,787.6302 Q48.6003,787.6302 48.0957,788.4277 Q47.5911,789.209 47.5911,790.7552 Q47.5911,792.2852 48.0957,793.0664 Q48.6003,793.8477 49.5931,793.8477 Q50.0488,793.8477 50.4883,793.6523 Q50.9277,793.457 51.3835,793.0339 L51.3835,795.0358 Z " fill="#000000"/><text fill="#222222" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="128.125" x="69.2708" y="794.9361">DeepLinkRepository</text><line style="stroke:#55B2DE;stroke-width:1.5625;" x1="31.25" x2="209.375" y1="808.3008" y2="808.3008"/><ellipse cx="41.6667" cy="819.7591" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;fill:none;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="119.7917" x="55.2083" y="828.3117">deepLink: DeepLink?</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="31.25" x2="209.375" y1="840.389" y2="840.389"/><ellipse cx="41.6667" cy="851.8473" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="143.75" x="55.2083" y="860.3999">setDeepLink(_:DeepLink)</text><ellipse cx="41.6667" cy="875.6022" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="92.7083" x="55.2083" y="884.1548">resetDeepLink()</text><!--MD5=[fffc840f707a2c6ec0b6288dd00bfd10]
+class DashboardRouter--><rect codeLine="7" fill="#313238" height="67.4723" id="DashboardRouter" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="189.5833" x="405.7292" y="163.5417"/><rect fill="#227FAB" height="35.3841" rx="4.1667" ry="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="189.5833" x="405.7292" y="163.5417"/><rect fill="#227FAB" height="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="189.5833" x="405.7292" y="194.7591"/><rect codeLine="7" fill="none" height="67.4723" id="DashboardRouter" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="189.5833" x="405.7292" y="163.5417"/><ellipse cx="434.8438" cy="181.2337" fill="#FB8500" rx="10.4167" ry="10.4167" style="stroke:#444444;stroke-width:1.0416666666666667;"/><path d="M436.748,185.6608 Q436.3249,185.8724 435.8529,185.9863 Q435.3809,186.1003 434.8763,186.1003 Q433.0208,186.1003 432.0443,184.8958 Q431.084,183.6751 431.084,181.3802 Q431.084,179.069 432.0443,177.8646 Q433.0208,176.6439 434.8763,176.6439 Q435.3809,176.6439 435.8529,176.7578 Q436.3411,176.8555 436.748,177.0833 L436.748,179.0853 Q436.2923,178.6621 435.8529,178.4668 Q435.4134,178.2552 434.9577,178.2552 Q433.9648,178.2552 433.4603,179.0527 Q432.9557,179.834 432.9557,181.3802 Q432.9557,182.9102 433.4603,183.6914 Q433.9648,184.4727 434.9577,184.4727 Q435.4134,184.4727 435.8529,184.2773 Q436.2923,184.082 436.748,183.6589 L436.748,185.6608 Z " fill="#000000"/><text fill="#222222" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="115.625" x="456.8229" y="185.5611">DashboardRouter</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="406.7708" x2="594.2708" y1="198.9258" y2="198.9258"/><ellipse cx="417.1875" cy="210.3841" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="153.125" x="430.7292" y="218.9367">navigateToChatDetails(...)</text><!--MD5=[6d563827d0b0fb7c016e684175200a45]
+class KidsWatchPageProvider--><rect codeLine="11" fill="#313238" height="67.4723" id="KidsWatchPageProvider" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="217.7083" x="1037.5" y="602.0833"/><rect fill="#227FAB" height="35.3841" rx="4.1667" ry="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="217.7083" x="1037.5" y="602.0833"/><rect fill="#227FAB" height="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="217.7083" x="1037.5" y="633.3008"/><rect codeLine="11" fill="none" height="67.4723" id="KidsWatchPageProvider" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="217.7083" x="1037.5" y="602.0833"/><ellipse cx="1062.3958" cy="619.7754" fill="#FB8500" rx="10.4167" ry="10.4167" style="stroke:#444444;stroke-width:1.0416666666666667;"/><path d="M1064.3001,624.2025 Q1063.877,624.4141 1063.4049,624.528 Q1062.9329,624.6419 1062.4284,624.6419 Q1060.5729,624.6419 1059.5964,623.4375 Q1058.6361,622.2168 1058.6361,619.9219 Q1058.6361,617.6107 1059.5964,616.4063 Q1060.5729,615.1855 1062.4284,615.1855 Q1062.9329,615.1855 1063.4049,615.2995 Q1063.8932,615.3971 1064.3001,615.625 L1064.3001,617.627 Q1063.8444,617.2038 1063.4049,617.0085 Q1062.9655,616.7969 1062.5098,616.7969 Q1061.5169,616.7969 1061.0124,617.5944 Q1060.5078,618.3757 1060.5078,619.9219 Q1060.5078,621.4518 1061.0124,622.2331 Q1061.5169,623.0143 1062.5098,623.0143 Q1062.9655,623.0143 1063.4049,622.819 Q1063.8444,622.6237 1064.3001,622.2005 L1064.3001,624.2025 Z " fill="#000000"/><text fill="#222222" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="153.125" x="1083.4375" y="624.1028">KidsWatchPageProvider</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="1038.5417" x2="1254.1667" y1="637.4674" y2="637.4674"/><ellipse cx="1048.9583" cy="648.9258" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="181.25" x="1062.5" y="657.4783">provideForSuccess(deviceUid:)</text><!--MD5=[b9c9e1bc57b1ed23f0130a2929553fbd]
+class DashboardActivityViewModel--><rect fill="#313238" height="35.3841" id="DashboardActivityViewModel" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="226.0417" x="7.2917" y="179.6875"/><rect fill="#227FAB" height="35.3841" rx="4.1667" ry="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="226.0417" x="7.2917" y="179.6875"/><rect fill="#227FAB" height="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="226.0417" x="7.2917" y="210.9049"/><rect fill="none" height="35.3841" id="DashboardActivityViewModel" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="226.0417" x="7.2917" y="179.6875"/><ellipse cx="21.875" cy="197.3796" fill="#FB8500" rx="10.4167" ry="10.4167" style="stroke:#444444;stroke-width:1.0416666666666667;"/><path d="M23.7793,201.8066 Q23.3561,202.0182 22.8841,202.1322 Q22.4121,202.2461 21.9076,202.2461 Q20.0521,202.2461 19.0755,201.0417 Q18.1152,199.821 18.1152,197.526 Q18.1152,195.2148 19.0755,194.0104 Q20.0521,192.7897 21.9076,192.7897 Q22.4121,192.7897 22.8841,192.9036 Q23.3724,193.0013 23.7793,193.2292 L23.7793,195.2311 Q23.3236,194.8079 22.8841,194.6126 Q22.4447,194.401 21.9889,194.401 Q20.9961,194.401 20.4915,195.1986 Q19.987,195.9798 19.987,197.526 Q19.987,199.056 20.4915,199.8372 Q20.9961,200.6185 21.9889,200.6185 Q22.4447,200.6185 22.8841,200.4232 Q23.3236,200.2279 23.7793,199.8047 L23.7793,201.8066 Z " fill="#000000"/><text fill="#222222" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="184.375" x="40.625" y="201.7069">DashboardActivityViewModel</text><!--MD5=[04c635c5d9f0f897add151ed51da2c5e]
+class DashboardFragment--><rect fill="#313238" height="35.3841" id="DashboardFragment" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="176.0417" x="412.5" y="319.7917"/><rect fill="#227FAB" height="35.3841" rx="4.1667" ry="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="176.0417" x="412.5" y="319.7917"/><rect fill="#227FAB" height="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="176.0417" x="412.5" y="351.0091"/><rect fill="none" height="35.3841" id="DashboardFragment" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="176.0417" x="412.5" y="319.7917"/><ellipse cx="427.0833" cy="337.4837" fill="#FB8500" rx="10.4167" ry="10.4167" style="stroke:#444444;stroke-width:1.0416666666666667;"/><path d="M428.9876,341.9108 Q428.5645,342.1224 428.0924,342.2363 Q427.6204,342.3503 427.1159,342.3503 Q425.2604,342.3503 424.2839,341.1458 Q423.3236,339.9251 423.3236,337.6302 Q423.3236,335.319 424.2839,334.1146 Q425.2604,332.8939 427.1159,332.8939 Q427.6204,332.8939 428.0924,333.0078 Q428.5807,333.1055 428.9876,333.3333 L428.9876,335.3353 Q428.5319,334.9121 428.0924,334.7168 Q427.653,334.5052 427.1973,334.5052 Q426.2044,334.5052 425.6999,335.3027 Q425.1953,336.084 425.1953,337.6302 Q425.1953,339.1602 425.6999,339.9414 Q426.2044,340.7227 427.1973,340.7227 Q427.653,340.7227 428.0924,340.5273 Q428.5319,340.332 428.9876,339.9089 L428.9876,341.9108 Z " fill="#000000"/><text fill="#222222" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="134.375" x="445.8333" y="341.8111">DashboardFragment</text><!--MD5=[ca91d73d6f18027c28c062c1299fd929]
+class DashboardViewModel--><rect fill="#313238" height="35.3841" id="DashboardViewModel" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="181.25" x="884.8958" y="319.7917"/><rect fill="#227FAB" height="35.3841" rx="4.1667" ry="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="181.25" x="884.8958" y="319.7917"/><rect fill="#227FAB" height="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="181.25" x="884.8958" y="351.0091"/><rect fill="none" height="35.3841" id="DashboardViewModel" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="181.25" x="884.8958" y="319.7917"/><ellipse cx="899.4792" cy="337.4837" fill="#FB8500" rx="10.4167" ry="10.4167" style="stroke:#444444;stroke-width:1.0416666666666667;"/><path d="M901.3835,341.9108 Q900.9603,342.1224 900.4883,342.2363 Q900.0163,342.3503 899.5117,342.3503 Q897.6563,342.3503 896.6797,341.1458 Q895.7194,339.9251 895.7194,337.6302 Q895.7194,335.319 896.6797,334.1146 Q897.6563,332.8939 899.5117,332.8939 Q900.0163,332.8939 900.4883,333.0078 Q900.9766,333.1055 901.3835,333.3333 L901.3835,335.3353 Q900.9277,334.9121 900.4883,334.7168 Q900.0488,334.5052 899.5931,334.5052 Q898.6003,334.5052 898.0957,335.3027 Q897.5911,336.084 897.5911,337.6302 Q897.5911,339.1602 898.0957,339.9414 Q898.6003,340.7227 899.5931,340.7227 Q900.0488,340.7227 900.4883,340.5273 Q900.9277,340.332 901.3835,339.9089 L901.3835,341.9108 Z " fill="#000000"/><text fill="#222222" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="139.5833" x="918.2292" y="341.8111">DashboardViewModel</text><!--MD5=[3216987a7a8c60c776b29c641e30e7f6]
+class DashboardDeviceDetailsFragment--><rect fill="#313238" height="35.3841" id="DashboardDeviceDetailsFragment" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="263.5417" x="368.75" y="460.9375"/><rect fill="#227FAB" height="35.3841" rx="4.1667" ry="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="263.5417" x="368.75" y="460.9375"/><rect fill="#227FAB" height="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="263.5417" x="368.75" y="492.1549"/><rect fill="none" height="35.3841" id="DashboardDeviceDetailsFragment" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="263.5417" x="368.75" y="460.9375"/><ellipse cx="383.3333" cy="478.6296" fill="#FB8500" rx="10.4167" ry="10.4167" style="stroke:#444444;stroke-width:1.0416666666666667;"/><path d="M385.2376,483.0566 Q384.8145,483.2682 384.3424,483.3822 Q383.8704,483.4961 383.3659,483.4961 Q381.5104,483.4961 380.5339,482.2917 Q379.5736,481.071 379.5736,478.776 Q379.5736,476.4648 380.5339,475.2604 Q381.5104,474.0397 383.3659,474.0397 Q383.8704,474.0397 384.3424,474.1536 Q384.8307,474.2513 385.2376,474.4792 L385.2376,476.4811 Q384.7819,476.0579 384.3424,475.8626 Q383.903,475.651 383.4473,475.651 Q382.4544,475.651 381.9499,476.4486 Q381.4453,477.2298 381.4453,478.776 Q381.4453,480.306 381.9499,481.0872 Q382.4544,481.8685 383.4473,481.8685 Q383.903,481.8685 384.3424,481.6732 Q384.7819,481.4779 385.2376,481.0547 L385.2376,483.0566 Z " fill="#000000"/><text fill="#222222" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="221.875" x="402.0833" y="482.9569">DashboardDeviceDetailsFragment</text><!--MD5=[d1cd822d190c74499caf3abbde8347a0]
+class DashboardDetailsContainerViewModel--><rect fill="#313238" height="35.3841" id="DashboardDetailsContainerViewModel" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="289.5833" x="1001.5625" y="460.9375"/><rect fill="#227FAB" height="35.3841" rx="4.1667" ry="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="289.5833" x="1001.5625" y="460.9375"/><rect fill="#227FAB" height="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="289.5833" x="1001.5625" y="492.1549"/><rect fill="none" height="35.3841" id="DashboardDetailsContainerViewModel" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="289.5833" x="1001.5625" y="460.9375"/><ellipse cx="1016.1458" cy="478.6296" fill="#FB8500" rx="10.4167" ry="10.4167" style="stroke:#444444;stroke-width:1.0416666666666667;"/><path d="M1018.0501,483.0566 Q1017.627,483.2682 1017.1549,483.3822 Q1016.6829,483.4961 1016.1784,483.4961 Q1014.3229,483.4961 1013.3464,482.2917 Q1012.3861,481.071 1012.3861,478.776 Q1012.3861,476.4648 1013.3464,475.2604 Q1014.3229,474.0397 1016.1784,474.0397 Q1016.6829,474.0397 1017.1549,474.1536 Q1017.6432,474.2513 1018.0501,474.4792 L1018.0501,476.4811 Q1017.5944,476.0579 1017.1549,475.8626 Q1016.7155,475.651 1016.2598,475.651 Q1015.2669,475.651 1014.7624,476.4486 Q1014.2578,477.2298 1014.2578,478.776 Q1014.2578,480.306 1014.7624,481.0872 Q1015.2669,481.8685 1016.2598,481.8685 Q1016.7155,481.8685 1017.1549,481.6732 Q1017.5944,481.4779 1018.0501,481.0547 L1018.0501,483.0566 Z " fill="#000000"/><text fill="#222222" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="247.9167" x="1034.8958" y="482.9569">DashboardDetailsContainerViewModel</text><!--MD5=[a2115fab3adb4bf4ccfe70f86527b6f3]
+class ChatFragment--><rect fill="#313238" height="35.3841" id="ChatFragment" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="134.375" x="433.3333" y="618.2292"/><rect fill="#227FAB" height="35.3841" rx="4.1667" ry="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="134.375" x="433.3333" y="618.2292"/><rect fill="#227FAB" height="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="134.375" x="433.3333" y="649.4466"/><rect fill="none" height="35.3841" id="ChatFragment" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="134.375" x="433.3333" y="618.2292"/><ellipse cx="447.9167" cy="635.9212" fill="#FB8500" rx="10.4167" ry="10.4167" style="stroke:#444444;stroke-width:1.0416666666666667;"/><path d="M449.821,640.3483 Q449.3978,640.5599 448.9258,640.6738 Q448.4538,640.7878 447.9492,640.7878 Q446.0938,640.7878 445.1172,639.5833 Q444.1569,638.3626 444.1569,636.0677 Q444.1569,633.7565 445.1172,632.5521 Q446.0938,631.3314 447.9492,631.3314 Q448.4538,631.3314 448.9258,631.4453 Q449.4141,631.543 449.821,631.7708 L449.821,633.7728 Q449.3652,633.3496 448.9258,633.1543 Q448.4863,632.9427 448.0306,632.9427 Q447.0378,632.9427 446.5332,633.7402 Q446.0286,634.5215 446.0286,636.0677 Q446.0286,637.5977 446.5332,638.3789 Q447.0378,639.1602 448.0306,639.1602 Q448.4863,639.1602 448.9258,638.9648 Q449.3652,638.7695 449.821,638.3464 L449.821,640.3483 Z " fill="#000000"/><text fill="#222222" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="92.7083" x="466.6667" y="640.2486">ChatFragment</text><!--MD5=[100069edc0eb6e31eded194d89e1e47d]
+class ChatViewModel--><rect fill="#313238" height="35.3841" id="ChatViewModel" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="139.5833" x="364.0625" y="816.6667"/><rect fill="#227FAB" height="35.3841" rx="4.1667" ry="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="139.5833" x="364.0625" y="816.6667"/><rect fill="#227FAB" height="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="139.5833" x="364.0625" y="847.8841"/><rect fill="none" height="35.3841" id="ChatViewModel" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="139.5833" x="364.0625" y="816.6667"/><ellipse cx="378.6458" cy="834.3587" fill="#FB8500" rx="10.4167" ry="10.4167" style="stroke:#444444;stroke-width:1.0416666666666667;"/><path d="M380.5501,838.7858 Q380.127,838.9974 379.6549,839.1113 Q379.1829,839.2253 378.6784,839.2253 Q376.8229,839.2253 375.8464,838.0208 Q374.8861,836.8001 374.8861,834.5052 Q374.8861,832.194 375.8464,830.9896 Q376.8229,829.7689 378.6784,829.7689 Q379.1829,829.7689 379.6549,829.8828 Q380.1432,829.9805 380.5501,830.2083 L380.5501,832.2103 Q380.0944,831.7871 379.6549,831.5918 Q379.2155,831.3802 378.7598,831.3802 Q377.7669,831.3802 377.2624,832.1777 Q376.7578,832.959 376.7578,834.5052 Q376.7578,836.0352 377.2624,836.8164 Q377.7669,837.5977 378.7598,837.5977 Q379.2155,837.5977 379.6549,837.4023 Q380.0944,837.207 380.5501,836.7839 L380.5501,838.7858 Z " fill="#000000"/><text fill="#222222" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="97.9167" x="397.3958" y="838.6861">ChatViewModel</text><!--MD5=[3ea268f261326f0f65f9bfdc6766a73f]
+reverse link DeepLinkResolver to DashboardActivityViewModel--><path codeLine="15" d="M120.3125,80.6458 C120.3125,112.3958 120.3125,155.9271 120.3125,179.5104 " fill="none" id="DeepLinkResolver-backto-DashboardActivityViewModel" style="stroke:#2A9FD6;stroke-width:3.125;"/><polygon fill="#2A9FD6" points="120.3125,75.2604,116.1458,84.6354,120.3125,80.4688,124.4792,84.6354,120.3125,75.2604" style="stroke:#2A9FD6;stroke-width:3.125;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="29.1667" x="126.5625" y="124.1028">calls</text><!--MD5=[58990dbff09fb3af6025d0e61cefd99b]
+link DashboardActivityViewModel to DeepLinkRepository--><path codeLine="16" d="M120.3125,215.4375 C120.3125,241.4896 120.3125,292.8438 120.3125,336.4583 C120.3125,336.4583 120.3125,336.4583 120.3125,636.9792 C120.3125,680.3542 120.3125,729.125 120.3125,767.1979 " fill="none" id="DashboardActivityViewModel-to-DeepLinkRepository" style="stroke:#2A9FD6;stroke-width:3.125;"/><polygon fill="#2A9FD6" points="120.3125,772.7396,124.4792,763.3646,120.3125,767.5313,116.1458,763.3646,120.3125,772.7396" style="stroke:#2A9FD6;stroke-width:3.125;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="28.125" x="142.1875" y="476.1861">sets</text><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="59.375" x="126.5625" y="490.7369">deep link</text><!--MD5=[c4e996042323fb87f94aea8da27d34dc]
+link DeepLinkResolver to DeepLink--><path codeLine="17" d="M223.6563,41.1458 C233.8229,41.1458 243.9896,41.1458 254.1563,41.1458 " fill="none" id="DeepLinkResolver-to-DeepLink" style="stroke:#2A9FD6;stroke-width:3.125;"/><polygon fill="#2A9FD6" points="259.4688,41.1458,250.0938,36.9792,254.2604,41.1458,250.0938,45.3125,259.4688,41.1458" style="stroke:#2A9FD6;stroke-width:3.125;"/><!--MD5=[678af52f19026a6849f890289abba55e]
+link DashboardActivityViewModel to DashboardRouter--><path codeLine="18" d="M233.3542,197.3958 C286.375,197.3958 349.0104,197.3958 400.3021,197.3958 " fill="none" id="DashboardActivityViewModel-to-DashboardRouter" style="stroke:#2A9FD6;stroke-width:3.125;"/><polygon fill="#2A9FD6" points="405.5417,197.3958,396.1667,193.2292,400.3333,197.3958,396.1667,201.5625,405.5417,197.3958" style="stroke:#2A9FD6;stroke-width:3.125;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="123.9583" x="257.5521" y="186.0819">sets as root router</text><!--MD5=[678af52f19026a6849f890289abba55e]
+link DashboardActivityViewModel to DashboardRouter--><path codeLine="19" d="M192.4896,215.1146 C235.3646,223.5938 290.8542,231.0312 340.3646,226.5625 C359.7917,224.8125 380.3854,221.875 400.0938,218.5417 " fill="none" id="DashboardActivityViewModel-to-DashboardRouter-1" style="stroke:#2A9FD6;stroke-width:3.125;"/><polygon fill="#2A9FD6" points="405.6354,217.5833,395.6851,215.0846,400.5041,218.4757,397.113,223.2947,405.6354,217.5833" style="stroke:#2A9FD6;stroke-width:3.125;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="29.1667" x="304.9479" y="218.3736">calls</text><!--MD5=[60a1ca6b67bb1f4434b2b7a6a464fa20]
+link DashboardRouter to DashboardFragment--><path codeLine="20" d="M500.5208,231.5 C500.5208,257.0833 500.5208,291.8125 500.5208,314.1875 " fill="none" id="DashboardRouter-to-DashboardFragment" style="stroke:#2A9FD6;stroke-width:3.125;"/><polygon fill="#2A9FD6" points="500.5208,319.5937,504.6875,310.2187,500.5208,314.3854,496.3542,310.2187,500.5208,319.5937" style="stroke:#2A9FD6;stroke-width:3.125;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="50" x="506.7708" y="280.3528">creates</text><!--MD5=[8317ec8c3172135589751294de2def6a]
+link DashboardFragment to DashboardViewModel--><path codeLine="21" d="M589,352.875 C625.0104,358.4063 667.1042,363.9479 705.4688,366.6667 C763.7917,370.7917 828.9688,364.0833 880.6771,356.0625 " fill="none" id="DashboardFragment-to-DashboardViewModel" style="stroke:#2A9FD6;stroke-width:3.125;"/><polygon fill="#2A9FD6" points="885.9583,355.2292,876.053,352.558,880.8123,356.0323,877.338,360.7916,885.9583,355.2292" style="stroke:#2A9FD6;stroke-width:3.125;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="50" x="711.7188" y="358.4778">creates</text><!--MD5=[0fd4ae11549783f22e0d00a720729239]
+reverse link DashboardFragment to DashboardViewModel--><path codeLine="22" d="M594.2396,337.5 C678.4063,337.5 801.2083,337.5 884.5313,337.5 " fill="none" id="DashboardFragment-backto-DashboardViewModel" style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:7.0,7.0;"/><polygon fill="#2A9FD6" points="588.75,337.5,598.125,341.6667,593.9583,337.5,598.125,333.3333,588.75,337.5" style="stroke:#2A9FD6;stroke-width:3.125;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="247.9167" x="612.7604" y="326.1861">emits DashboardViewModel.ViewState</text><!--MD5=[e8a44f2fea85060cbe997746b22d13ec]
+link DashboardFragment to DashboardDeviceDetailsFragment--><path codeLine="23" d="M500.5208,355.3125 C500.5208,380.375 500.5208,427.6042 500.5208,455.4688 " fill="none" id="DashboardFragment-to-DashboardDeviceDetailsFragment" style="stroke:#2A9FD6;stroke-width:3.125;"/><polygon fill="#2A9FD6" points="500.5208,460.7708,504.6875,451.3958,500.5208,455.5625,496.3542,451.3958,500.5208,460.7708" style="stroke:#2A9FD6;stroke-width:3.125;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="50" x="506.7708" y="411.6028">creates</text><!--MD5=[de4407d473de0a609d48b076c30891a4]
+link DashboardDeviceDetailsFragment to DashboardDetailsContainerViewModel--><path codeLine="24" d="M632.3333,494.9583 C680.5104,500.1771 735.4792,505.25 785.6771,507.8125 C863.6354,511.7917 950.8958,505.0313 1020.0521,497.0313 " fill="none" id="DashboardDeviceDetailsFragment-to-DashboardDetailsContainerViewModel" style="stroke:#2A9FD6;stroke-width:3.125;"/><polygon fill="#2A9FD6" points="1025.4271,496.3958,1015.6366,493.3302,1020.253,496.9923,1016.5909,501.6087,1025.4271,496.3958" style="stroke:#2A9FD6;stroke-width:3.125;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="50" x="791.9271" y="499.6236">creates</text><!--MD5=[800286f1a670f1f88256c7b7f5826ee0]
+reverse link DashboardDeviceDetailsFragment to DashboardDetailsContainerViewModel--><path codeLine="25" d="M637.7604,478.6458 C744.6563,478.6458 892.6667,478.6458 1001.4583,478.6458 " fill="none" id="DashboardDeviceDetailsFragment-backto-DashboardDetailsContainerViewModel" style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:7.0,7.0;"/><polygon fill="#2A9FD6" points="632.3854,478.6458,641.7604,482.8125,637.5938,478.6458,641.7604,474.4792,632.3854,478.6458" style="stroke:#2A9FD6;stroke-width:3.125;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="35.4167" x="799.2188" y="452.7486">emits</text><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="316.6667" x="660.6771" y="467.2994">DashboardDetailsContainerViewModel.ViewState</text><!--MD5=[f40cf1b70f4660b83adfaf9386fb7c06]
+link DashboardDetailsContainerViewModel to KidsWatchPageProvider--><path codeLine="26" d="M1119.75,496.5625 C1108.7188,505.1563 1097.1146,516.6563 1091.1458,530.2083 C1083.8646,546.7292 1084.8542,553.9063 1091.1458,570.8333 C1094.6875,580.3542 1100.3438,589.4063 1106.7188,597.5521 " fill="none" id="DashboardDetailsContainerViewModel-to-KidsWatchPageProvider" style="stroke:#2A9FD6;stroke-width:3.125;"/><polygon fill="#2A9FD6" points="1110.3229,601.9792,1107.6449,592.0756,1107.0386,597.9369,1101.1773,597.3306,1110.3229,601.9792" style="stroke:#2A9FD6;stroke-width:3.125;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="48.9583" x="1097.3958" y="555.3528">invokes</text><!--MD5=[c042391c50c7ec32c9b828a1bceb99d2]
+reverse link DashboardDetailsContainerViewModel to KidsWatchPageProvider--><path codeLine="27" d="M1151.8958,501.6667 C1153.8542,510.4792 1155.8125,520.7604 1156.7708,530.2083 C1159.2188,554.1979 1156.375,581.2813 1153.0417,601.8854 " fill="none" id="DashboardDetailsContainerViewModel-backto-KidsWatchPageProvider" style="stroke:#2A9FD6;stroke-width:3.125;"/><polygon fill="#2A9FD6" points="1150.6875,496.3958,1148.7098,506.4626,1151.8456,501.4738,1156.8345,504.6096,1150.6875,496.3958" style="stroke:#2A9FD6;stroke-width:3.125;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="47.9167" x="1215.625" y="548.0611">returns</text><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="153.125" x="1163.0208" y="562.6119">KidsWatchPageProvider</text><!--MD5=[317d4eecefd030dd5f001755a7a5de7a]
+link DashboardDeviceDetailsFragment to ChatFragment--><path codeLine="28" d="M500.5208,496.5938 C500.5208,524.6979 500.5208,581.0417 500.5208,612.4479 " fill="none" id="DashboardDeviceDetailsFragment-to-ChatFragment" style="stroke:#2A9FD6;stroke-width:3.125;"/><polygon fill="#2A9FD6" points="500.5208,618.0104,504.6875,608.6354,500.5208,612.8021,496.3542,608.6354,500.5208,618.0104" style="stroke:#2A9FD6;stroke-width:3.125;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="50" x="506.7708" y="555.3528">creates</text><!--MD5=[4fcca091f4c468e6df09091f2a763be1]
+reverse link ChatFragment to ChatViewModel--><path codeLine="29" d="M428.0521,651.9479 C401.2917,661.3646 373.6458,676.5729 357.8125,701.0417 C331.7604,741.2917 380.5625,790.7604 411.3854,816.2917 " fill="none" id="ChatFragment-backto-ChatViewModel" style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:7.0,7.0;"/><polygon fill="#2A9FD6" points="433.0313,650.25,422.8162,649.2987,428.0962,651.9148,425.48,657.1948,433.0313,650.25" style="stroke:#2A9FD6;stroke-width:3.125;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="35.4167" x="425" y="718.8944">emits</text><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="157.2917" x="364.0625" y="733.4452">ViewEvent.ChatSelected</text><!--MD5=[e90dd59be6ffe082b6811ca60d9d5a62]
+link ChatFragment to ChatViewModel--><path codeLine="30" d="M512.5938,653.7292 C526.1771,674.7708 544.75,711.7396 531.7708,741.6667 C518.4792,772.3125 489.3438,797.3958 466.2917,813.5208 " fill="none" id="ChatFragment-to-ChatViewModel" style="stroke:#2A9FD6;stroke-width:3.125;"/><polygon fill="#2A9FD6" points="461.7708,816.6354,471.8598,814.774,466.0675,813.6917,467.1498,807.8994,461.7708,816.6354" style="stroke:#2A9FD6;stroke-width:3.125;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="50" x="543.2292" y="726.1861">creates</text><!--MD5=[edd6a8929f1cedaeec4b79b7636b26a4]
+reverse link DeepLinkRepository to ChatViewModel--><path codeLine="31" d="M216.0417,834.375 C263.6146,834.375 320.0833,834.375 363.6042,834.375 " fill="none" id="DeepLinkRepository-backto-ChatViewModel" style="stroke:#2A9FD6;stroke-width:3.125;"/><polygon fill="#2A9FD6" points="210.5833,834.375,219.9583,838.5417,215.7917,834.375,219.9583,830.2083,210.5833,834.375" style="stroke:#2A9FD6;stroke-width:3.125;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="105.2083" x="234.6354" y="823.0611">resets deep link</text><!--MD5=[594bd15855c646acdf0dcfcc390682ba]
+link ChatFragment to DashboardRouter--><path codeLine="32" d="M472.1458,618.0208 C412.625,580.2708 283.3021,484.5729 322.3958,386.4583 C347.7917,322.7292 406.1875,268.1771 449.2292,234.5 " fill="none" id="ChatFragment-to-DashboardRouter" style="stroke:#2A9FD6;stroke-width:3.125;"/><polygon fill="#2A9FD6" points="453.3438,231.3021,443.3775,233.7364,449.2221,234.4863,448.4722,240.3309,453.3438,231.3021" style="stroke:#2A9FD6;stroke-width:3.125;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="68.75" x="372.9167" y="404.3111">notifies on</text><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="157.2917" x="328.6458" y="418.8619">ViewEvent.ChatSelected</text><!--MD5=[094c26acbb30ce408b4808e1ad600167]
+@startuml
+!include ../../design.puml
+!include ../deep-links-classes-include.puml
+
+show DashboardRouter methods
+show KidsWatchPageProvider methods
+
+class DashboardRouter {
++navigateToChatDetails(...)
+}
+
+class KidsWatchPageProvider {
++provideForSuccess(deviceUid:)
+}
+
+DashboardActivityViewModel -up-> DeepLinkResolver: calls
+DashboardActivityViewModel - - - - -> DeepLinkRepository: sets\ndeep link
+DeepLinkResolver -right-> DeepLink
+DashboardActivityViewModel -right-> DashboardRouter: sets as root router
+DashboardActivityViewModel -right-> DashboardRouter: calls
+DashboardRouter -down-> DashboardFragment: creates
+DashboardFragment -down-> DashboardViewModel: creates
+DashboardViewModel .left.> DashboardFragment: emits DashboardViewModel.ViewState
+DashboardFragment - -> DashboardDeviceDetailsFragment: creates
+DashboardDeviceDetailsFragment -right-> DashboardDetailsContainerViewModel: creates
+DashboardDetailsContainerViewModel .left.> DashboardDeviceDetailsFragment: emits\n DashboardDetailsContainerViewModel.ViewState
+DashboardDetailsContainerViewModel -down-> KidsWatchPageProvider : invokes
+KidsWatchPageProvider -up-> DashboardDetailsContainerViewModel : returns\nKidsWatchPageProvider
+DashboardDeviceDetailsFragment - -> ChatFragment: creates
+ChatViewModel .up.> ChatFragment: emits\nViewEvent.ChatSelected
+ChatFragment -down-> ChatViewModel: creates
+ChatViewModel -left-> DeepLinkRepository: resets deep link
+ChatFragment -[norank]-> DashboardRouter: notifies on\nViewEvent.ChatSelected
+
+@enduml
+
+@startuml
+
+
+
+
+skinparam backgroundColor transparent
+skinparam useBetaStyle false
+
+
+
+
+
+
+
+skinparam defaultFontName       "Verdana"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           8
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               5
+skinparam ArrowColor            #ADAFAE
+skinparam stereotype {
+    CBackgroundColor #777777
+    CBorderColor #444444
+    ABackgroundColor #5F8F00
+    ABorderColor #92C233
+    IBackgroundColor #a30000
+    IBorderColor #D63333
+    EBackgroundColor #cc6d00
+    EBorderColor #FFA033
+    NBackgroundColor #7a29a3
+    NBorderColor #AD5CD6
+}
+skinparam title {
+	FontColor	                 #2A9FD6
+	BorderColor	                 #777777
+	FontSize	    	         20
+	BorderRoundCorner            8
+	BorderThickness 	         1
+	BackgroundColor              transparent
+}
+
+skinparam legend {
+	BackgroundColor transparent
+	BorderColor #777777
+	FontColor #ADAFAE
+}
+
+skinparam swimlane {
+	BorderColor #9933CC
+	BorderThickness 2
+	TitleBackgroundColor  #444444-#555
+	TitleFontColor #2A9FD6
+}
+
+
+skinparam activity {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	BarColor #77B300
+	StartColor #9933CC
+	EndColor #9933CC
+	DiamondBackgroundColor transparent
+  	DiamondBorderColor #777777
+  	DiamondFontColor #777777
+}
+
+
+skinparam participant {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+skinparam arrow {
+	Thickness 3
+	Color #2A9FD6
+	FontColor #FFF
+}
+
+
+skinparam sequence {
+	BorderColor #2A9FD6
+	TitleFontColor #2A9FD6
+	BackgroundColor transparent
+	StartColor #2A9FD6
+	EndColor #2A9FD6
+	BoxBackgroundColor transparent
+	BoxBorderColor #ADAFAE
+	BoxFontColor #ADAFAE
+	DelayFontColor #ADAFAE
+	LifeLineBorderColor #555
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor transparent
+	GroupBorderColor #ADAFAE
+	GroupFontColor #ADAFAE
+	GroupHeaderFontColor #9933CC
+	GroupBackgroundColor transparent
+	GroupBodyBackgroundColor transparent
+	GroupHeaderBackgroundColor transparent
+	DividerBackgroundColor transparent
+    DividerBorderColor #ADAFAE
+    DividerBorderThickness 2
+    DividerFontColor #ADAFAE
+	ReferenceBackgroundColor transparent
+	ReferenceBorderColor #ADAFAE
+	ReferenceFontColor #ADAFAE
+	ReferenceHeaderFontColor #9933CC
+	ReferenceHeaderBackgroundColor transparent
+	StereotypeFontColor #2A9FD6
+}
+
+
+skinparam partition {
+	BorderColor #2A9FD6
+	FontColor #2A9FD6
+	BackgroundColor transparent
+}
+
+
+skinparam collections {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+}
+
+
+skinparam control {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+skinparam entity {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+skinparam boundary {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+skinparam agent {
+	BackgroundColor transparent
+	BorderColor #cc6d00
+	FontColor #ADAFAE
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor transparent
+	BorderColor #AD5CD6
+	FontColor #AD5CD6
+}
+
+
+skinparam artifact {
+	BackgroundColor transparent
+	BorderColor #BDBFBE
+	FontColor #BDBFBE
+}
+
+
+skinparam component {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+}
+
+
+skinparam interface {
+	BackgroundColor  transparent
+	BorderColor  #CC0000
+	FontColor #ADAFAE
+}
+
+
+skinparam storage {
+	BackgroundColor transparent
+  	BorderColor #FFA033
+	FontColor #FF8800
+}
+
+
+skinparam node {
+	BackgroundColor  transparent
+	BorderColor #ADAFAE
+	FontColor #ADAFAE
+}
+
+
+skinparam cloud {
+	BackgroundColor transparent
+	BorderColor #F2FCFE
+	FontColor #ADAFAE
+}
+
+
+skinparam database {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+
+skinparam class {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+        FontColor #222
+	HeaderBackgroundColor #227FAB
+	StereotypeFontColor #ADAFAE
+	BorderThickness 1
+	AttributeFontColor #ADAFAE
+	AttributeFontSize 11
+}
+
+
+skinparam object {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	StereotypeFontColor #ADAFAE
+	BorderThickness 1
+	AttributeFontColor #777777
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	BorderThickness 2
+	StereotypeFontColor #2A9FD6
+}
+
+
+skinparam rectangle {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	BorderThickness 2
+	StereotypeFontColor #2A9FD6
+}
+
+
+skinparam package {
+	BackgroundColor transparent
+  	BorderColor #2A9FD6
+	FontColor #2A9FD6
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor transparent
+  	BorderColor #FF8800
+	FontColor #FF8800
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor transparent
+  	BorderColor #9933CC
+	FontColor #9933CC
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	StartColor #9933CC
+	EndColor #9933CC
+	AttributeFontColor #777777
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+}
+
+
+skinparam card {
+	BackgroundColor transparent
+	BorderColor #9933CC
+	FontColor #9933CC
+}
+
+
+skinparam file {
+	BackgroundColor transparent
+	BorderColor #555
+	FontColor #555
+}
+
+
+
+skinparam BackgroundColor #313238
+skinparam StereotypeCBackgroundColor #fb8500
+
+skinparam StereotypeCBackgroundColor<<S>> #e840e8
+skinparam SpotChar<<S>> S
+hide <<S>> stereotype
+
+skinparam StereotypeCBackgroundColor<<E>> #10FF30
+skinparam SpotChar<<E>> E
+hide <<E>> stereotype
+
+
+
+
+hide members
+show DeepLinkResolver methods
+show DeepLink methods
+show DeepLinkRepository methods
+
+class DeepLink <<E>> {
++neoChat(deviceId:)
+}
+
+class DeepLinkResolver<<S>> {
++parse(url: String): DeepLink?
+}
+
+class DeepLinkRepository {
++deepLink: DeepLink?
+- -
++setDeepLink(_:DeepLink)
++resetDeepLink()
+}
+
+
+show DashboardRouter methods
+show KidsWatchPageProvider methods
+
+class DashboardRouter {
++navigateToChatDetails(...)
+}
+
+class KidsWatchPageProvider {
++provideForSuccess(deviceUid:)
+}
+
+DashboardActivityViewModel -up-> DeepLinkResolver: calls
+DashboardActivityViewModel - - - - -> DeepLinkRepository: sets\ndeep link
+DeepLinkResolver -right-> DeepLink
+DashboardActivityViewModel -right-> DashboardRouter: sets as root router
+DashboardActivityViewModel -right-> DashboardRouter: calls
+DashboardRouter -down-> DashboardFragment: creates
+DashboardFragment -down-> DashboardViewModel: creates
+DashboardViewModel .left.> DashboardFragment: emits DashboardViewModel.ViewState
+DashboardFragment - -> DashboardDeviceDetailsFragment: creates
+DashboardDeviceDetailsFragment -right-> DashboardDetailsContainerViewModel: creates
+DashboardDetailsContainerViewModel .left.> DashboardDeviceDetailsFragment: emits\n DashboardDetailsContainerViewModel.ViewState
+DashboardDetailsContainerViewModel -down-> KidsWatchPageProvider : invokes
+KidsWatchPageProvider -up-> DashboardDetailsContainerViewModel : returns\nKidsWatchPageProvider
+DashboardDeviceDetailsFragment - -> ChatFragment: creates
+ChatViewModel .up.> ChatFragment: emits\nViewEvent.ChatSelected
+ChatFragment -down-> ChatViewModel: creates
+ChatViewModel -left-> DeepLinkRepository: resets deep link
+ChatFragment -[norank]-> DashboardRouter: notifies on\nViewEvent.ChatSelected
+
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 13:26:11 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

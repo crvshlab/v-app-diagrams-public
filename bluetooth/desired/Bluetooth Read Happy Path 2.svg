@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="952px" preserveAspectRatio="none" style="width:599px;height:952px;background:#FFFFFF;" version="1.1" viewBox="0 0 599 952" width="599px" zoomAndPan="magnify"><defs><filter height="300%" id="f1hl4rotz5onou" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFA500" filter="url(#f1hl4rotz5onou)" height="804.9219" style="stroke:#A80036;stroke-width:1.0;" width="10" x="71" y="95.5625"/><rect fill="#00FFFF" filter="url(#f1hl4rotz5onou)" height="129.5313" style="stroke:#A80036;stroke-width:1.0;" width="10" x="76" y="180.8281"/><rect fill="#00FFFF" filter="url(#f1hl4rotz5onou)" height="87.3984" style="stroke:#A80036;stroke-width:1.0;" width="10" x="76" y="419.7578"/><rect fill="#00FFFF" filter="url(#f1hl4rotz5onou)" height="87.3984" style="stroke:#A80036;stroke-width:1.0;" width="10" x="76" y="592.4219"/><rect fill="#00FFFF" filter="url(#f1hl4rotz5onou)" height="87.3984" style="stroke:#A80036;stroke-width:1.0;" width="10" x="76" y="765.0859"/><rect fill="#FFA500" filter="url(#f1hl4rotz5onou)" height="804.9219" style="stroke:#A80036;stroke-width:1.0;" width="10" x="332" y="95.5625"/><rect fill="#00FFFF" filter="url(#f1hl4rotz5onou)" height="129.5313" style="stroke:#A80036;stroke-width:1.0;" width="10" x="337" y="180.8281"/><rect fill="#00FFFF" filter="url(#f1hl4rotz5onou)" height="87.3984" style="stroke:#A80036;stroke-width:1.0;" width="10" x="337" y="419.7578"/><rect fill="#00FFFF" filter="url(#f1hl4rotz5onou)" height="87.3984" style="stroke:#A80036;stroke-width:1.0;" width="10" x="337" y="592.4219"/><rect fill="#00FFFF" filter="url(#f1hl4rotz5onou)" height="87.3984" style="stroke:#A80036;stroke-width:1.0;" width="10" x="337" y="765.0859"/><rect fill="#00FFFF" filter="url(#f1hl4rotz5onou)" height="64.2656" style="stroke:#A80036;stroke-width:1.0;" width="10" x="508" y="209.9609"/><rect fill="#00FFFF" filter="url(#f1hl4rotz5onou)" height="29.1328" style="stroke:#A80036;stroke-width:1.0;" width="10" x="508" y="448.8906"/><rect fill="#00FFFF" filter="url(#f1hl4rotz5onou)" height="29.1328" style="stroke:#A80036;stroke-width:1.0;" width="10" x="508" y="621.5547"/><rect fill="#00FFFF" filter="url(#f1hl4rotz5onou)" height="29.1328" style="stroke:#A80036;stroke-width:1.0;" width="10" x="508" y="794.2188"/><rect fill="#ADD8E6" filter="url(#f1hl4rotz5onou)" height="71.2656" style="stroke:#000000;stroke-width:2.0;" width="434.5" x="20" y="57.2969"/><rect fill="#ADD8E6" filter="url(#f1hl4rotz5onou)" height="200.7969" style="stroke:#000000;stroke-width:2.0;" width="555" x="20" y="142.5625"/><rect fill="#ADD8E6" filter="url(#f1hl4rotz5onou)" height="535.125" style="stroke:#000000;stroke-width:2.0;" width="575" x="10" y="357.3594"/><rect fill="#ADD8E6" filter="url(#f1hl4rotz5onou)" height="158.6641" style="stroke:#000000;stroke-width:2.0;" width="555" x="20" y="381.4922"/><rect fill="#ADD8E6" filter="url(#f1hl4rotz5onou)" height="158.6641" style="stroke:#000000;stroke-width:2.0;" width="555" x="20" y="554.1563"/><rect fill="#ADD8E6" filter="url(#f1hl4rotz5onou)" height="158.6641" style="stroke:#000000;stroke-width:2.0;" width="555" x="20" y="726.8203"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="76" x2="76" y1="40.2969" y2="909.4844"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="336.5" x2="336.5" y1="40.2969" y2="909.4844"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="513" x2="513" y1="40.2969" y2="909.4844"/><rect fill="#FEFECE" filter="url(#f1hl4rotz5onou)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="88" x="30" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="37" y="24.9951">ViewModel</text><rect fill="#FEFECE" filter="url(#f1hl4rotz5onou)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="88" x="30" y="908.4844"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="37" y="928.4795">ViewModel</text><rect fill="#FEFECE" filter="url(#f1hl4rotz5onou)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="211" x="229.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="197" x="236.5" y="24.9951">BLEDeviceControlRepository</text><rect fill="#FEFECE" filter="url(#f1hl4rotz5onou)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="211" x="229.5" y="908.4844"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="197" x="236.5" y="928.4795">BLEDeviceControlRepository</text><rect fill="#FEFECE" filter="url(#f1hl4rotz5onou)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="100" x="461" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="468" y="24.9951">BLEManager</text><rect fill="#FEFECE" filter="url(#f1hl4rotz5onou)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="100" x="461" y="908.4844"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="468" y="928.4795">BLEManager</text><rect fill="#FFA500" filter="url(#f1hl4rotz5onou)" height="804.9219" style="stroke:#A80036;stroke-width:1.0;" width="10" x="71" y="95.5625"/><rect fill="#00FFFF" filter="url(#f1hl4rotz5onou)" height="129.5313" style="stroke:#A80036;stroke-width:1.0;" width="10" x="76" y="180.8281"/><rect fill="#00FFFF" filter="url(#f1hl4rotz5onou)" height="87.3984" style="stroke:#A80036;stroke-width:1.0;" width="10" x="76" y="419.7578"/><rect fill="#00FFFF" filter="url(#f1hl4rotz5onou)" height="87.3984" style="stroke:#A80036;stroke-width:1.0;" width="10" x="76" y="592.4219"/><rect fill="#00FFFF" filter="url(#f1hl4rotz5onou)" height="87.3984" style="stroke:#A80036;stroke-width:1.0;" width="10" x="76" y="765.0859"/><rect fill="#FFA500" filter="url(#f1hl4rotz5onou)" height="804.9219" style="stroke:#A80036;stroke-width:1.0;" width="10" x="332" y="95.5625"/><rect fill="#00FFFF" filter="url(#f1hl4rotz5onou)" height="129.5313" style="stroke:#A80036;stroke-width:1.0;" width="10" x="337" y="180.8281"/><rect fill="#00FFFF" filter="url(#f1hl4rotz5onou)" height="87.3984" style="stroke:#A80036;stroke-width:1.0;" width="10" x="337" y="419.7578"/><rect fill="#00FFFF" filter="url(#f1hl4rotz5onou)" height="87.3984" style="stroke:#A80036;stroke-width:1.0;" width="10" x="337" y="592.4219"/><rect fill="#00FFFF" filter="url(#f1hl4rotz5onou)" height="87.3984" style="stroke:#A80036;stroke-width:1.0;" width="10" x="337" y="765.0859"/><rect fill="#00FFFF" filter="url(#f1hl4rotz5onou)" height="64.2656" style="stroke:#A80036;stroke-width:1.0;" width="10" x="508" y="209.9609"/><rect fill="#00FFFF" filter="url(#f1hl4rotz5onou)" height="29.1328" style="stroke:#A80036;stroke-width:1.0;" width="10" x="508" y="448.8906"/><rect fill="#00FFFF" filter="url(#f1hl4rotz5onou)" height="29.1328" style="stroke:#A80036;stroke-width:1.0;" width="10" x="508" y="621.5547"/><rect fill="#00FFFF" filter="url(#f1hl4rotz5onou)" height="29.1328" style="stroke:#A80036;stroke-width:1.0;" width="10" x="508" y="794.2188"/><path d="M20,57.2969 L108,57.2969 L108,64.2969 L98,74.2969 L20,74.2969 L20,57.2969 " fill="#FFD700" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="71.2656" style="stroke:#000000;stroke-width:2.0;" width="434.5" x="20" y="57.2969"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="43" x="35" y="70.3638">Query</text><ellipse cx="331.5" cy="94.8125" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.5;fill:none;"/><polygon fill="#A80036" points="314.5,91.5625,324.5,95.5625,314.5,99.5625,318.5,95.5625" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="81" x2="320.5" y1="95.5625" y2="95.5625"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="179" x="88" y="90.4966">subscribe latestDeviceState</text><text fill="#118888" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="46" x="271" y="90.4966">[query]</text><path d="M20,142.5625 L348,142.5625 L348,149.5625 L338,159.5625 L20,159.5625 L20,142.5625 " fill="#90EE90" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="200.7969" style="stroke:#000000;stroke-width:2.0;" width="555" x="20" y="142.5625"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="283" x="35" y="155.6294">Success with Fetch only Characteristic</text><ellipse cx="336.5" cy="180.0781" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.5;fill:none;"/><polygon fill="#A80036" points="319.5,176.8281,329.5,180.8281,319.5,184.8281,323.5,180.8281" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="86" x2="325.5" y1="180.8281" y2="180.8281"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="122" x="93" y="175.7622">fetchDeviceState X</text><polygon fill="#A80036" points="496,205.9609,506,209.9609,496,213.9609,500,209.9609" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="347" x2="502" y1="209.9609" y2="209.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="122" x="354" y="204.895">fetchDeviceState X</text><polygon fill="#A80036" points="358,235.0938,348,239.0938,358,243.0938,354,239.0938" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="352" x2="507" y1="239.0938" y2="239.0938"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="36" x="364" y="234.0278">result</text><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="347" x2="389" y1="273.2266" y2="273.2266"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="389" x2="389" y1="273.2266" y2="286.2266"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="342" x2="389" y1="286.2266" y2="286.2266"/><polygon fill="#A80036" points="352,282.2266,342,286.2266,352,290.2266,348,286.2266" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="87" x="354" y="268.1606">update cache</text><polygon fill="#A80036" points="92,306.3594,82,310.3594,92,314.3594,88,310.3594" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="86" x2="331" y1="310.3594" y2="310.3594"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="163" x="98" y="305.2935">update latestDeviceState</text><text fill="#118888" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="46" x="265" y="305.2935">[query]</text><path d="M10,357.3594 L105,357.3594 L105,364.3594 L95,374.3594 L10,374.3594 L10,357.3594 " fill="#FA8072" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="535.125" style="stroke:#000000;stroke-width:2.0;" width="575" x="10" y="357.3594"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="50" x="25" y="370.4263">Failure</text><path d="M20,381.4922 L156,381.4922 L156,388.4922 L146,398.4922 L20,398.4922 L20,381.4922 " fill="#FFA07A" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="158.6641" style="stroke:#000000;stroke-width:2.0;" width="555" x="20" y="381.4922"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="91" x="35" y="394.5591">Fetch Failed</text><ellipse cx="336.5" cy="419.0078" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.5;fill:none;"/><polygon fill="#A80036" points="319.5,415.7578,329.5,419.7578,319.5,423.7578,323.5,419.7578" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="86" x2="325.5" y1="419.7578" y2="419.7578"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="122" x="93" y="414.6919">fetchDeviceState X</text><polygon fill="#A80036" points="496,444.8906,506,448.8906,496,452.8906,500,448.8906" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="347" x2="502" y1="448.8906" y2="448.8906"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="122" x="354" y="443.8247">fetchDeviceState X</text><line style="stroke:#A80036;stroke-width:2.0;" x1="353" x2="363" y1="473.0234" y2="483.0234"/><line style="stroke:#A80036;stroke-width:2.0;" x1="353" x2="363" y1="483.0234" y2="473.0234"/><line style="stroke:#A80036;stroke-width:1.0;" x1="359" x2="512" y1="478.0234" y2="478.0234"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="70" x="364" y="472.9575">fetch failed</text><line style="stroke:#A80036;stroke-width:2.0;" x1="87" x2="97" y1="502.1563" y2="512.1563"/><line style="stroke:#A80036;stroke-width:2.0;" x1="87" x2="97" y1="512.1563" y2="502.1563"/><line style="stroke:#A80036;stroke-width:1.0;" x1="93" x2="331" y1="507.1563" y2="507.1563"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="70" x="98" y="502.0903">fetch failed</text><path d="M20,554.1563 L196,554.1563 L196,561.1563 L186,571.1563 L20,571.1563 L20,554.1563 " fill="#FFA07A" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="158.6641" style="stroke:#000000;stroke-width:2.0;" width="555" x="20" y="554.1563"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="131" x="35" y="567.2231">Device Not Found</text><ellipse cx="336.5" cy="591.6719" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.5;fill:none;"/><polygon fill="#A80036" points="319.5,588.4219,329.5,592.4219,319.5,596.4219,323.5,592.4219" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="86" x2="325.5" y1="592.4219" y2="592.4219"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="122" x="93" y="587.356">fetchDeviceState X</text><polygon fill="#A80036" points="496,617.5547,506,621.5547,496,625.5547,500,621.5547" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="347" x2="502" y1="621.5547" y2="621.5547"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="119" x="354" y="616.4888">readDeviceState X</text><line style="stroke:#A80036;stroke-width:2.0;" x1="353" x2="363" y1="645.6875" y2="655.6875"/><line style="stroke:#A80036;stroke-width:2.0;" x1="353" x2="363" y1="655.6875" y2="645.6875"/><line style="stroke:#A80036;stroke-width:1.0;" x1="359" x2="512" y1="650.6875" y2="650.6875"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="106" x="364" y="645.6216">device not found</text><line style="stroke:#A80036;stroke-width:2.0;" x1="87" x2="97" y1="674.8203" y2="684.8203"/><line style="stroke:#A80036;stroke-width:2.0;" x1="87" x2="97" y1="684.8203" y2="674.8203"/><line style="stroke:#A80036;stroke-width:1.0;" x1="93" x2="331" y1="679.8203" y2="679.8203"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="106" x="98" y="674.7544">device not found</text><path d="M20,726.8203 L197,726.8203 L197,733.8203 L187,743.8203 L20,743.8203 L20,726.8203 " fill="#FFA07A" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="158.6641" style="stroke:#000000;stroke-width:2.0;" width="555" x="20" y="726.8203"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="132" x="35" y="739.8872">Connection Failed</text><ellipse cx="336.5" cy="764.3359" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.5;fill:none;"/><polygon fill="#A80036" points="319.5,761.0859,329.5,765.0859,319.5,769.0859,323.5,765.0859" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="86" x2="325.5" y1="765.0859" y2="765.0859"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="122" x="93" y="760.02">fetchDeviceState X</text><polygon fill="#A80036" points="496,790.2188,506,794.2188,496,798.2188,500,794.2188" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="347" x2="502" y1="794.2188" y2="794.2188"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="122" x="354" y="789.1528">fetchDeviceState X</text><line style="stroke:#A80036;stroke-width:2.0;" x1="353" x2="363" y1="818.3516" y2="828.3516"/><line style="stroke:#A80036;stroke-width:2.0;" x1="353" x2="363" y1="828.3516" y2="818.3516"/><line style="stroke:#A80036;stroke-width:1.0;" x1="359" x2="512" y1="823.3516" y2="823.3516"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="137" x="364" y="818.2856">device not connected</text><line style="stroke:#A80036;stroke-width:2.0;" x1="87" x2="97" y1="847.4844" y2="857.4844"/><line style="stroke:#A80036;stroke-width:2.0;" x1="87" x2="97" y1="857.4844" y2="847.4844"/><line style="stroke:#A80036;stroke-width:1.0;" x1="93" x2="331" y1="852.4844" y2="852.4844"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="137" x="98" y="847.4185">device not connected</text><!--MD5=[e878a122d2a9bab1f72d09ebd8d7edcd]
+@startuml Bluetooth Read Happy Path 2
+
+participant     ViewModel
+participant     BLEDeviceControlRepository
+participant     BLEManager
+
+' Subscribe to Query Channel
+group#Gold #LightBlue Query
+ViewModel ->o BLEDeviceControlRepository: subscribe latestDeviceState <color #118888>[query]  </color>
+activate ViewModel #Orange
+activate BLEDeviceControlRepository #Orange
+|||
+end
+
+' Successfull Fetch
+group#LightGreen #LightBlue Success with Fetch only Characteristic
+    ViewModel ->o BLEDeviceControlRepository: fetchDeviceState X
+    activate ViewModel #Cyan
+    activate BLEDeviceControlRepository #Cyan
+    BLEDeviceControlRepository - -> BLEManager : fetchDeviceState X
+    activate BLEManager #Cyan
+    BLEManager - -> BLEDeviceControlRepository: result
+    BLEDeviceControlRepository - -> BLEDeviceControlRepository: update cache
+    deactivate BLEManager
+    BLEDeviceControlRepository - -> ViewModel: update latestDeviceState <color #118888>[query]
+    deactivate BLEDeviceControlRepository
+    deactivate ViewModel
+    |||
+end
+
+' Failures
+group#Salmon #LightBlue Failure
+    group#LightSalmon #LightBlue Fetch Failed
+        ViewModel ->o BLEDeviceControlRepository: fetchDeviceState X
+        activate ViewModel #Cyan
+        activate BLEDeviceControlRepository #Cyan
+        BLEDeviceControlRepository - -> BLEManager : fetchDeviceState X
+        activate BLEManager #Cyan
+        BLEManager ->x BLEDeviceControlRepository : fetch failed
+        deactivate BLEManager #Cyan
+        BLEDeviceControlRepository ->x ViewModel: fetch failed
+        deactivate BLEDeviceControlRepository
+        deactivate ViewModel
+        |||
+    end
+
+    group#LightSalmon #LightBlue Device Not Found
+        ViewModel ->o BLEDeviceControlRepository: fetchDeviceState X
+        activate ViewModel #Cyan
+        activate BLEDeviceControlRepository #Cyan
+        BLEDeviceControlRepository - -> BLEManager : readDeviceState X
+        activate BLEManager #Cyan
+        BLEManager ->x BLEDeviceControlRepository : device not found
+        deactivate BLEManager #Cyan
+        BLEDeviceControlRepository ->x ViewModel: device not found
+        deactivate BLEDeviceControlRepository
+        deactivate ViewModel
+        |||
+    end
+
+    group#LightSalmon #LightBlue Connection Failed
+        ViewModel ->o BLEDeviceControlRepository: fetchDeviceState X
+        activate ViewModel #Cyan
+        activate BLEDeviceControlRepository #Cyan
+        BLEDeviceControlRepository - -> BLEManager : fetchDeviceState X
+        activate BLEManager #Cyan
+        BLEManager ->x BLEDeviceControlRepository : device not connected
+        deactivate BLEManager #Cyan
+        BLEDeviceControlRepository ->x ViewModel: device not connected
+        deactivate BLEDeviceControlRepository
+        deactivate ViewModel
+        |||
+    end
+end
+
+@enduml
+
+@startuml Bluetooth Read Happy Path 2
+
+participant     ViewModel
+participant     BLEDeviceControlRepository
+participant     BLEManager
+
+group#Gold #LightBlue Query
+ViewModel ->o BLEDeviceControlRepository: subscribe latestDeviceState <color #118888>[query]  </color>
+activate ViewModel #Orange
+activate BLEDeviceControlRepository #Orange
+|||
+end
+
+group#LightGreen #LightBlue Success with Fetch only Characteristic
+    ViewModel ->o BLEDeviceControlRepository: fetchDeviceState X
+    activate ViewModel #Cyan
+    activate BLEDeviceControlRepository #Cyan
+    BLEDeviceControlRepository - -> BLEManager : fetchDeviceState X
+    activate BLEManager #Cyan
+    BLEManager - -> BLEDeviceControlRepository: result
+    BLEDeviceControlRepository - -> BLEDeviceControlRepository: update cache
+    deactivate BLEManager
+    BLEDeviceControlRepository - -> ViewModel: update latestDeviceState <color #118888>[query]
+    deactivate BLEDeviceControlRepository
+    deactivate ViewModel
+    |||
+end
+
+group#Salmon #LightBlue Failure
+    group#LightSalmon #LightBlue Fetch Failed
+        ViewModel ->o BLEDeviceControlRepository: fetchDeviceState X
+        activate ViewModel #Cyan
+        activate BLEDeviceControlRepository #Cyan
+        BLEDeviceControlRepository - -> BLEManager : fetchDeviceState X
+        activate BLEManager #Cyan
+        BLEManager ->x BLEDeviceControlRepository : fetch failed
+        deactivate BLEManager #Cyan
+        BLEDeviceControlRepository ->x ViewModel: fetch failed
+        deactivate BLEDeviceControlRepository
+        deactivate ViewModel
+        |||
+    end
+
+    group#LightSalmon #LightBlue Device Not Found
+        ViewModel ->o BLEDeviceControlRepository: fetchDeviceState X
+        activate ViewModel #Cyan
+        activate BLEDeviceControlRepository #Cyan
+        BLEDeviceControlRepository - -> BLEManager : readDeviceState X
+        activate BLEManager #Cyan
+        BLEManager ->x BLEDeviceControlRepository : device not found
+        deactivate BLEManager #Cyan
+        BLEDeviceControlRepository ->x ViewModel: device not found
+        deactivate BLEDeviceControlRepository
+        deactivate ViewModel
+        |||
+    end
+
+    group#LightSalmon #LightBlue Connection Failed
+        ViewModel ->o BLEDeviceControlRepository: fetchDeviceState X
+        activate ViewModel #Cyan
+        activate BLEDeviceControlRepository #Cyan
+        BLEDeviceControlRepository - -> BLEManager : fetchDeviceState X
+        activate BLEManager #Cyan
+        BLEManager ->x BLEDeviceControlRepository : device not connected
+        deactivate BLEManager #Cyan
+        BLEDeviceControlRepository ->x ViewModel: device not connected
+        deactivate BLEDeviceControlRepository
+        deactivate ViewModel
+        |||
+    end
+end
+
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 13:26:11 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

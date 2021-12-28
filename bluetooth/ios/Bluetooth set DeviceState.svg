@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="607px" preserveAspectRatio="none" style="width:593px;height:607px;background:#FFFFFF;" version="1.1" viewBox="0 0 593 607" width="593px" zoomAndPan="magnify"><defs><filter height="300%" id="f1qjfpl0edjga4" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFA500" filter="url(#f1qjfpl0edjga4)" height="459.5938" style="stroke:#A80036;stroke-width:1.0;" width="10" x="71" y="95.5625"/><rect fill="#00FFFF" filter="url(#f1qjfpl0edjga4)" height="129.5313" style="stroke:#A80036;stroke-width:1.0;" width="10" x="76" y="180.8281"/><rect fill="#00FFFF" filter="url(#f1qjfpl0edjga4)" height="87.3984" style="stroke:#A80036;stroke-width:1.0;" width="10" x="76" y="419.7578"/><rect fill="#FFA500" filter="url(#f1qjfpl0edjga4)" height="459.5938" style="stroke:#A80036;stroke-width:1.0;" width="10" x="332" y="95.5625"/><rect fill="#00FFFF" filter="url(#f1qjfpl0edjga4)" height="129.5313" style="stroke:#A80036;stroke-width:1.0;" width="10" x="337" y="180.8281"/><rect fill="#00FFFF" filter="url(#f1qjfpl0edjga4)" height="87.3984" style="stroke:#A80036;stroke-width:1.0;" width="10" x="337" y="419.7578"/><rect fill="#00FFFF" filter="url(#f1qjfpl0edjga4)" height="64.2656" style="stroke:#A80036;stroke-width:1.0;" width="10" x="502" y="209.9609"/><rect fill="#00FFFF" filter="url(#f1qjfpl0edjga4)" height="29.1328" style="stroke:#A80036;stroke-width:1.0;" width="10" x="502" y="448.8906"/><rect fill="#ADD8E6" filter="url(#f1qjfpl0edjga4)" height="71.2656" style="stroke:#000000;stroke-width:2.0;" width="434.5" x="20" y="57.2969"/><rect fill="#ADD8E6" filter="url(#f1qjfpl0edjga4)" height="200.7969" style="stroke:#000000;stroke-width:2.0;" width="549" x="20" y="142.5625"/><rect fill="#ADD8E6" filter="url(#f1qjfpl0edjga4)" height="189.7969" style="stroke:#000000;stroke-width:2.0;" width="569" x="10" y="357.3594"/><rect fill="#ADD8E6" filter="url(#f1qjfpl0edjga4)" height="158.6641" style="stroke:#000000;stroke-width:2.0;" width="549" x="20" y="381.4922"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="76" x2="76" y1="40.2969" y2="564.1563"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="336.5" x2="336.5" y1="40.2969" y2="564.1563"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="507" x2="507" y1="40.2969" y2="564.1563"/><rect fill="#FEFECE" filter="url(#f1qjfpl0edjga4)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="88" x="30" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="37" y="24.9951">ViewModel</text><rect fill="#FEFECE" filter="url(#f1qjfpl0edjga4)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="88" x="30" y="563.1563"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="37" y="583.1514">ViewModel</text><rect fill="#FEFECE" filter="url(#f1qjfpl0edjga4)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="211" x="229.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="197" x="236.5" y="24.9951">BLEDeviceControlRepository</text><rect fill="#FEFECE" filter="url(#f1qjfpl0edjga4)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="211" x="229.5" y="563.1563"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="197" x="236.5" y="583.1514">BLEDeviceControlRepository</text><rect fill="#FEFECE" filter="url(#f1qjfpl0edjga4)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="100" x="455" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="462" y="24.9951">BLEManager</text><rect fill="#FEFECE" filter="url(#f1qjfpl0edjga4)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="100" x="455" y="563.1563"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="86" x="462" y="583.1514">BLEManager</text><rect fill="#FFA500" filter="url(#f1qjfpl0edjga4)" height="459.5938" style="stroke:#A80036;stroke-width:1.0;" width="10" x="71" y="95.5625"/><rect fill="#00FFFF" filter="url(#f1qjfpl0edjga4)" height="129.5313" style="stroke:#A80036;stroke-width:1.0;" width="10" x="76" y="180.8281"/><rect fill="#00FFFF" filter="url(#f1qjfpl0edjga4)" height="87.3984" style="stroke:#A80036;stroke-width:1.0;" width="10" x="76" y="419.7578"/><rect fill="#FFA500" filter="url(#f1qjfpl0edjga4)" height="459.5938" style="stroke:#A80036;stroke-width:1.0;" width="10" x="332" y="95.5625"/><rect fill="#00FFFF" filter="url(#f1qjfpl0edjga4)" height="129.5313" style="stroke:#A80036;stroke-width:1.0;" width="10" x="337" y="180.8281"/><rect fill="#00FFFF" filter="url(#f1qjfpl0edjga4)" height="87.3984" style="stroke:#A80036;stroke-width:1.0;" width="10" x="337" y="419.7578"/><rect fill="#00FFFF" filter="url(#f1qjfpl0edjga4)" height="64.2656" style="stroke:#A80036;stroke-width:1.0;" width="10" x="502" y="209.9609"/><rect fill="#00FFFF" filter="url(#f1qjfpl0edjga4)" height="29.1328" style="stroke:#A80036;stroke-width:1.0;" width="10" x="502" y="448.8906"/><path d="M20,57.2969 L108,57.2969 L108,64.2969 L98,74.2969 L20,74.2969 L20,57.2969 " fill="#FFD700" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="71.2656" style="stroke:#000000;stroke-width:2.0;" width="434.5" x="20" y="57.2969"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="43" x="35" y="70.3638">Query</text><ellipse cx="331.5" cy="94.8125" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.5;fill:none;"/><polygon fill="#A80036" points="314.5,91.5625,324.5,95.5625,314.5,99.5625,318.5,95.5625" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="81" x2="320.5" y1="95.5625" y2="95.5625"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="179" x="88" y="90.4966">subscribe latestDeviceState</text><text fill="#118888" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="46" x="271" y="90.4966">[query]</text><path d="M20,142.5625 L124,142.5625 L124,149.5625 L114,159.5625 L20,159.5625 L20,142.5625 " fill="#90EE90" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="200.7969" style="stroke:#000000;stroke-width:2.0;" width="549" x="20" y="142.5625"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="59" x="35" y="155.6294">Success</text><ellipse cx="336.5" cy="180.0781" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.5;fill:none;"/><polygon fill="#A80036" points="319.5,176.8281,329.5,180.8281,319.5,184.8281,323.5,180.8281" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="86" x2="325.5" y1="180.8281" y2="180.8281"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="98" x="93" y="175.7622">setDeviceState</text><polygon fill="#A80036" points="490,205.9609,500,209.9609,490,213.9609,494,209.9609" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="347" x2="496" y1="209.9609" y2="209.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="124" x="354" y="204.895">writeValueToDevice</text><polygon fill="#A80036" points="358,235.0938,348,239.0938,358,243.0938,354,239.0938" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="352" x2="501" y1="239.0938" y2="239.0938"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="36" x="364" y="234.0278">result</text><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="347" x2="389" y1="273.2266" y2="273.2266"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="389" x2="389" y1="273.2266" y2="286.2266"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="342" x2="389" y1="286.2266" y2="286.2266"/><polygon fill="#A80036" points="352,282.2266,342,286.2266,352,290.2266,348,286.2266" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="87" x="354" y="268.1606">update cache</text><polygon fill="#A80036" points="92,306.3594,82,310.3594,92,314.3594,88,310.3594" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="86" x2="331" y1="310.3594" y2="310.3594"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="163" x="98" y="305.2935">update latestDeviceState</text><text fill="#118888" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="46" x="265" y="305.2935">[query]</text><path d="M10,357.3594 L105,357.3594 L105,364.3594 L95,374.3594 L10,374.3594 L10,357.3594 " fill="#FF0000" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="189.7969" style="stroke:#000000;stroke-width:2.0;" width="569" x="10" y="357.3594"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="50" x="25" y="370.4263">Failure</text><path d="M20,381.4922 L151,381.4922 L151,388.4922 L141,398.4922 L20,398.4922 L20,381.4922 " fill="#FF0000" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="158.6641" style="stroke:#000000;stroke-width:2.0;" width="549" x="20" y="381.4922"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="86" x="35" y="394.5591">Write failed</text><ellipse cx="336.5" cy="419.0078" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.5;fill:none;"/><polygon fill="#A80036" points="319.5,415.7578,329.5,419.7578,319.5,423.7578,323.5,419.7578" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="86" x2="325.5" y1="419.7578" y2="419.7578"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="110" x="93" y="414.6919">setDeviceState X</text><polygon fill="#A80036" points="490,444.8906,500,448.8906,490,452.8906,494,448.8906" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="347" x2="496" y1="448.8906" y2="448.8906"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="136" x="354" y="443.8247">writeValueToDevice X</text><line style="stroke:#A80036;stroke-width:2.0;" x1="353" x2="363" y1="473.0234" y2="483.0234"/><line style="stroke:#A80036;stroke-width:2.0;" x1="353" x2="363" y1="483.0234" y2="473.0234"/><line style="stroke:#A80036;stroke-width:1.0;" x1="359" x2="506" y1="478.0234" y2="478.0234"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="92" x="364" y="472.9575">setStateFailed</text><line style="stroke:#A80036;stroke-width:2.0;" x1="87" x2="97" y1="502.1563" y2="512.1563"/><line style="stroke:#A80036;stroke-width:2.0;" x1="87" x2="97" y1="512.1563" y2="502.1563"/><line style="stroke:#A80036;stroke-width:1.0;" x1="93" x2="331" y1="507.1563" y2="507.1563"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="92" x="98" y="502.0903">setStateFailed</text><!--MD5=[3ff564c3e36710b254fb1229ec7163fd]
+@startuml Bluetooth set DeviceState
+
+participant     ViewModel
+participant     BLEDeviceControlRepository
+participant     BLEManager
+
+' Subscribe to Query Channel
+group#Gold #LightBlue Query
+ViewModel ->o BLEDeviceControlRepository: subscribe latestDeviceState <color #118888>[query]  </color>
+activate ViewModel #Orange
+activate BLEDeviceControlRepository #Orange
+|||
+end
+
+' Successfull Set
+group#LightGreen #LightBlue Success
+    ViewModel ->o BLEDeviceControlRepository: setDeviceState
+    activate ViewModel #Cyan
+    activate BLEDeviceControlRepository #Cyan
+    BLEDeviceControlRepository - -> BLEManager : writeValueToDevice
+    activate BLEManager #Cyan
+    BLEManager - -> BLEDeviceControlRepository: result
+    BLEDeviceControlRepository - -> BLEDeviceControlRepository: update cache
+    deactivate BLEManager
+    BLEDeviceControlRepository - -> ViewModel: update latestDeviceState <color #118888>[query]
+    deactivate BLEDeviceControlRepository
+    deactivate ViewModel
+    |||
+end
+
+' Failures
+group#Red #LightBlue Failure
+    group#Red #LightBlue Write failed
+        ' TODO: Why do we always map all the errors to setStateFailed while on other cases we have more granularity for the error?
+        ' Failed Fetch
+        ViewModel ->o BLEDeviceControlRepository: setDeviceState X
+        activate ViewModel #Cyan
+        activate BLEDeviceControlRepository #Cyan
+        BLEDeviceControlRepository - -> BLEManager : writeValueToDevice X
+        activate BLEManager #Cyan
+        BLEManager ->x BLEDeviceControlRepository : setStateFailed
+        deactivate BLEManager #Cyan
+        BLEDeviceControlRepository ->x ViewModel: setStateFailed
+        deactivate BLEDeviceControlRepository
+        deactivate ViewModel
+        |||
+    end
+end
+
+@enduml
+
+@startuml Bluetooth set DeviceState
+
+participant     ViewModel
+participant     BLEDeviceControlRepository
+participant     BLEManager
+
+group#Gold #LightBlue Query
+ViewModel ->o BLEDeviceControlRepository: subscribe latestDeviceState <color #118888>[query]  </color>
+activate ViewModel #Orange
+activate BLEDeviceControlRepository #Orange
+|||
+end
+
+group#LightGreen #LightBlue Success
+    ViewModel ->o BLEDeviceControlRepository: setDeviceState
+    activate ViewModel #Cyan
+    activate BLEDeviceControlRepository #Cyan
+    BLEDeviceControlRepository - -> BLEManager : writeValueToDevice
+    activate BLEManager #Cyan
+    BLEManager - -> BLEDeviceControlRepository: result
+    BLEDeviceControlRepository - -> BLEDeviceControlRepository: update cache
+    deactivate BLEManager
+    BLEDeviceControlRepository - -> ViewModel: update latestDeviceState <color #118888>[query]
+    deactivate BLEDeviceControlRepository
+    deactivate ViewModel
+    |||
+end
+
+group#Red #LightBlue Failure
+    group#Red #LightBlue Write failed
+        ViewModel ->o BLEDeviceControlRepository: setDeviceState X
+        activate ViewModel #Cyan
+        activate BLEDeviceControlRepository #Cyan
+        BLEDeviceControlRepository - -> BLEManager : writeValueToDevice X
+        activate BLEManager #Cyan
+        BLEManager ->x BLEDeviceControlRepository : setStateFailed
+        deactivate BLEManager #Cyan
+        BLEDeviceControlRepository ->x ViewModel: setStateFailed
+        deactivate BLEDeviceControlRepository
+        deactivate ViewModel
+        |||
+    end
+end
+
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 13:26:11 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

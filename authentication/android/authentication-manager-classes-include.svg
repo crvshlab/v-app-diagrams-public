@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="441.6667px" preserveAspectRatio="none" style="width:2884px;height:441px;background:#313238;" version="1.1" viewBox="0 0 2884 441" width="2884.375px" zoomAndPan="magnify"><defs/><g><!--MD5=[d6f1608c30fd6869d0da1db17620128f]
+class AuthenticationLib--><rect codeLine="3" fill="#313238" height="170.8252" id="AuthenticationLib" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="614.5833" x="758.8542" y="7.2917"/><rect fill="#227FAB" height="35.3841" rx="4.1667" ry="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="614.5833" x="758.8542" y="7.2917"/><rect fill="#227FAB" height="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="614.5833" x="758.8542" y="38.5091"/><rect codeLine="3" fill="none" height="170.8252" id="AuthenticationLib" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="614.5833" x="758.8542" y="7.2917"/><ellipse cx="999.4792" cy="24.9837" fill="#A30000" rx="10.4167" ry="10.4167" style="stroke:#D63333;stroke-width:1.0416666666666667;"/><path d="M996.3704,22.1517 L996.3704,20.5566 L1001.7904,20.5566 L1001.7904,22.1517 L999.9837,22.1517 L999.9837,28.0762 L1001.7904,28.0762 L1001.7904,29.6712 L996.3704,29.6712 L996.3704,28.0762 L998.1771,28.0762 L998.1771,22.1517 L996.3704,22.1517 Z " fill="#000000"/><text fill="#222222" font-family="Verdana" font-size="12.5" font-style="italic" lengthAdjust="spacing" textLength="114.5833" x="1024.4792" y="29.3111">AuthenticationLib</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="759.8958" x2="1372.3958" y1="42.6758" y2="42.6758"/><ellipse cx="770.3125" cy="54.1341" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;fill:none;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="75" x="783.8542" y="62.6867">sdkId: String</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="759.8958" x2="1372.3958" y1="74.764" y2="74.764"/><ellipse cx="770.3125" cy="86.2223" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="578.125" x="783.8542" y="94.7749">authenticate(showIdGateway: Boolean, invalidateToken: String?, observer: AuthenticateObserver)</text><ellipse cx="770.3125" cy="109.9772" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="454.1667" x="783.8542" y="118.5298">fetchAccessToken(invalidateToken: String?, observer: AuthenticateObserver)</text><ellipse cx="770.3125" cy="133.7321" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="289.5833" x="783.8542" y="142.2846">initialize(initializationObserver: InitializeObserver)</text><ellipse cx="770.3125" cy="157.487" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="67.7083" x="783.8542" y="166.0395">fun logout()</text><!--MD5=[4fe1fcdbc9068749afa975104f4ea047]
+class IDTMLib--><rect codeLine="11" fill="#313238" height="194.5801" id="IDTMLib" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="614.5833" x="359.8958" y="240.625"/><rect fill="#227FAB" height="35.3841" rx="4.1667" ry="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="614.5833" x="359.8958" y="240.625"/><rect fill="#227FAB" height="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="614.5833" x="359.8958" y="271.8424"/><rect codeLine="11" fill="none" height="194.5801" id="IDTMLib" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="614.5833" x="359.8958" y="240.625"/><ellipse cx="633.8542" cy="258.3171" fill="#FB8500" rx="10.4167" ry="10.4167" style="stroke:#444444;stroke-width:1.0416666666666667;"/><path d="M635.7585,262.7441 Q635.3353,262.9557 634.8633,263.0697 Q634.3913,263.1836 633.8867,263.1836 Q632.0313,263.1836 631.0547,261.9792 Q630.0944,260.7585 630.0944,258.4635 Q630.0944,256.1523 631.0547,254.9479 Q632.0313,253.7272 633.8867,253.7272 Q634.3913,253.7272 634.8633,253.8411 Q635.3516,253.9388 635.7585,254.1667 L635.7585,256.1686 Q635.3027,255.7454 634.8633,255.5501 Q634.4238,255.3385 633.9681,255.3385 Q632.9753,255.3385 632.4707,256.1361 Q631.9661,256.9173 631.9661,258.4635 Q631.9661,259.9935 632.4707,260.7747 Q632.9753,261.556 633.9681,261.556 Q634.4238,261.556 634.8633,261.3607 Q635.3027,261.1654 635.7585,260.7422 L635.7585,262.7441 Z " fill="#000000"/><text fill="#222222" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="47.9167" x="658.8542" y="262.6444">IDTMLib</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="360.9375" x2="973.4375" y1="276.0091" y2="276.0091"/><ellipse cx="371.3542" cy="287.4674" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;fill:none;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="75" x="384.8958" y="296.02">sdkId: String</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="360.9375" x2="973.4375" y1="308.0973" y2="308.0973"/><ellipse cx="371.3542" cy="319.5557" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="529.1667" x="384.8958" y="328.1082">fetchAccessToken(invalidateToken: String?, authenticateObserver: AuthenticateObserver)</text><ellipse cx="371.3542" cy="343.3105" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="44.7917" x="384.8958" y="351.8631">logout()</text><ellipse cx="371.3542" cy="367.0654" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="218.75" x="384.8958" y="375.618">initialize(observer: InitializeObserver)</text><ellipse cx="371.3542" cy="390.8203" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="578.125" x="384.8958" y="399.3729">authenticate(showIdGateway: Boolean, invalidateToken: String?, observer: AuthenticateObserver)</text><ellipse cx="371.3542" cy="414.5752" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="128.125" x="384.8958" y="423.1277">getInstance(): IdtmLib</text><!--MD5=[95391c5bf41ae095fe7cd6b505129016]
+class MockIDTMLib--><rect codeLine="20" fill="#313238" height="147.0703" id="MockIDTMLib" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="614.5833" x="1010.9375" y="264.5833"/><rect fill="#227FAB" height="35.3841" rx="4.1667" ry="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="614.5833" x="1010.9375" y="264.5833"/><rect fill="#227FAB" height="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="614.5833" x="1010.9375" y="295.8008"/><rect codeLine="20" fill="none" height="147.0703" id="MockIDTMLib" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="614.5833" x="1010.9375" y="264.5833"/><ellipse cx="1268.2292" cy="282.2754" fill="#FB8500" rx="10.4167" ry="10.4167" style="stroke:#444444;stroke-width:1.0416666666666667;"/><path d="M1270.1335,286.7025 Q1269.7103,286.9141 1269.2383,287.028 Q1268.7663,287.1419 1268.2617,287.1419 Q1266.4063,287.1419 1265.4297,285.9375 Q1264.4694,284.7168 1264.4694,282.4219 Q1264.4694,280.1107 1265.4297,278.9063 Q1266.4063,277.6855 1268.2617,277.6855 Q1268.7663,277.6855 1269.2383,277.7995 Q1269.7266,277.8971 1270.1335,278.125 L1270.1335,280.127 Q1269.6777,279.7038 1269.2383,279.5085 Q1268.7988,279.2969 1268.3431,279.2969 Q1267.3503,279.2969 1266.8457,280.0944 Q1266.3411,280.8757 1266.3411,282.4219 Q1266.3411,283.9518 1266.8457,284.7331 Q1267.3503,285.5143 1268.3431,285.5143 Q1268.7988,285.5143 1269.2383,285.319 Q1269.6777,285.1237 1270.1335,284.7005 L1270.1335,286.7025 Z " fill="#000000"/><text fill="#222222" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="81.25" x="1293.2292" y="286.6028">MockIDTMLib</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="1011.9792" x2="1624.4792" y1="299.9674" y2="299.9674"/><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="1011.9792" x2="1624.4792" y1="308.3008" y2="308.3008"/><ellipse cx="1022.3958" cy="319.7591" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="578.125" x="1035.9375" y="328.3117">authenticate(showIdGateway: Boolean, invalidateToken: String?, observer: AuthenticateObserver)</text><ellipse cx="1022.3958" cy="343.514" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="454.1667" x="1035.9375" y="352.0665">fetchAccessToken(invalidateToken: String?, observer: AuthenticateObserver)</text><ellipse cx="1022.3958" cy="367.2689" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="289.5833" x="1035.9375" y="375.8214">initialize(initializationObserver: InitializeObserver)</text><ellipse cx="1022.3958" cy="391.0238" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="44.7917" x="1035.9375" y="399.5763">logout()</text><!--MD5=[55d4ff87441f71cb92c304f4365a4235]
+class Events--><rect codeLine="3" fill="#313238" height="99.5605" id="Events" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="171.875" x="79.1667" y="42.7083"/><rect fill="#227FAB" height="35.3841" rx="4.1667" ry="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="171.875" x="79.1667" y="42.7083"/><rect fill="#227FAB" height="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="171.875" x="79.1667" y="73.9258"/><rect codeLine="3" fill="none" height="99.5605" id="Events" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="171.875" x="79.1667" y="42.7083"/><ellipse cx="133.8542" cy="60.4004" fill="#FB8500" rx="10.4167" ry="10.4167" style="stroke:#444444;stroke-width:1.0416666666666667;"/><path d="M135.7585,64.8275 Q135.3353,65.0391 134.8633,65.153 Q134.3913,65.2669 133.8867,65.2669 Q132.0313,65.2669 131.0547,64.0625 Q130.0944,62.8418 130.0944,60.5469 Q130.0944,58.2357 131.0547,57.0313 Q132.0313,55.8105 133.8867,55.8105 Q134.3913,55.8105 134.8633,55.9245 Q135.3516,56.0221 135.7585,56.25 L135.7585,58.252 Q135.3027,57.8288 134.8633,57.6335 Q134.4238,57.4219 133.9681,57.4219 Q132.9753,57.4219 132.4707,58.2194 Q131.9661,59.0007 131.9661,60.5469 Q131.9661,62.0768 132.4707,62.8581 Q132.9753,63.6393 133.9681,63.6393 Q134.4238,63.6393 134.8633,63.444 Q135.3027,63.2487 135.7585,62.8255 L135.7585,64.8275 Z " fill="#000000"/><text fill="#222222" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="43.75" x="158.8542" y="64.7278">Events</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="80.2083" x2="250" y1="78.0924" y2="78.0924"/><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="80.2083" x2="250" y1="86.4258" y2="86.4258"/><ellipse cx="90.625" cy="97.8841" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="135.4167" x="104.1667" y="106.4367">sendIDTMErrorEvents()</text><ellipse cx="90.625" cy="121.639" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="114.5833" x="104.1667" y="130.1915">sendSmapiEvents()</text><!--MD5=[353bd4dceeadb240fcd7dbd160e5b6c4]
+class StatusProvider--><rect codeLine="8" fill="#313238" height="123.3154" id="StatusProvider" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="181.25" x="288.0208" y="31.25"/><rect fill="#227FAB" height="35.3841" rx="4.1667" ry="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="181.25" x="288.0208" y="31.25"/><rect fill="#227FAB" height="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="181.25" x="288.0208" y="62.4674"/><rect codeLine="8" fill="none" height="123.3154" id="StatusProvider" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="181.25" x="288.0208" y="31.25"/><ellipse cx="322.2917" cy="48.9421" fill="#FB8500" rx="10.4167" ry="10.4167" style="stroke:#444444;stroke-width:1.0416666666666667;"/><path d="M324.196,53.3691 Q323.7728,53.5807 323.3008,53.6947 Q322.8288,53.8086 322.3242,53.8086 Q320.4688,53.8086 319.4922,52.6042 Q318.5319,51.3835 318.5319,49.0885 Q318.5319,46.7773 319.4922,45.5729 Q320.4688,44.3522 322.3242,44.3522 Q322.8288,44.3522 323.3008,44.4661 Q323.7891,44.5638 324.196,44.7917 L324.196,46.7936 Q323.7402,46.3704 323.3008,46.1751 Q322.8613,45.9635 322.4056,45.9635 Q321.4128,45.9635 320.9082,46.7611 Q320.4036,47.5423 320.4036,49.0885 Q320.4036,50.6185 320.9082,51.3997 Q321.4128,52.181 322.4056,52.181 Q322.8613,52.181 323.3008,51.9857 Q323.7402,51.7904 324.196,51.3672 L324.196,53.3691 Z " fill="#000000"/><text fill="#222222" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="95.8333" x="345.4167" y="53.2694">StatusProvider</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="289.0625" x2="468.2292" y1="66.6341" y2="66.6341"/><ellipse cx="299.4792" cy="78.0924" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;fill:none;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="84.375" x="313.0208" y="86.645">status: Status</text><ellipse cx="299.4792" cy="101.8473" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;fill:none;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="139.5833" x="313.0208" y="110.3999">idtmStatus: IDTMStatus</text><ellipse cx="299.4792" cy="125.6022" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;fill:none;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="144.7917" x="313.0208" y="134.1548">loginStatus: LoginStatus</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="289.0625" x2="468.2292" y1="146.2321" y2="146.2321"/><!--MD5=[fe171506cad3efc9ccc65cb039b8148a]
+class TaskProcessor--><rect codeLine="14" fill="#313238" height="123.3154" id="TaskProcessor" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="315.625" x="7.2917" y="276.5625"/><rect fill="#227FAB" height="35.3841" rx="4.1667" ry="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="315.625" x="7.2917" y="276.5625"/><rect fill="#227FAB" height="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="315.625" x="7.2917" y="307.7799"/><rect codeLine="14" fill="none" height="123.3154" id="TaskProcessor" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="315.625" x="7.2917" y="276.5625"/><ellipse cx="107.8125" cy="294.2546" fill="#FB8500" rx="10.4167" ry="10.4167" style="stroke:#444444;stroke-width:1.0416666666666667;"/><path d="M109.7168,298.6816 Q109.2936,298.8932 108.8216,299.0072 Q108.3496,299.1211 107.8451,299.1211 Q105.9896,299.1211 105.013,297.9167 Q104.0527,296.696 104.0527,294.401 Q104.0527,292.0898 105.013,290.8854 Q105.9896,289.6647 107.8451,289.6647 Q108.3496,289.6647 108.8216,289.7786 Q109.3099,289.8763 109.7168,290.1042 L109.7168,292.1061 Q109.2611,291.6829 108.8216,291.4876 Q108.3822,291.276 107.9264,291.276 Q106.9336,291.276 106.429,292.0736 Q105.9245,292.8548 105.9245,294.401 Q105.9245,295.931 106.429,296.7122 Q106.9336,297.4935 107.9264,297.4935 Q108.3822,297.4935 108.8216,297.2982 Q109.2611,297.1029 109.7168,296.6797 L109.7168,298.6816 Z " fill="#000000"/><text fill="#222222" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="95.8333" x="132.8125" y="298.5819">TaskProcessor</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="8.3333" x2="321.875" y1="311.9466" y2="311.9466"/><rect fill="none" height="6.25" style="stroke:#C82930;stroke-width:1.0416666666666667;" width="6.25" x="15.625" y="320.2799"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="279.1667" x="32.2917" y="331.9575">pendingTasks: ConcurrentLinkedQueue&lt;Task&gt;</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="8.3333" x2="321.875" y1="344.0348" y2="344.0348"/><ellipse cx="18.75" cy="355.4932" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="115.625" x="32.2917" y="364.0457">addTask(task:Task)</text><ellipse cx="18.75" cy="379.248" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="110.4167" x="32.2917" y="387.8006">processNextTask()</text><!--MD5=[d3b8b572bebae7b58e75123213b35eb7]
+class AuthenticationManagement--><rect codeLine="20" fill="#313238" height="75.8057" id="AuthenticationManagement" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="222.9167" x="2083.8542" y="54.6875"/><rect fill="#227FAB" height="35.3841" rx="4.1667" ry="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="222.9167" x="2083.8542" y="54.6875"/><rect fill="#227FAB" height="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="222.9167" x="2083.8542" y="85.9049"/><rect codeLine="20" fill="none" height="75.8057" id="AuthenticationManagement" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="222.9167" x="2083.8542" y="54.6875"/><ellipse cx="2098.4375" cy="72.3796" fill="#A30000" rx="10.4167" ry="10.4167" style="stroke:#D63333;stroke-width:1.0416666666666667;"/><path d="M2095.3288,69.5475 L2095.3288,67.9525 L2100.7487,67.9525 L2100.7487,69.5475 L2098.9421,69.5475 L2098.9421,75.472 L2100.7487,75.472 L2100.7487,77.0671 L2095.3288,77.0671 L2095.3288,75.472 L2097.1354,75.472 L2097.1354,69.5475 L2095.3288,69.5475 Z " fill="#000000"/><text fill="#222222" font-family="Verdana" font-size="12.5" font-style="italic" lengthAdjust="spacing" textLength="181.25" x="2117.1875" y="76.7069">AuthenticationManagement</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="2084.8958" x2="2305.7292" y1="90.0716" y2="90.0716"/><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="2084.8958" x2="2305.7292" y1="98.4049" y2="98.4049"/><ellipse cx="2095.3125" cy="109.8633" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="54.1667" x="2108.8542" y="118.4158">cleanup()</text><!--MD5=[c7e69fcc6446aa1688d8e21bb85da6b3]
+class InitializeManagement--><rect codeLine="24" fill="#313238" height="123.3154" id="InitializeManagement" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="308.3333" x="1661.9792" y="276.5625"/><rect fill="#227FAB" height="35.3841" rx="4.1667" ry="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="308.3333" x="1661.9792" y="276.5625"/><rect fill="#227FAB" height="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="308.3333" x="1661.9792" y="307.7799"/><rect codeLine="24" fill="none" height="123.3154" id="InitializeManagement" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="308.3333" x="1661.9792" y="276.5625"/><ellipse cx="1738.5417" cy="294.2546" fill="#FB8500" rx="10.4167" ry="10.4167" style="stroke:#444444;stroke-width:1.0416666666666667;"/><path d="M1740.446,298.6816 Q1740.0228,298.8932 1739.5508,299.0072 Q1739.0788,299.1211 1738.5742,299.1211 Q1736.7188,299.1211 1735.7422,297.9167 Q1734.7819,296.696 1734.7819,294.401 Q1734.7819,292.0898 1735.7422,290.8854 Q1736.7188,289.6647 1738.5742,289.6647 Q1739.0788,289.6647 1739.5508,289.7786 Q1740.0391,289.8763 1740.446,290.1042 L1740.446,292.1061 Q1739.9902,291.6829 1739.5508,291.4876 Q1739.1113,291.276 1738.6556,291.276 Q1737.6628,291.276 1737.1582,292.0736 Q1736.6536,292.8548 1736.6536,294.401 Q1736.6536,295.931 1737.1582,296.7122 Q1737.6628,297.4935 1738.6556,297.4935 Q1739.1113,297.4935 1739.5508,297.2982 Q1739.9902,297.1029 1740.446,296.6797 L1740.446,298.6816 Z " fill="#000000"/><text fill="#222222" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="136.4583" x="1763.5417" y="298.5819">InitializeManagement</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="1663.0208" x2="1969.2708" y1="311.9466" y2="311.9466"/><rect fill="none" height="6.25" style="stroke:#C82930;stroke-width:1.0416666666666667;" width="6.25" x="1670.3125" y="320.2799"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="271.875" x="1686.9792" y="331.9575">initializationDisposable: CompositeDisposable</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="1663.0208" x2="1969.2708" y1="344.0348" y2="344.0348"/><ellipse cx="1673.4375" cy="355.4932" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="1686.9792" y="364.0457">initializeIdtm()</text><rect fill="#F24D5C" height="6.25" style="stroke:#C82930;stroke-width:1.0416666666666667;" width="6.25" x="1670.3125" y="376.123"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="231.25" x="1686.9792" y="387.8006">initializeIdtmObservable(): Completable</text><!--MD5=[9c584f4605eff5e02969ddead110f659]
+class AuthenticateManagement--><rect codeLine="30" fill="#313238" height="147.0703" id="AuthenticateManagement" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="376.0417" x="2007.2917" y="264.5833"/><rect fill="#227FAB" height="35.3841" rx="4.1667" ry="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="376.0417" x="2007.2917" y="264.5833"/><rect fill="#227FAB" height="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="376.0417" x="2007.2917" y="295.8008"/><rect codeLine="30" fill="none" height="147.0703" id="AuthenticateManagement" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="376.0417" x="2007.2917" y="264.5833"/><ellipse cx="2101.0417" cy="282.2754" fill="#FB8500" rx="10.4167" ry="10.4167" style="stroke:#444444;stroke-width:1.0416666666666667;"/><path d="M2102.946,286.7025 Q2102.5228,286.9141 2102.0508,287.028 Q2101.5788,287.1419 2101.0742,287.1419 Q2099.2188,287.1419 2098.2422,285.9375 Q2097.2819,284.7168 2097.2819,282.4219 Q2097.2819,280.1107 2098.2422,278.9063 Q2099.2188,277.6855 2101.0742,277.6855 Q2101.5788,277.6855 2102.0508,277.7995 Q2102.5391,277.8971 2102.946,278.125 L2102.946,280.127 Q2102.4902,279.7038 2102.0508,279.5085 Q2101.6113,279.2969 2101.1556,279.2969 Q2100.1628,279.2969 2099.6582,280.0944 Q2099.1536,280.8757 2099.1536,282.4219 Q2099.1536,283.9518 2099.6582,284.7331 Q2100.1628,285.5143 2101.1556,285.5143 Q2101.6113,285.5143 2102.0508,285.319 Q2102.4902,285.1237 2102.946,284.7005 L2102.946,286.7025 Z " fill="#000000"/><text fill="#222222" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="169.7917" x="2126.0417" y="286.6028">AuthenticateManagement</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="2008.3333" x2="2382.2917" y1="299.9674" y2="299.9674"/><rect fill="none" height="6.25" style="stroke:#C82930;stroke-width:1.0416666666666667;" width="6.25" x="2015.625" y="308.3008"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="286.4583" x="2032.2917" y="319.9783">authenticationDisposable: CompositeDisposable</text><rect fill="none" height="6.25" style="stroke:#C82930;stroke-width:1.0416666666666667;" width="6.25" x="2015.625" y="332.0557"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="247.9167" x="2032.2917" y="343.7332">timeoutDisposable: CompositeDisposable</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="2008.3333" x2="2382.2917" y1="355.8105" y2="355.8105"/><ellipse cx="2018.75" cy="367.2689" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="81.25" x="2032.2917" y="375.8214">authenticate()</text><rect fill="#F24D5C" height="6.25" style="stroke:#C82930;stroke-width:1.0416666666666667;" width="6.25" x="2015.625" y="387.8988"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="339.5833" x="2032.2917" y="399.5763">handleAuthenticateSuccess(accessToken: AccessToken?)</text><!--MD5=[aebb90d2ec00eb1a78a6cb60340b5036]
+class RefreshTokenManagement--><rect codeLine="37" fill="#313238" height="99.5605" id="RefreshTokenManagement" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="457.2917" x="2419.7917" y="288.0208"/><rect fill="#227FAB" height="35.3841" rx="4.1667" ry="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="457.2917" x="2419.7917" y="288.0208"/><rect fill="#227FAB" height="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="457.2917" x="2419.7917" y="319.2383"/><rect codeLine="37" fill="none" height="99.5605" id="RefreshTokenManagement" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="457.2917" x="2419.7917" y="288.0208"/><ellipse cx="2551.5625" cy="305.7129" fill="#FB8500" rx="10.4167" ry="10.4167" style="stroke:#444444;stroke-width:1.0416666666666667;"/><path d="M2553.4668,310.14 Q2553.0436,310.3516 2552.5716,310.4655 Q2552.0996,310.5794 2551.5951,310.5794 Q2549.7396,310.5794 2548.763,309.375 Q2547.8027,308.1543 2547.8027,305.8594 Q2547.8027,303.5482 2548.763,302.3438 Q2549.7396,301.123 2551.5951,301.123 Q2552.0996,301.123 2552.5716,301.237 Q2553.0599,301.3346 2553.4668,301.5625 L2553.4668,303.5645 Q2553.0111,303.1413 2552.5716,302.946 Q2552.1322,302.7344 2551.6764,302.7344 Q2550.6836,302.7344 2550.179,303.5319 Q2549.6745,304.3132 2549.6745,305.8594 Q2549.6745,307.3893 2550.179,308.1706 Q2550.6836,308.9518 2551.6764,308.9518 Q2552.1322,308.9518 2552.5716,308.7565 Q2553.0111,308.5612 2553.4668,308.138 L2553.4668,310.14 Z " fill="#000000"/><text fill="#222222" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="175" x="2576.5625" y="310.0403">RefreshTokenManagement</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="2420.8333" x2="2876.0417" y1="323.4049" y2="323.4049"/><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="2420.8333" x2="2876.0417" y1="331.7383" y2="331.7383"/><ellipse cx="2431.25" cy="343.1966" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="420.8333" x="2444.7917" y="351.7492">fetchAccessToken(accessToken: String? = null): Single&lt;AccessToken&gt;</text><rect fill="#F24D5C" height="6.25" style="stroke:#C82930;stroke-width:1.0416666666666667;" width="6.25" x="2428.125" y="363.8265"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="406.25" x="2444.7917" y="375.504">rawFetchAccessToken(accessToken: String?): Single&lt;AccessToken&gt;</text><!--MD5=[f3a9563f6cf965595c825d3532b671a1]
+reverse link AuthenticationLib to IDTMLib--><path d="M909.7396,189.1042 C882.0729,205.9688 853.25,223.5417 825.5417,240.4375 " fill="none" id="AuthenticationLib-backto-IDTMLib" style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="906.1458,182.7604,927.7292,178.1354,913.7396,195.2083,906.1458,182.7604" style="stroke:#2A9FD6;stroke-width:3.125;"/><!--MD5=[fe5a957dc110cb141052193e501bb307]
+reverse link AuthenticationLib to MockIDTMLib--><path d="M1168.875,192.8646 C1193.7083,216.8333 1219.7917,242 1243.0833,264.4792 " fill="none" id="AuthenticationLib-backto-MockIDTMLib" style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="1163.5313,197.8542,1153.6042,178.1354,1173.6563,187.3542,1163.5313,197.8542" style="stroke:#2A9FD6;stroke-width:3.125;"/><!--MD5=[a2b625d1976ade2fd2054f26d3c98189]
+reverse link AuthenticationManagement to InitializeManagement--><path d="M2119.4896,142.3854 C2059.3958,180.9375 1975.1042,235.0104 1910.625,276.375 " fill="none" id="AuthenticationManagement-backto-InitializeManagement" style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="2115.8438,136.0625,2137.3125,130.9583,2123.7188,148.3438,2115.8438,136.0625" style="stroke:#2A9FD6;stroke-width:3.125;"/><!--MD5=[779b8f92d5fb1d98c8c589048174b262]
+reverse link AuthenticationManagement to AuthenticateManagement--><path d="M2195.3125,152.1771 C2195.3125,185.9167 2195.3125,228.6458 2195.3125,264.5208 " fill="none" id="AuthenticationManagement-backto-AuthenticateManagement" style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="2188.0208,151.7917,2195.3125,130.9583,2202.6042,151.7917,2188.0208,151.7917" style="stroke:#2A9FD6;stroke-width:3.125;"/><!--MD5=[f1dff566fb9a5c2b535396a92cf93baa]
+reverse link AuthenticationManagement to RefreshTokenManagement--><path d="M2283.3542,141.0104 C2362.1979,183.3333 2477.3854,245.1667 2557.2083,288.0104 " fill="none" id="AuthenticationManagement-backto-RefreshTokenManagement" style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="2279.5313,147.2292,2264.625,130.9583,2286.4271,134.3854,2279.5313,147.2292" style="stroke:#2A9FD6;stroke-width:3.125;"/><!--MD5=[164354a829607e610fa5c4ed16b69d3c]
+link Events to StatusProvider--><!--MD5=[6afd69a1ae00900f6c7d4db5008d16f0]
+link Events to TaskProcessor--><!--MD5=[502192d4b98c2bf419fdf988952e145e]
+@startuml
+!include authentication-lib-classes-include.puml
+
+class Events {
+  +sendIDTMErrorEvents()
+  +sendSmapiEvents()
+}
+
+class StatusProvider {
+  +status: Status
+  +idtmStatus: IDTMStatus
+  +loginStatus: LoginStatus
+}
+
+class TaskProcessor {
+  -pendingTasks: ConcurrentLinkedQueue<Task>
+  +addTask(task:Task)
+  +processNextTask()
+}
+
+interface AuthenticationManagement {
+  +cleanup()
+}
+
+class InitializeManagement implements AuthenticationManagement {
+  -initializationDisposable: CompositeDisposable
+  +initializeIdtm()
+  -initializeIdtmObservable(): Completable
+}
+
+class AuthenticateManagement implements AuthenticationManagement {
+  -authenticationDisposable: CompositeDisposable
+  -timeoutDisposable: CompositeDisposable
+  +authenticate()
+  -handleAuthenticateSuccess(accessToken: AccessToken?)
+}
+
+class RefreshTokenManagement implements AuthenticationManagement {
+ +fetchAccessToken(accessToken: String? = null): Single<AccessToken>
+ -rawFetchAccessToken(accessToken: String?): Single<AccessToken>
+}
+
+@enduml
+
+@startuml
+
+
+
+
+skinparam backgroundColor transparent
+skinparam useBetaStyle false
+
+
+
+
+
+
+
+skinparam defaultFontName       "Verdana"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           8
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               5
+skinparam ArrowColor            #ADAFAE
+skinparam stereotype {
+    CBackgroundColor #777777
+    CBorderColor #444444
+    ABackgroundColor #5F8F00
+    ABorderColor #92C233
+    IBackgroundColor #a30000
+    IBorderColor #D63333
+    EBackgroundColor #cc6d00
+    EBorderColor #FFA033
+    NBackgroundColor #7a29a3
+    NBorderColor #AD5CD6
+}
+skinparam title {
+	FontColor	                 #2A9FD6
+	BorderColor	                 #777777
+	FontSize	    	         20
+	BorderRoundCorner            8
+	BorderThickness 	         1
+	BackgroundColor              transparent
+}
+
+skinparam legend {
+	BackgroundColor transparent
+	BorderColor #777777
+	FontColor #ADAFAE
+}
+
+skinparam swimlane {
+	BorderColor #9933CC
+	BorderThickness 2
+	TitleBackgroundColor  #444444-#555
+	TitleFontColor #2A9FD6
+}
+
+
+skinparam activity {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	BarColor #77B300
+	StartColor #9933CC
+	EndColor #9933CC
+	DiamondBackgroundColor transparent
+  	DiamondBorderColor #777777
+  	DiamondFontColor #777777
+}
+
+
+skinparam participant {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+skinparam arrow {
+	Thickness 3
+	Color #2A9FD6
+	FontColor #FFF
+}
+
+
+skinparam sequence {
+	BorderColor #2A9FD6
+	TitleFontColor #2A9FD6
+	BackgroundColor transparent
+	StartColor #2A9FD6
+	EndColor #2A9FD6
+	BoxBackgroundColor transparent
+	BoxBorderColor #ADAFAE
+	BoxFontColor #ADAFAE
+	DelayFontColor #ADAFAE
+	LifeLineBorderColor #555
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor transparent
+	GroupBorderColor #ADAFAE
+	GroupFontColor #ADAFAE
+	GroupHeaderFontColor #9933CC
+	GroupBackgroundColor transparent
+	GroupBodyBackgroundColor transparent
+	GroupHeaderBackgroundColor transparent
+	DividerBackgroundColor transparent
+    DividerBorderColor #ADAFAE
+    DividerBorderThickness 2
+    DividerFontColor #ADAFAE
+	ReferenceBackgroundColor transparent
+	ReferenceBorderColor #ADAFAE
+	ReferenceFontColor #ADAFAE
+	ReferenceHeaderFontColor #9933CC
+	ReferenceHeaderBackgroundColor transparent
+	StereotypeFontColor #2A9FD6
+}
+
+
+skinparam partition {
+	BorderColor #2A9FD6
+	FontColor #2A9FD6
+	BackgroundColor transparent
+}
+
+
+skinparam collections {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+}
+
+
+skinparam control {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+skinparam entity {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+skinparam boundary {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+skinparam agent {
+	BackgroundColor transparent
+	BorderColor #cc6d00
+	FontColor #ADAFAE
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor transparent
+	BorderColor #AD5CD6
+	FontColor #AD5CD6
+}
+
+
+skinparam artifact {
+	BackgroundColor transparent
+	BorderColor #BDBFBE
+	FontColor #BDBFBE
+}
+
+
+skinparam component {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+}
+
+
+skinparam interface {
+	BackgroundColor  transparent
+	BorderColor  #CC0000
+	FontColor #ADAFAE
+}
+
+
+skinparam storage {
+	BackgroundColor transparent
+  	BorderColor #FFA033
+	FontColor #FF8800
+}
+
+
+skinparam node {
+	BackgroundColor  transparent
+	BorderColor #ADAFAE
+	FontColor #ADAFAE
+}
+
+
+skinparam cloud {
+	BackgroundColor transparent
+	BorderColor #F2FCFE
+	FontColor #ADAFAE
+}
+
+
+skinparam database {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+
+skinparam class {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+        FontColor #222
+	HeaderBackgroundColor #227FAB
+	StereotypeFontColor #ADAFAE
+	BorderThickness 1
+	AttributeFontColor #ADAFAE
+	AttributeFontSize 11
+}
+
+
+skinparam object {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	StereotypeFontColor #ADAFAE
+	BorderThickness 1
+	AttributeFontColor #777777
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	BorderThickness 2
+	StereotypeFontColor #2A9FD6
+}
+
+
+skinparam rectangle {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	BorderThickness 2
+	StereotypeFontColor #2A9FD6
+}
+
+
+skinparam package {
+	BackgroundColor transparent
+  	BorderColor #2A9FD6
+	FontColor #2A9FD6
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor transparent
+  	BorderColor #FF8800
+	FontColor #FF8800
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor transparent
+  	BorderColor #9933CC
+	FontColor #9933CC
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	StartColor #9933CC
+	EndColor #9933CC
+	AttributeFontColor #777777
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+}
+
+
+skinparam card {
+	BackgroundColor transparent
+	BorderColor #9933CC
+	FontColor #9933CC
+}
+
+
+skinparam file {
+	BackgroundColor transparent
+	BorderColor #555
+	FontColor #555
+}
+
+
+
+skinparam BackgroundColor #313238
+skinparam StereotypeCBackgroundColor #fb8500
+
+skinparam StereotypeCBackgroundColor<<S>> #e840e8
+skinparam SpotChar<<S>> S
+hide <<S>> stereotype
+
+skinparam StereotypeCBackgroundColor<<E>> #10FF30
+skinparam SpotChar<<E>> E
+hide <<E>> stereotype
+
+
+
+
+interface AuthenticationLib {
+  +sdkId: String
+  +authenticate(showIdGateway: Boolean, invalidateToken: String?, observer: AuthenticateObserver)
+  +fetchAccessToken(invalidateToken: String?, observer: AuthenticateObserver)
+  +initialize(initializationObserver: InitializeObserver)
+  +fun logout()
+}
+
+class IDTMLib implements AuthenticationLib {
+  +sdkId: String
+  +fetchAccessToken(invalidateToken: String?, authenticateObserver: AuthenticateObserver)
+  +logout()
+  +initialize(observer: InitializeObserver)
+  +authenticate(showIdGateway: Boolean, invalidateToken: String?, observer: AuthenticateObserver)
+  +getInstance(): IdtmLib
+}
+
+class MockIDTMLib implements AuthenticationLib {
+
+    +authenticate(showIdGateway: Boolean, invalidateToken: String?, observer: AuthenticateObserver)
+    +fetchAccessToken(invalidateToken: String?, observer: AuthenticateObserver)
+    +initialize(initializationObserver: InitializeObserver)
+    +logout()
+}
+
+class Events {
+  +sendIDTMErrorEvents()
+  +sendSmapiEvents()
+}
+
+class StatusProvider {
+  +status: Status
+  +idtmStatus: IDTMStatus
+  +loginStatus: LoginStatus
+}
+
+class TaskProcessor {
+  -pendingTasks: ConcurrentLinkedQueue<Task>
+  +addTask(task:Task)
+  +processNextTask()
+}
+
+interface AuthenticationManagement {
+  +cleanup()
+}
+
+class InitializeManagement implements AuthenticationManagement {
+  -initializationDisposable: CompositeDisposable
+  +initializeIdtm()
+  -initializeIdtmObservable(): Completable
+}
+
+class AuthenticateManagement implements AuthenticationManagement {
+  -authenticationDisposable: CompositeDisposable
+  -timeoutDisposable: CompositeDisposable
+  +authenticate()
+  -handleAuthenticateSuccess(accessToken: AccessToken?)
+}
+
+class RefreshTokenManagement implements AuthenticationManagement {
+ +fetchAccessToken(accessToken: String? = null): Single<AccessToken>
+ -rawFetchAccessToken(accessToken: String?): Single<AccessToken>
+}
+
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 13:26:11 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="759.375px" preserveAspectRatio="none" style="width:1394px;height:759px;background:#313238;" version="1.1" viewBox="0 0 1394 759" width="1394.7917px" zoomAndPan="magnify"><defs/><g><line style="stroke:#555555;stroke-width:2.0833333333333335;stroke-dasharray:5.0,5.0;" x1="87.5" x2="87.5" y1="45.8008" y2="715.0716"/><line style="stroke:#555555;stroke-width:2.0833333333333335;stroke-dasharray:5.0,5.0;" x1="485.9375" x2="485.9375" y1="45.8008" y2="715.0716"/><line style="stroke:#555555;stroke-width:2.0833333333333335;stroke-dasharray:5.0,5.0;" x1="888.0208" x2="888.0208" y1="45.8008" y2="715.0716"/><line style="stroke:#555555;stroke-width:2.0833333333333335;stroke-dasharray:5.0,5.0;" x1="1310.4167" x2="1310.4167" y1="45.8008" y2="715.0716"/><rect fill="#0000FF" height="39.5508" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.5625;" width="50" x="62.5" y="5.2083"/><text fill="#2A9FD6" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="25" x="75" y="29.3111">App</text><rect fill="#0000FF" height="39.5508" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.5625;" width="50" x="62.5" y="714.0299"/><text fill="#2A9FD6" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="25" x="75" y="738.1327">App</text><rect fill="#FFFF00" height="39.5508" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.5625;" width="142.7083" x="415.1042" y="5.2083"/><text fill="#2A9FD6" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="117.7083" x="427.6042" y="29.3111">IDTMLoginProvider</text><rect fill="#FFFF00" height="39.5508" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.5625;" width="142.7083" x="415.1042" y="714.0299"/><text fill="#2A9FD6" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="117.7083" x="427.6042" y="738.1327">IDTMLoginProvider</text><rect fill="#800080" height="39.5508" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.5625;" width="55.2083" x="860.9375" y="5.2083"/><text fill="#2A9FD6" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="30.2083" x="873.4375" y="29.3111">IDTM</text><rect fill="#800080" height="39.5508" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.5625;" width="55.2083" x="860.9375" y="714.0299"/><text fill="#2A9FD6" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="30.2083" x="873.4375" y="738.1327">IDTM</text><rect fill="#000000" height="39.5508" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.5625;" width="52.0833" x="1284.375" y="5.2083"/><text fill="#2A9FD6" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="27.0833" x="1296.875" y="29.3111">APIX</text><rect fill="#000000" height="39.5508" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.5625;" width="52.0833" x="1284.375" y="714.0299"/><text fill="#2A9FD6" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="27.0833" x="1296.875" y="738.1327">APIX</text><path d="M14.5833,63.5091 L306.25,63.5091 L306.25,79.1341 L295.8333,89.5508 L10.4167,89.5508 L10.4167,67.6758 A4.1667,4.1667 0 0 1 14.5833,63.5091 " fill="#313238" style="stroke:#ADAFAE;stroke-width:1.0416666666666667;"/><rect fill="none" height="633.8542" rx="4.1667" ry="4.1667" style="stroke:#ADAFAE;stroke-width:2.0833333333333335;" width="1378.125" x="10.4167" y="63.5091"/><text fill="#9933CC" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="238.5417" x="31.25" y="81.3619">REFRESH_TOKEN_SUCCESS_FLOW</text><polygon fill="#2A9FD6" points="473.9583,117.6107,484.375,121.7773,473.9583,125.944,478.125,121.7773" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><line style="stroke:#2A9FD6;stroke-width:3.125;" x1="87.5" x2="480.2083" y1="121.7773" y2="121.7773"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="173.9583" x="100" y="111.5377">Calls RefreshAccessToken:</text><polygon fill="#2A9FD6" points="876.0417,157.1615,886.4583,161.3281,876.0417,165.4948,880.2083,161.3281" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><line style="stroke:#2A9FD6;stroke-width:3.125;" x1="486.4583" x2="882.2917" y1="161.3281" y2="161.3281"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="216.6667" x="498.9583" y="151.0885">Authenticate: PASSING NIL TOKEN</text><polygon fill="#2A9FD6" points="497.9167,196.7122,487.5,200.8789,497.9167,205.0456,493.75,200.8789" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><line style="stroke:#2A9FD6;stroke-width:3.125;" x1="491.6667" x2="887.5" y1="200.8789" y2="200.8789"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="366.6667" x="509.375" y="190.6392">Completion: We get a STORED_ACCESS_TOKEN from IDTM</text><polygon fill="#2A9FD6" points="98.9583,236.263,88.5417,240.4297,98.9583,244.5964,94.7917,240.4297" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><line style="stroke:#2A9FD6;stroke-width:3.125;" x1="92.7083" x2="485.4167" y1="240.4297" y2="240.4297"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="363.5417" x="110.4167" y="230.19">Receives: ACCESS_TOKEN [We don't know if it is expired]</text><polygon fill="#2A9FD6" points="1297.9167,275.8138,1308.3333,279.9805,1297.9167,284.1471,1302.0833,279.9805" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><line style="stroke:#2A9FD6;stroke-width:3.125;" x1="87.5" x2="1304.1667" y1="279.9805" y2="279.9805"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="308.3333" x="100" y="269.7408">We request a resource with the ACCESS_TOKEN</text><polygon fill="#2A9FD6" points="98.9583,315.3646,88.5417,319.5313,98.9583,323.6979,94.7917,319.5313" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><line style="stroke:#2A9FD6;stroke-width:3.125;" x1="92.7083" x2="1309.375" y1="319.5313" y2="319.5313"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="98.9583" x="110.4167" y="309.2916">TOKEN EXPIRED</text><polygon fill="#2A9FD6" points="473.9583,354.9154,484.375,359.082,473.9583,363.2487,478.125,359.082" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><line style="stroke:#2A9FD6;stroke-width:3.125;" x1="87.5" x2="480.2083" y1="359.082" y2="359.082"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="173.9583" x="100" y="348.8424">Calls RefreshAccessToken:</text><polygon fill="#2A9FD6" points="876.0417,394.4661,886.4583,398.6328,876.0417,402.7995,880.2083,398.6328" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><line style="stroke:#2A9FD6;stroke-width:3.125;" x1="486.4583" x2="882.2917" y1="398.6328" y2="398.6328"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="256.25" x="498.9583" y="388.3931">Authenticate: CURRENT_ACCESS_TOKEN</text><polygon fill="#2A9FD6" points="1297.9167,434.0169,1308.3333,438.1836,1297.9167,442.3503,1302.0833,438.1836" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><line style="stroke:#2A9FD6;stroke-width:3.125;" x1="888.5417" x2="1304.1667" y1="438.1836" y2="438.1836"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="386.4583" x="901.0417" y="427.9439">IDTM asks for the CURRENT_ACCESS_TOKEN to be refreshed</text><polygon fill="#2A9FD6" points="900,473.5677,889.5833,477.7344,900,481.901,895.8333,477.7344" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><line style="stroke:#2A9FD6;stroke-width:3.125;" x1="893.75" x2="1309.375" y1="477.7344" y2="477.7344"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="307.2917" x="911.4583" y="467.4947">IDTM gets a NEW_ACCESS_TOKEN from backend</text><polygon fill="#2A9FD6" points="497.9167,513.1185,487.5,517.2852,497.9167,521.4518,493.75,517.2852" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><line style="stroke:#2A9FD6;stroke-width:3.125;" x1="491.6667" x2="887.5" y1="517.2852" y2="517.2852"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="214.5833" x="509.375" y="507.0455">Completion: NEW_ACCESS_TOKEN</text><polygon fill="#2A9FD6" points="98.9583,552.6693,88.5417,556.8359,98.9583,561.0026,94.7917,556.8359" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><line style="stroke:#2A9FD6;stroke-width:3.125;" x1="92.7083" x2="485.4167" y1="556.8359" y2="556.8359"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="198.9583" x="110.4167" y="546.5963">Receives: NEW_ACCESS_TOKEN</text><line style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="87.5" x2="131.25" y1="596.3867" y2="596.3867"/><line style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="131.25" x2="131.25" y1="596.3867" y2="609.9284"/><line style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="88.5417" x2="131.25" y1="609.9284" y2="609.9284"/><polygon fill="#2A9FD6" points="98.9583,605.7617,88.5417,609.9284,98.9583,614.0951,94.7917,609.9284" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="371.875" x="100" y="586.1471">We keep an in memory cache of the NEW_ACCESS_TOKEN</text><polygon fill="#2A9FD6" points="1297.9167,645.3125,1308.3333,649.4792,1297.9167,653.6458,1302.0833,649.4792" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><line style="stroke:#2A9FD6;stroke-width:3.125;" x1="87.5" x2="1304.1667" y1="649.4792" y2="649.4792"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="186.4583" x="100" y="639.2395">Completes resource request</text><polygon fill="#2A9FD6" points="98.9583,684.8633,88.5417,689.0299,98.9583,693.1966,94.7917,689.0299" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><line style="stroke:#2A9FD6;stroke-width:3.125;" x1="92.7083" x2="1309.375" y1="689.0299" y2="689.0299"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="293.75" x="110.4167" y="678.7903">We now get the resource back from backend</text><!--MD5=[5dc63002eb88de98d40b362f870dc1fb]
+@startuml Refresh Token Flow 
+!include theme.puml
+participant App #Blue
+participant IDTMLoginProvider #Yellow
+participant IDTM #Purple
+Participant APIX #Black
+
+
+group REFRESH_TOKEN_SUCCESS_FLOW
+    App -> IDTMLoginProvider: Calls RefreshAccessToken:
+    IDTMLoginProvider -> IDTM: Authenticate: PASSING NIL TOKEN
+    IDTM -> IDTMLoginProvider: Completion: We get a STORED_ACCESS_TOKEN from IDTM
+    IDTMLoginProvider -> App:  Receives: ACCESS_TOKEN [We don't know if it is expired]
+    App -> APIX: We request a resource with the ACCESS_TOKEN
+    APIX -> App: TOKEN EXPIRED
+    App -> IDTMLoginProvider: Calls RefreshAccessToken:
+    IDTMLoginProvider -> IDTM: Authenticate: CURRENT_ACCESS_TOKEN
+    IDTM -> APIX: IDTM asks for the CURRENT_ACCESS_TOKEN to be refreshed
+    APIX -> IDTM: IDTM gets a NEW_ACCESS_TOKEN from backend
+    IDTM -> IDTMLoginProvider: Completion: NEW_ACCESS_TOKEN
+    IDTMLoginProvider -> App: Receives: NEW_ACCESS_TOKEN
+    App - -> App: We keep an in memory cache of the NEW_ACCESS_TOKEN
+    App -> APIX: Completes resource request
+    APIX -> App: We now get the resource back from backend
+end
+
+@enduml
+
+@startuml Refresh Token Flow 
+
+
+
+
+
+skinparam backgroundColor transparent
+skinparam useBetaStyle false
+
+
+
+
+
+
+
+skinparam defaultFontName       "Verdana"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           8
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               5
+skinparam ArrowColor            #ADAFAE
+skinparam stereotype {
+    CBackgroundColor #777777
+    CBorderColor #444444
+    ABackgroundColor #5F8F00
+    ABorderColor #92C233
+    IBackgroundColor #a30000
+    IBorderColor #D63333
+    EBackgroundColor #cc6d00
+    EBorderColor #FFA033
+    NBackgroundColor #7a29a3
+    NBorderColor #AD5CD6
+}
+skinparam title {
+	FontColor	                 #2A9FD6
+	BorderColor	                 #777777
+	FontSize	    	         20
+	BorderRoundCorner            8
+	BorderThickness 	         1
+	BackgroundColor              transparent
+}
+
+skinparam legend {
+	BackgroundColor transparent
+	BorderColor #777777
+	FontColor #ADAFAE
+}
+
+skinparam swimlane {
+	BorderColor #9933CC
+	BorderThickness 2
+	TitleBackgroundColor  #444444-#555
+	TitleFontColor #2A9FD6
+}
+
+
+skinparam activity {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	BarColor #77B300
+	StartColor #9933CC
+	EndColor #9933CC
+	DiamondBackgroundColor transparent
+  	DiamondBorderColor #777777
+  	DiamondFontColor #777777
+}
+
+
+skinparam participant {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+skinparam arrow {
+	Thickness 3
+	Color #2A9FD6
+	FontColor #FFF
+}
+
+
+skinparam sequence {
+	BorderColor #2A9FD6
+	TitleFontColor #2A9FD6
+	BackgroundColor transparent
+	StartColor #2A9FD6
+	EndColor #2A9FD6
+	BoxBackgroundColor transparent
+	BoxBorderColor #ADAFAE
+	BoxFontColor #ADAFAE
+	DelayFontColor #ADAFAE
+	LifeLineBorderColor #555
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor transparent
+	GroupBorderColor #ADAFAE
+	GroupFontColor #ADAFAE
+	GroupHeaderFontColor #9933CC
+	GroupBackgroundColor transparent
+	GroupBodyBackgroundColor transparent
+	GroupHeaderBackgroundColor transparent
+	DividerBackgroundColor transparent
+    DividerBorderColor #ADAFAE
+    DividerBorderThickness 2
+    DividerFontColor #ADAFAE
+	ReferenceBackgroundColor transparent
+	ReferenceBorderColor #ADAFAE
+	ReferenceFontColor #ADAFAE
+	ReferenceHeaderFontColor #9933CC
+	ReferenceHeaderBackgroundColor transparent
+	StereotypeFontColor #2A9FD6
+}
+
+
+skinparam partition {
+	BorderColor #2A9FD6
+	FontColor #2A9FD6
+	BackgroundColor transparent
+}
+
+
+skinparam collections {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+}
+
+
+skinparam control {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+skinparam entity {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+skinparam boundary {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+skinparam agent {
+	BackgroundColor transparent
+	BorderColor #cc6d00
+	FontColor #ADAFAE
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor transparent
+	BorderColor #AD5CD6
+	FontColor #AD5CD6
+}
+
+
+skinparam artifact {
+	BackgroundColor transparent
+	BorderColor #BDBFBE
+	FontColor #BDBFBE
+}
+
+
+skinparam component {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+}
+
+
+skinparam interface {
+	BackgroundColor  transparent
+	BorderColor  #CC0000
+	FontColor #ADAFAE
+}
+
+
+skinparam storage {
+	BackgroundColor transparent
+  	BorderColor #FFA033
+	FontColor #FF8800
+}
+
+
+skinparam node {
+	BackgroundColor  transparent
+	BorderColor #ADAFAE
+	FontColor #ADAFAE
+}
+
+
+skinparam cloud {
+	BackgroundColor transparent
+	BorderColor #F2FCFE
+	FontColor #ADAFAE
+}
+
+
+skinparam database {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+
+skinparam class {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+        FontColor #222
+	HeaderBackgroundColor #227FAB
+	StereotypeFontColor #ADAFAE
+	BorderThickness 1
+	AttributeFontColor #ADAFAE
+	AttributeFontSize 11
+}
+
+
+skinparam object {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	StereotypeFontColor #ADAFAE
+	BorderThickness 1
+	AttributeFontColor #777777
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	BorderThickness 2
+	StereotypeFontColor #2A9FD6
+}
+
+
+skinparam rectangle {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	BorderThickness 2
+	StereotypeFontColor #2A9FD6
+}
+
+
+skinparam package {
+	BackgroundColor transparent
+  	BorderColor #2A9FD6
+	FontColor #2A9FD6
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor transparent
+  	BorderColor #FF8800
+	FontColor #FF8800
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor transparent
+  	BorderColor #9933CC
+	FontColor #9933CC
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	StartColor #9933CC
+	EndColor #9933CC
+	AttributeFontColor #777777
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+}
+
+
+skinparam card {
+	BackgroundColor transparent
+	BorderColor #9933CC
+	FontColor #9933CC
+}
+
+
+skinparam file {
+	BackgroundColor transparent
+	BorderColor #555
+	FontColor #555
+}
+
+
+
+skinparam BackgroundColor #313238
+skinparam StereotypeCBackgroundColor #fb8500
+
+skinparam StereotypeCBackgroundColor<<S>> #e840e8
+skinparam SpotChar<<S>> S
+hide <<S>> stereotype
+
+skinparam StereotypeCBackgroundColor<<E>> #10FF30
+skinparam SpotChar<<E>> E
+hide <<E>> stereotype
+
+
+
+
+participant App #Blue
+participant IDTMLoginProvider #Yellow
+participant IDTM #Purple
+Participant APIX #Black
+
+
+group REFRESH_TOKEN_SUCCESS_FLOW
+    App -> IDTMLoginProvider: Calls RefreshAccessToken:
+    IDTMLoginProvider -> IDTM: Authenticate: PASSING NIL TOKEN
+    IDTM -> IDTMLoginProvider: Completion: We get a STORED_ACCESS_TOKEN from IDTM
+    IDTMLoginProvider -> App:  Receives: ACCESS_TOKEN [We don't know if it is expired]
+    App -> APIX: We request a resource with the ACCESS_TOKEN
+    APIX -> App: TOKEN EXPIRED
+    App -> IDTMLoginProvider: Calls RefreshAccessToken:
+    IDTMLoginProvider -> IDTM: Authenticate: CURRENT_ACCESS_TOKEN
+    IDTM -> APIX: IDTM asks for the CURRENT_ACCESS_TOKEN to be refreshed
+    APIX -> IDTM: IDTM gets a NEW_ACCESS_TOKEN from backend
+    IDTM -> IDTMLoginProvider: Completion: NEW_ACCESS_TOKEN
+    IDTMLoginProvider -> App: Receives: NEW_ACCESS_TOKEN
+    App - -> App: We keep an in memory cache of the NEW_ACCESS_TOKEN
+    App -> APIX: Completes resource request
+    APIX -> App: We now get the resource back from backend
+end
+
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 13:26:11 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

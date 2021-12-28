@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="966.6667px" preserveAspectRatio="none" style="width:1038px;height:966px;background:#313238;" version="1.1" viewBox="0 0 1038 966" width="1038.5417px" zoomAndPan="magnify"><defs/><g><line style="stroke:#555555;stroke-width:2.0833333333333335;stroke-dasharray:5.0,5.0;" x1="108.3333" x2="108.3333" y1="45.8008" y2="922.0703"/><line style="stroke:#555555;stroke-width:2.0833333333333335;stroke-dasharray:5.0,5.0;" x1="478.6458" x2="478.6458" y1="45.8008" y2="922.0703"/><line style="stroke:#555555;stroke-width:2.0833333333333335;stroke-dasharray:5.0,5.0;" x1="920.3125" x2="920.3125" y1="45.8008" y2="922.0703"/><rect fill="#313238" height="39.5508" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.5625;" width="50" x="83.3333" y="5.2083"/><text fill="#2A9FD6" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="25" x="95.8333" y="29.3111">App</text><rect fill="#313238" height="39.5508" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.5625;" width="50" x="83.3333" y="921.0286"/><text fill="#2A9FD6" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="25" x="95.8333" y="945.1314">App</text><rect fill="#313238" height="39.5508" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.5625;" width="178.125" x="390.1042" y="5.2083"/><text fill="#2A9FD6" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="153.125" x="402.6042" y="29.3111">AuthenticationManager</text><rect fill="#313238" height="39.5508" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.5625;" width="178.125" x="390.1042" y="921.0286"/><text fill="#2A9FD6" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="153.125" x="402.6042" y="945.1314">AuthenticationManager</text><rect fill="#313238" height="39.5508" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.5625;" width="55.2083" x="893.2292" y="5.2083"/><text fill="#2A9FD6" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="30.2083" x="905.7292" y="29.3111">IDTM</text><rect fill="#313238" height="39.5508" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.5625;" width="55.2083" x="893.2292" y="921.0286"/><text fill="#2A9FD6" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="30.2083" x="905.7292" y="945.1314">IDTM</text><rect fill="#313238" height="3.125" style="stroke:#313238;stroke-width:1.0416666666666667;" width="1031.7708" x="0" y="82.2428"/><line style="stroke:#ADAFAE;stroke-width:1.0416666666666667;" x1="0" x2="1031.7708" y1="82.2428" y2="82.2428"/><line style="stroke:#ADAFAE;stroke-width:1.0416666666666667;" x1="0" x2="1031.7708" y1="85.3678" y2="85.3678"/><rect fill="#313238" height="33.3008" style="stroke:#ADAFAE;stroke-width:2.0833333333333335;" width="418.75" x="306.5104" y="66.6341"/><text fill="#ADAFAE" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="389.5833" x="317.9688" y="87.6119">RefreshToken handleFetchAccessTokenError method</text><line style="stroke:#FFC0CB;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="435.4167" x2="479.1667" y1="141.569" y2="141.569"/><line style="stroke:#FFC0CB;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="435.4167" x2="435.4167" y1="141.569" y2="155.1107"/><line style="stroke:#FFC0CB;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="435.4167" x2="478.125" y1="155.1107" y2="155.1107"/><polygon fill="#FFC0CB" points="469.7917,150.944,480.2083,155.1107,469.7917,159.2773,473.9583,155.1107" style="stroke:#FFC0CB;stroke-width:1.0416666666666667;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="223.9583" x="250" y="131.3293">sends analytics events to firebase</text><line style="stroke:#FFC0CB;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="435.4167" x2="479.1667" y1="194.6615" y2="194.6615"/><line style="stroke:#FFC0CB;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="435.4167" x2="435.4167" y1="194.6615" y2="208.2031"/><line style="stroke:#FFC0CB;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="435.4167" x2="478.125" y1="208.2031" y2="208.2031"/><polygon fill="#FFC0CB" points="469.7917,204.0365,480.2083,208.2031,469.7917,212.3698,473.9583,208.2031" style="stroke:#FFC0CB;stroke-width:1.0416666666666667;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="28.125" x="315.625" y="184.4218">sets</text><text fill="#FFFFFF" font-family="monospace" font-size="12.5" lengthAdjust="spacing" textLength="80.2083" x="347.9167" y="184.4218">Status.Idle</text><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="41.6667" x="432.2917" y="184.4218">status</text><path d="M14.5833,223.8281 L87.5,223.8281 L87.5,239.4531 L77.0833,249.8698 L10.4167,249.8698 L10.4167,227.9948 A4.1667,4.1667 0 0 1 14.5833,223.8281 " fill="#313238" style="stroke:#ADAFAE;stroke-width:1.0416666666666667;"/><rect fill="none" height="680.5339" rx="4.1667" ry="4.1667" style="stroke:#ADAFAE;stroke-width:2.0833333333333335;" width="1010.9375" x="10.4167" y="223.8281"/><text fill="#9933CC" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="19.7917" x="31.25" y="241.6809">alt</text><text fill="#ADAFAE" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="243.75" x="108.3333" y="242.7226">[IDTM error is retriableException]</text><polygon fill="#2A9FD6" points="908.3333,287.2721,918.75,291.4388,908.3333,295.6055,912.5,291.4388" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><line style="stroke:#2A9FD6;stroke-width:3.125;" x1="479.1667" x2="914.5833" y1="291.4388" y2="291.4388"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="406.25" x="491.6667" y="281.1991">retries the refresh token request for 3x with 30 seconds delay</text><path d="M25,307.0638 L97.9167,307.0638 L97.9167,322.6888 L87.5,333.1055 L20.8333,333.1055 L20.8333,311.2305 A4.1667,4.1667 0 0 1 25,307.0638 " fill="#313238" style="stroke:#ADAFAE;stroke-width:1.0416666666666667;"/><rect fill="none" height="339.2253" rx="4.1667" ry="4.1667" style="stroke:#ADAFAE;stroke-width:2.0833333333333335;" width="990.1042" x="20.8333" y="307.0638"/><text fill="#9933CC" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="19.7917" x="41.6667" y="324.9166">alt</text><text fill="#ADAFAE" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="127.0833" x="118.75" y="325.9583">[retries still fails]</text><path d="M35.4167,350.7487 L108.3333,350.7487 L108.3333,366.3737 L97.9167,376.7904 L31.25,376.7904 L31.25,354.9154 A4.1667,4.1667 0 0 1 35.4167,350.7487 " fill="#313238" style="stroke:#ADAFAE;stroke-width:1.0416666666666667;"/><rect fill="none" height="221.6471" rx="4.1667" ry="4.1667" style="stroke:#ADAFAE;stroke-width:2.0833333333333335;" width="969.2708" x="31.25" y="350.7487"/><text fill="#9933CC" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="19.7917" x="52.0833" y="368.6015">alt</text><text fill="#ADAFAE" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="17.7083" x="129.1667" y="369.6431">[is</text><text fill="#ADAFAE" font-family="monospace" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="131.25" x="151.0417" y="369.6431">IdtmRetryException</text><text fill="#ADAFAE" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="5.2083" x="282.2917" y="369.6431">]</text><polygon fill="#2A9FD6" points="490.625,414.1927,480.2083,418.3594,490.625,422.526,486.4583,418.3594" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><line style="stroke:#2A9FD6;stroke-width:3.125;" x1="484.375" x2="919.7917" y1="418.3594" y2="418.3594"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="140.625" x="502.0833" y="408.1197">IDTM onError is called</text><polygon fill="#2A9FD6" points="119.7917,453.7435,109.375,457.9102,119.7917,462.0768,115.625,457.9102" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><line style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="113.5417" x2="478.125" y1="457.9102" y2="457.9102"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="35.4167" x="131.25" y="447.6705">emits</text><text fill="#FFFFFF" font-family="monospace" font-size="12.5" lengthAdjust="spacing" textLength="255.2083" x="170.8333" y="447.6705">AuthenticationStatus.SessionExpired</text><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="36.4583" x="430.2083" y="447.6705">event</text><polygon fill="#2A9FD6" points="119.7917,493.2943,109.375,497.4609,119.7917,501.6276,115.625,497.4609" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><line style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="113.5417" x2="478.125" y1="497.4609" y2="497.4609"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="106.25" x="131.25" y="487.2213">throws the error</text><line style="stroke:#ADAFAE;stroke-width:1.0416666666666667;stroke-dasharray:2.0,2.0;" x1="31.25" x2="1000.5208" y1="506.8359" y2="506.8359"/><text fill="#ADAFAE" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="140.625" x="41.6667" y="523.6471">[is any other error]</text><polygon fill="#2A9FD6" points="119.7917,559.8958,109.375,564.0625,119.7917,568.2292,115.625,564.0625" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><line style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="113.5417" x2="478.125" y1="564.0625" y2="564.0625"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="106.25" x="131.25" y="553.8228">throws the error</text><line style="stroke:#ADAFAE;stroke-width:1.0416666666666667;stroke-dasharray:2.0,2.0;" x1="20.8333" x2="1010.9375" y1="580.7292" y2="580.7292"/><text fill="#ADAFAE" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="162.5" x="31.25" y="597.5403">[no error from retries]</text><polygon fill="#2A9FD6" points="490.625,633.7891,480.2083,637.9557,490.625,642.1224,486.4583,637.9557" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><line style="stroke:#2A9FD6;stroke-width:3.125;" x1="484.375" x2="919.7917" y1="637.9557" y2="637.9557"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="169.7917" x="502.0833" y="627.7161">IDTM onComplete is called</text><line style="stroke:#ADAFAE;stroke-width:1.0416666666666667;stroke-dasharray:2.0,2.0;" x1="10.4167" x2="1021.3542" y1="654.6224" y2="654.6224"/><text fill="#ADAFAE" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="17.7083" x="20.8333" y="671.4335">[is</text><text fill="#ADAFAE" font-family="monospace" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="153.125" x="42.7083" y="671.4335">UserCanceledException</text><text fill="#ADAFAE" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="5.2083" x="195.8333" y="671.4335">]</text><polygon fill="#2A9FD6" points="119.7917,707.6823,109.375,711.849,119.7917,716.0156,115.625,711.849" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><line style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="113.5417" x2="478.125" y1="711.849" y2="711.849"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="35.4167" x="131.25" y="701.6093">emits</text><text fill="#FFFFFF" font-family="monospace" font-size="12.5" lengthAdjust="spacing" textLength="240.625" x="170.8333" y="701.6093">AuthenticationStatus.UserCanceled</text><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="36.4583" x="415.625" y="701.6093">event</text><line style="stroke:#ADAFAE;stroke-width:1.0416666666666667;stroke-dasharray:2.0,2.0;" x1="10.4167" x2="1021.3542" y1="721.224" y2="721.224"/><text fill="#ADAFAE" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="231.25" x="20.8333" y="738.0351">[is any other type of exception]</text><path d="M35.4167,754.5247 L108.3333,754.5247 L108.3333,770.1497 L97.9167,780.5664 L31.25,780.5664 L31.25,758.6914 A4.1667,4.1667 0 0 1 35.4167,754.5247 " fill="#313238" style="stroke:#ADAFAE;stroke-width:1.0416666666666667;"/><rect fill="none" height="142.5456" rx="4.1667" ry="4.1667" style="stroke:#ADAFAE;stroke-width:2.0833333333333335;" width="589.0625" x="31.25" y="754.5247"/><text fill="#9933CC" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="19.7917" x="52.0833" y="772.3775">alt</text><text fill="#ADAFAE" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="182.2917" x="129.1667" y="773.4192">[loginStatus.isLoggedIn]</text><polygon fill="#2A9FD6" points="119.7917,817.9688,109.375,822.1354,119.7917,826.3021,115.625,822.1354" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><line style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="113.5417" x2="478.125" y1="822.1354" y2="822.1354"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="35.4167" x="131.25" y="811.8958">emits</text><text fill="#FFFFFF" font-family="monospace" font-size="12.5" lengthAdjust="spacing" textLength="255.2083" x="170.8333" y="811.8958">AuthenticationStatus.SessionExpired</text><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="36.4583" x="430.2083" y="811.8958">event</text><line style="stroke:#ADAFAE;stroke-width:1.0416666666666667;stroke-dasharray:2.0,2.0;" x1="31.25" x2="620.3125" y1="831.5104" y2="831.5104"/><text fill="#ADAFAE" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="195.8333" x="41.6667" y="848.3215">[loginStatus.isLoggedOut]</text><polygon fill="#2A9FD6" points="119.7917,884.5703,109.375,888.737,119.7917,892.9036,115.625,888.737" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><line style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="113.5417" x2="478.125" y1="888.737" y2="888.737"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="35.4167" x="131.25" y="878.4973">emits</text><text fill="#FFFFFF" font-family="monospace" font-size="12.5" lengthAdjust="spacing" textLength="233.3333" x="170.8333" y="878.4973">AuthenticationStatus.LoginFailed</text><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="36.4583" x="408.3333" y="878.4973">event</text><!--MD5=[4c455b48a78711f6c03a8bddc09f8a25]
+@startuml
+
+!include ../../design.puml
+
+== RefreshToken handleFetchAccessTokenError method ==
+participant App order 1
+participant AuthenticationManager order 2
+participant IDTM order 3
+AuthenticationManager loop_arrowR() AuthenticationManager:  sends analytics events to firebase
+AuthenticationManager loop_arrowR() AuthenticationManager:  sets ""Status.Idle"" status
+alt IDTM error is retriableException
+  AuthenticationManager -> IDTM: retries the refresh token request for 3x with 30 seconds delay
+  alt retries still fails
+    alt is ""IdtmRetryException""
+      IDTM -> AuthenticationManager: IDTM onError is called
+      AuthenticationManager - -> App: emits ""AuthenticationStatus.SessionExpired"" event
+      AuthenticationManager - -> App: throws the error
+    else is any other error 
+      AuthenticationManager - -> App: throws the error
+    end
+  else no error from retries
+    AuthenticationManager <- IDTM: IDTM onComplete is called
+  end
+else is ""UserCanceledException""
+  AuthenticationManager - -> App: emits ""AuthenticationStatus.UserCanceled"" event
+else is any other type of exception
+  alt loginStatus.isLoggedIn
+    AuthenticationManager - -> App: emits ""AuthenticationStatus.SessionExpired"" event
+  else loginStatus.isLoggedOut
+    AuthenticationManager - -> App: emits ""AuthenticationStatus.LoginFailed"" event 
+  end
+end
+
+@enduml
+
+@startuml
+
+
+
+
+
+skinparam backgroundColor transparent
+skinparam useBetaStyle false
+
+
+
+
+
+
+
+skinparam defaultFontName       "Verdana"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           8
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               5
+skinparam ArrowColor            #ADAFAE
+skinparam stereotype {
+    CBackgroundColor #777777
+    CBorderColor #444444
+    ABackgroundColor #5F8F00
+    ABorderColor #92C233
+    IBackgroundColor #a30000
+    IBorderColor #D63333
+    EBackgroundColor #cc6d00
+    EBorderColor #FFA033
+    NBackgroundColor #7a29a3
+    NBorderColor #AD5CD6
+}
+skinparam title {
+	FontColor	                 #2A9FD6
+	BorderColor	                 #777777
+	FontSize	    	         20
+	BorderRoundCorner            8
+	BorderThickness 	         1
+	BackgroundColor              transparent
+}
+
+skinparam legend {
+	BackgroundColor transparent
+	BorderColor #777777
+	FontColor #ADAFAE
+}
+
+skinparam swimlane {
+	BorderColor #9933CC
+	BorderThickness 2
+	TitleBackgroundColor  #444444-#555
+	TitleFontColor #2A9FD6
+}
+
+
+skinparam activity {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	BarColor #77B300
+	StartColor #9933CC
+	EndColor #9933CC
+	DiamondBackgroundColor transparent
+  	DiamondBorderColor #777777
+  	DiamondFontColor #777777
+}
+
+
+skinparam participant {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+skinparam arrow {
+	Thickness 3
+	Color #2A9FD6
+	FontColor #FFF
+}
+
+
+skinparam sequence {
+	BorderColor #2A9FD6
+	TitleFontColor #2A9FD6
+	BackgroundColor transparent
+	StartColor #2A9FD6
+	EndColor #2A9FD6
+	BoxBackgroundColor transparent
+	BoxBorderColor #ADAFAE
+	BoxFontColor #ADAFAE
+	DelayFontColor #ADAFAE
+	LifeLineBorderColor #555
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor transparent
+	GroupBorderColor #ADAFAE
+	GroupFontColor #ADAFAE
+	GroupHeaderFontColor #9933CC
+	GroupBackgroundColor transparent
+	GroupBodyBackgroundColor transparent
+	GroupHeaderBackgroundColor transparent
+	DividerBackgroundColor transparent
+    DividerBorderColor #ADAFAE
+    DividerBorderThickness 2
+    DividerFontColor #ADAFAE
+	ReferenceBackgroundColor transparent
+	ReferenceBorderColor #ADAFAE
+	ReferenceFontColor #ADAFAE
+	ReferenceHeaderFontColor #9933CC
+	ReferenceHeaderBackgroundColor transparent
+	StereotypeFontColor #2A9FD6
+}
+
+
+skinparam partition {
+	BorderColor #2A9FD6
+	FontColor #2A9FD6
+	BackgroundColor transparent
+}
+
+
+skinparam collections {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+}
+
+
+skinparam control {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+skinparam entity {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+skinparam boundary {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+skinparam agent {
+	BackgroundColor transparent
+	BorderColor #cc6d00
+	FontColor #ADAFAE
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor transparent
+	BorderColor #AD5CD6
+	FontColor #AD5CD6
+}
+
+
+skinparam artifact {
+	BackgroundColor transparent
+	BorderColor #BDBFBE
+	FontColor #BDBFBE
+}
+
+
+skinparam component {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+}
+
+
+skinparam interface {
+	BackgroundColor  transparent
+	BorderColor  #CC0000
+	FontColor #ADAFAE
+}
+
+
+skinparam storage {
+	BackgroundColor transparent
+  	BorderColor #FFA033
+	FontColor #FF8800
+}
+
+
+skinparam node {
+	BackgroundColor  transparent
+	BorderColor #ADAFAE
+	FontColor #ADAFAE
+}
+
+
+skinparam cloud {
+	BackgroundColor transparent
+	BorderColor #F2FCFE
+	FontColor #ADAFAE
+}
+
+
+skinparam database {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+
+skinparam class {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+        FontColor #222
+	HeaderBackgroundColor #227FAB
+	StereotypeFontColor #ADAFAE
+	BorderThickness 1
+	AttributeFontColor #ADAFAE
+	AttributeFontSize 11
+}
+
+
+skinparam object {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	StereotypeFontColor #ADAFAE
+	BorderThickness 1
+	AttributeFontColor #777777
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	BorderThickness 2
+	StereotypeFontColor #2A9FD6
+}
+
+
+skinparam rectangle {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	BorderThickness 2
+	StereotypeFontColor #2A9FD6
+}
+
+
+skinparam package {
+	BackgroundColor transparent
+  	BorderColor #2A9FD6
+	FontColor #2A9FD6
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor transparent
+  	BorderColor #FF8800
+	FontColor #FF8800
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor transparent
+  	BorderColor #9933CC
+	FontColor #9933CC
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	StartColor #9933CC
+	EndColor #9933CC
+	AttributeFontColor #777777
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+}
+
+
+skinparam card {
+	BackgroundColor transparent
+	BorderColor #9933CC
+	FontColor #9933CC
+}
+
+
+skinparam file {
+	BackgroundColor transparent
+	BorderColor #555
+	FontColor #555
+}
+
+
+
+skinparam BackgroundColor #313238
+skinparam StereotypeCBackgroundColor #fb8500
+
+skinparam StereotypeCBackgroundColor<<S>> #e840e8
+skinparam SpotChar<<S>> S
+hide <<S>> stereotype
+
+skinparam StereotypeCBackgroundColor<<E>> #10FF30
+skinparam SpotChar<<E>> E
+hide <<E>> stereotype
+
+
+
+
+== RefreshToken handleFetchAccessTokenError method ==
+participant App order 1
+participant AuthenticationManager order 2
+participant IDTM order 3
+AuthenticationManager   <<-[#pink]- - AuthenticationManager:  sends analytics events to firebase
+AuthenticationManager   <<-[#pink]- - AuthenticationManager:  sets ""Status.Idle"" status
+alt IDTM error is retriableException
+  AuthenticationManager -> IDTM: retries the refresh token request for 3x with 30 seconds delay
+  alt retries still fails
+    alt is ""IdtmRetryException""
+      IDTM -> AuthenticationManager: IDTM onError is called
+      AuthenticationManager - -> App: emits ""AuthenticationStatus.SessionExpired"" event
+      AuthenticationManager - -> App: throws the error
+    else is any other error 
+      AuthenticationManager - -> App: throws the error
+    end
+  else no error from retries
+    AuthenticationManager <- IDTM: IDTM onComplete is called
+  end
+else is ""UserCanceledException""
+  AuthenticationManager - -> App: emits ""AuthenticationStatus.UserCanceled"" event
+else is any other type of exception
+  alt loginStatus.isLoggedIn
+    AuthenticationManager - -> App: emits ""AuthenticationStatus.SessionExpired"" event
+  else loginStatus.isLoggedOut
+    AuthenticationManager - -> App: emits ""AuthenticationStatus.LoginFailed"" event 
+  end
+end
+
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 13:26:11 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

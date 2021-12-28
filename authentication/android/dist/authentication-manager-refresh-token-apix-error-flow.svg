@@ -1,0 +1,421 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="743.75px" preserveAspectRatio="none" style="width:1257px;height:743px;background:#313238;" version="1.1" viewBox="0 0 1257 743" width="1257.2917px" zoomAndPan="magnify"><defs/><g><line style="stroke:#555555;stroke-width:2.0833333333333335;stroke-dasharray:5.0,5.0;" x1="166.6667" x2="166.6667" y1="45.8008" y2="699.6878"/><line style="stroke:#555555;stroke-width:2.0833333333333335;stroke-dasharray:5.0,5.0;" x1="691.6667" x2="691.6667" y1="45.8008" y2="699.6878"/><line style="stroke:#555555;stroke-width:2.0833333333333335;stroke-dasharray:5.0,5.0;" x1="1141.1458" x2="1141.1458" y1="45.8008" y2="699.6878"/><rect fill="#313238" height="39.5508" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.5625;" width="166.6667" x="83.3333" y="5.2083"/><text fill="#2A9FD6" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="141.6667" x="95.8333" y="29.3111">AuthenticationManager</text><rect fill="#313238" height="39.5508" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.5625;" width="166.6667" x="83.3333" y="698.6461"/><text fill="#2A9FD6" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="141.6667" x="95.8333" y="722.7489">AuthenticationManager</text><rect fill="#313238" height="39.5508" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.5625;" width="50" x="666.6667" y="5.2083"/><text fill="#2A9FD6" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="25" x="679.1667" y="29.3111">App</text><rect fill="#313238" height="39.5508" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.5625;" width="50" x="666.6667" y="698.6461"/><text fill="#2A9FD6" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="25" x="679.1667" y="722.7489">App</text><rect fill="#313238" height="39.5508" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.5625;" width="51.0417" x="1116.1458" y="5.2083"/><text fill="#2A9FD6" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="26.0417" x="1128.6458" y="29.3111">APIX</text><rect fill="#313238" height="39.5508" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.5625;" width="51.0417" x="1116.1458" y="698.6461"/><text fill="#2A9FD6" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="26.0417" x="1128.6458" y="722.7489">APIX</text><rect fill="#313238" height="3.125" style="stroke:#313238;stroke-width:1.0416666666666667;" width="1250.5208" x="0" y="82.2428"/><line style="stroke:#ADAFAE;stroke-width:1.0416666666666667;" x1="0" x2="1250.5208" y1="82.2428" y2="82.2428"/><line style="stroke:#ADAFAE;stroke-width:1.0416666666666667;" x1="0" x2="1250.5208" y1="85.3678" y2="85.3678"/><rect fill="#313238" height="33.3008" style="stroke:#ADAFAE;stroke-width:2.0833333333333335;" width="136.4583" x="557.0313" y="66.6341"/><text fill="#ADAFAE" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="107.2917" x="568.4896" y="87.6119">APIX 401 Error</text><polygon fill="#2A9FD6" points="1129.1667,137.8517,1139.5833,142.0183,1129.1667,146.185,1133.3333,142.0183" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><line style="stroke:#2A9FD6;stroke-width:3.125;" x1="691.6667" x2="1135.4167" y1="142.0183" y2="142.0183"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="159.375" x="704.1667" y="131.7787">makes a request with the</text><text fill="#FFFFFF" font-family="monospace" font-size="12.5" lengthAdjust="spacing" textLength="80.2083" x="867.7083" y="131.3016">accessToken</text><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="135.4167" x="952.0833" y="131.7787">asking for a resource</text><polygon fill="#2A9FD6" points="703.125,177.4024,692.7083,181.5691,703.125,185.7358,698.9583,181.5691" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><line style="stroke:#2A9FD6;stroke-width:3.125;" x1="696.875" x2="1140.625" y1="181.5691" y2="181.5691"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="151.0417" x="714.5833" y="171.3295">APIX returns a response</text><path d="M14.5833,197.1941 L88.5417,197.1941 L88.5417,212.8191 L78.125,223.2358 L10.4167,223.2358 L10.4167,201.3608 A4.1667,4.1667 0 0 1 14.5833,197.1941 " fill="#313238" style="stroke:#ADAFAE;stroke-width:1.0416666666666667;"/><rect fill="none" height="484.7854" rx="4.1667" ry="4.1667" style="stroke:#ADAFAE;stroke-width:2.0833333333333335;" width="1229.6875" x="10.4167" y="197.1941"/><text fill="#9933CC" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="20.8333" x="31.25" y="215.0469">alt</text><text fill="#ADAFAE" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="94.7917" x="109.375" y="216.0886">[on success]</text><line style="stroke:#FFC0CB;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="647.9167" x2="691.6667" y1="264.8048" y2="264.8048"/><line style="stroke:#FFC0CB;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="647.9167" x2="647.9167" y1="264.8048" y2="278.3465"/><line style="stroke:#FFC0CB;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="647.9167" x2="690.625" y1="278.3465" y2="278.3465"/><polygon fill="#FFC0CB" points="682.2917,274.1798,692.7083,278.3465,682.2917,282.5131,686.4583,278.3465" style="stroke:#FFC0CB;stroke-width:1.0416666666666667;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="240.625" x="445.8333" y="254.5651">returns request with success reponse</text><line style="stroke:#ADAFAE;stroke-width:1.0416666666666667;stroke-dasharray:2.0,2.0;" x1="10.4167" x2="1240.1042" y1="287.7215" y2="287.7215"/><text fill="#ADAFAE" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="85.4167" x="20.8333" y="304.5326">[on failure]</text><path d="M25,321.0222 L98.9583,321.0222 L98.9583,336.6472 L88.5417,347.0639 L20.8333,347.0639 L20.8333,325.1889 A4.1667,4.1667 0 0 1 25,321.0222 " fill="#313238" style="stroke:#ADAFAE;stroke-width:1.0416666666666667;"/><rect fill="none" height="353.6656" rx="4.1667" ry="4.1667" style="stroke:#ADAFAE;stroke-width:2.0833333333333335;" width="1208.8542" x="20.8333" y="321.0222"/><text fill="#9933CC" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="20.8333" x="41.6667" y="338.875">alt</text><text fill="#ADAFAE" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="123.9583" x="119.7917" y="339.9167">[401 error code]</text><polygon fill="#2A9FD6" points="178.125,384.9156,167.7083,389.0822,178.125,393.2489,173.9583,389.0822" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><line style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="171.875" x2="690.625" y1="389.0822" y2="389.0822"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="275" x="189.5833" y="378.8426">calls authentication manager with the invalid</text><text fill="#FFFFFF" font-family="monospace" font-size="12.5" lengthAdjust="spacing" textLength="80.2083" x="468.75" y="378.3656">accessToken</text><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="126.0417" x="553.125" y="378.8426">to refresh the token</text><polygon fill="#2A9FD6" points="679.1667,424.4664,689.5833,428.633,679.1667,432.7997,683.3333,428.633" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><line style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="166.6667" x2="685.4167" y1="428.633" y2="428.633"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="265.625" x="179.1667" y="418.3934">returns with a possible valid access token</text><path d="M35.4167,444.258 L109.375,444.258 L109.375,459.883 L98.9583,470.2997 L31.25,470.2997 L31.25,448.4247 A4.1667,4.1667 0 0 1 35.4167,444.258 " fill="#313238" style="stroke:#ADAFAE;stroke-width:1.0416666666666667;"/><rect fill="none" height="142.9949" rx="4.1667" ry="4.1667" style="stroke:#ADAFAE;stroke-width:2.0833333333333335;" width="1188.0208" x="31.25" y="444.258"/><text fill="#9933CC" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="20.8333" x="52.0833" y="462.1108">alt</text><text fill="#ADAFAE" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="150" x="130.2083" y="463.1525">[valid accessToken]</text><polygon fill="#2A9FD6" points="1129.1667,508.1514,1139.5833,512.318,1129.1667,516.4847,1133.3333,512.318" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><line style="stroke:#2A9FD6;stroke-width:3.125;" x1="691.6667" x2="1135.4167" y1="512.318" y2="512.318"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="190.625" x="704.1667" y="502.0784">continues the request with the</text><text fill="#FFFFFF" font-family="monospace" font-size="12.5" lengthAdjust="spacing" textLength="80.2083" x="898.9583" y="501.6013">accessToken</text><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="135.4167" x="983.3333" y="502.0784">asking for a resource</text><line style="stroke:#ADAFAE;stroke-width:1.0416666666666667;stroke-dasharray:2.0,2.0;" x1="31.25" x2="1219.2708" y1="521.693" y2="521.693"/><text fill="#ADAFAE" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="163.5417" x="41.6667" y="538.5041">[invalid accessToken]</text><polygon fill="#2A9FD6" points="178.125,574.7529,167.7083,578.9196,178.125,583.0863,173.9583,578.9196" style="stroke:#2A9FD6;stroke-width:1.0416666666666667;"/><line style="stroke:#2A9FD6;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="171.875" x2="690.625" y1="578.9196" y2="578.9196"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="318.75" x="189.5833" y="568.6799">shows session expiry dialog and logs the user out</text><line style="stroke:#ADAFAE;stroke-width:1.0416666666666667;stroke-dasharray:2.0,2.0;" x1="20.8333" x2="1229.6875" y1="595.5863" y2="595.5863"/><text fill="#ADAFAE" font-family="Verdana" font-size="12.5" font-weight="bold" lengthAdjust="spacing" textLength="170.8333" x="31.25" y="612.3974">[any other error code]</text><line style="stroke:#FFC0CB;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="647.9167" x2="691.6667" y1="652.8128" y2="652.8128"/><line style="stroke:#FFC0CB;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="647.9167" x2="647.9167" y1="652.8128" y2="666.3545"/><line style="stroke:#FFC0CB;stroke-width:3.125;stroke-dasharray:2.0,2.0;" x1="647.9167" x2="690.625" y1="666.3545" y2="666.3545"/><polygon fill="#FFC0CB" points="682.2917,662.1878,692.7083,666.3545,682.2917,670.5211,686.4583,666.3545" style="stroke:#FFC0CB;stroke-width:1.0416666666666667;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="155.2083" x="531.25" y="642.5731">updates user with failure</text><!--MD5=[200715f184e80070988a93336d4c1886]
+@startuml
+!include https://raw.githubusercontent.com/bschwarz/puml-themes/master/themes/cyborg-outline/puml-theme-cyborg-outline.puml
+
+skinparam BackgroundColor #313238
+skinparam StereotypeCBackgroundColor #fb8500
+
+skinparam StereotypeCBackgroundColor<<S>> #e840e8
+skinparam SpotChar<<S>> S
+hide <<S>> stereotype
+
+skinparam StereotypeCBackgroundColor<<E>> #10FF30
+skinparam SpotChar<<E>> E
+hide <<E>> stereotype
+
+' skinparam linetype polyline
+' skinparam linetype ortho
+
+!procedure loop_arrowR()
+  <<-[#pink]- -
+!endprocedure
+
+
+== APIX 401 Error ==
+  participant AuthenticationManager order 1
+  participant App order 2
+  participant APIX order 3
+
+  App -> APIX: makes a request with the ""accessToken"" asking for a resource
+  APIX -> App: APIX returns a response
+  alt on success
+    App loop_arrowR() App: returns request with success reponse
+  else on failure
+    alt 401 error code
+      App - -> AuthenticationManager: calls authentication manager with the invalid ""accessToken"" to refresh the token
+      AuthenticationManager - -> App: returns with a possible valid access token
+      alt valid accessToken
+        App -> APIX: continues the request with the ""accessToken"" asking for a resource
+      else invalid accessToken
+        App - -> AuthenticationManager: shows session expiry dialog and logs the user out
+      end
+    else any other error code
+      App loop_arrowR() App: updates user with failure
+    end
+  end
+@enduml
+
+@startuml
+
+
+
+skinparam backgroundColor transparent
+skinparam useBetaStyle false
+
+
+
+
+
+
+
+skinparam defaultFontName       "Verdana"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           8
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               5
+skinparam ArrowColor            #ADAFAE
+skinparam stereotype {
+    CBackgroundColor #777777
+    CBorderColor #444444
+    ABackgroundColor #5F8F00
+    ABorderColor #92C233
+    IBackgroundColor #a30000
+    IBorderColor #D63333
+    EBackgroundColor #cc6d00
+    EBorderColor #FFA033
+    NBackgroundColor #7a29a3
+    NBorderColor #AD5CD6
+}
+skinparam title {
+	FontColor	                 #2A9FD6
+	BorderColor	                 #777777
+	FontSize	    	         20
+	BorderRoundCorner            8
+	BorderThickness 	         1
+	BackgroundColor              transparent
+}
+
+skinparam legend {
+	BackgroundColor transparent
+	BorderColor #777777
+	FontColor #ADAFAE
+}
+
+skinparam swimlane {
+	BorderColor #9933CC
+	BorderThickness 2
+	TitleBackgroundColor  #444444-#555
+	TitleFontColor #2A9FD6
+}
+
+
+skinparam activity {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	BarColor #77B300
+	StartColor #9933CC
+	EndColor #9933CC
+	DiamondBackgroundColor transparent
+  	DiamondBorderColor #777777
+  	DiamondFontColor #777777
+}
+
+
+skinparam participant {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+skinparam arrow {
+	Thickness 3
+	Color #2A9FD6
+	FontColor #FFF
+}
+
+
+skinparam sequence {
+	BorderColor #2A9FD6
+	TitleFontColor #2A9FD6
+	BackgroundColor transparent
+	StartColor #2A9FD6
+	EndColor #2A9FD6
+	BoxBackgroundColor transparent
+	BoxBorderColor #ADAFAE
+	BoxFontColor #ADAFAE
+	DelayFontColor #ADAFAE
+	LifeLineBorderColor #555
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor transparent
+	GroupBorderColor #ADAFAE
+	GroupFontColor #ADAFAE
+	GroupHeaderFontColor #9933CC
+	GroupBackgroundColor transparent
+	GroupBodyBackgroundColor transparent
+	GroupHeaderBackgroundColor transparent
+	DividerBackgroundColor transparent
+    DividerBorderColor #ADAFAE
+    DividerBorderThickness 2
+    DividerFontColor #ADAFAE
+	ReferenceBackgroundColor transparent
+	ReferenceBorderColor #ADAFAE
+	ReferenceFontColor #ADAFAE
+	ReferenceHeaderFontColor #9933CC
+	ReferenceHeaderBackgroundColor transparent
+	StereotypeFontColor #2A9FD6
+}
+
+
+skinparam partition {
+	BorderColor #2A9FD6
+	FontColor #2A9FD6
+	BackgroundColor transparent
+}
+
+
+skinparam collections {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+}
+
+
+skinparam control {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+skinparam entity {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+skinparam boundary {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+skinparam agent {
+	BackgroundColor transparent
+	BorderColor #cc6d00
+	FontColor #ADAFAE
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor transparent
+	BorderColor #AD5CD6
+	FontColor #AD5CD6
+}
+
+
+skinparam artifact {
+	BackgroundColor transparent
+	BorderColor #BDBFBE
+	FontColor #BDBFBE
+}
+
+
+skinparam component {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+}
+
+
+skinparam interface {
+	BackgroundColor  transparent
+	BorderColor  #CC0000
+	FontColor #ADAFAE
+}
+
+
+skinparam storage {
+	BackgroundColor transparent
+  	BorderColor #FFA033
+	FontColor #FF8800
+}
+
+
+skinparam node {
+	BackgroundColor  transparent
+	BorderColor #ADAFAE
+	FontColor #ADAFAE
+}
+
+
+skinparam cloud {
+	BackgroundColor transparent
+	BorderColor #F2FCFE
+	FontColor #ADAFAE
+}
+
+
+skinparam database {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+
+skinparam class {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+        FontColor #222
+	HeaderBackgroundColor #227FAB
+	StereotypeFontColor #ADAFAE
+	BorderThickness 1
+	AttributeFontColor #ADAFAE
+	AttributeFontSize 11
+}
+
+
+skinparam object {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	StereotypeFontColor #ADAFAE
+	BorderThickness 1
+	AttributeFontColor #777777
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	BorderThickness 2
+	StereotypeFontColor #2A9FD6
+}
+
+
+skinparam rectangle {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	BorderThickness 2
+	StereotypeFontColor #2A9FD6
+}
+
+
+skinparam package {
+	BackgroundColor transparent
+  	BorderColor #2A9FD6
+	FontColor #2A9FD6
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor transparent
+  	BorderColor #FF8800
+	FontColor #FF8800
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor transparent
+  	BorderColor #9933CC
+	FontColor #9933CC
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	StartColor #9933CC
+	EndColor #9933CC
+	AttributeFontColor #777777
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+}
+
+
+skinparam card {
+	BackgroundColor transparent
+	BorderColor #9933CC
+	FontColor #9933CC
+}
+
+
+skinparam file {
+	BackgroundColor transparent
+	BorderColor #555
+	FontColor #555
+}
+
+
+
+skinparam BackgroundColor #313238
+skinparam StereotypeCBackgroundColor #fb8500
+
+skinparam StereotypeCBackgroundColor<<S>> #e840e8
+skinparam SpotChar<<S>> S
+hide <<S>> stereotype
+
+skinparam StereotypeCBackgroundColor<<E>> #10FF30
+skinparam SpotChar<<E>> E
+hide <<E>> stereotype
+
+
+
+
+== APIX 401 Error ==
+  participant AuthenticationManager order 1
+  participant App order 2
+  participant APIX order 3
+
+  App -> APIX: makes a request with the ""accessToken"" asking for a resource
+  APIX -> App: APIX returns a response
+  alt on success
+    App   <<-[#pink]- - App: returns request with success reponse
+  else on failure
+    alt 401 error code
+      App - -> AuthenticationManager: calls authentication manager with the invalid ""accessToken"" to refresh the token
+      AuthenticationManager - -> App: returns with a possible valid access token
+      alt valid accessToken
+        App -> APIX: continues the request with the ""accessToken"" asking for a resource
+      else invalid accessToken
+        App - -> AuthenticationManager: shows session expiry dialog and logs the user out
+      end
+    else any other error code
+      App   <<-[#pink]- - App: updates user with failure
+    end
+  end
+@enduml
+
+PlantUML version 1.2021.10(Mon Aug 30 13:43:48 UTC 2021)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
