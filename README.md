@@ -48,4 +48,6 @@
 - [mqtt/dist/mqtt-flow.svg](https://raw.githubusercontent.com/crvshlab/v-app-diagrams-public/main/mqtt%2Fdist%2Fmqtt-flow.svg)
 - [mqtt/mqtt-classes.svg](https://raw.githubusercontent.com/crvshlab/v-app-diagrams-public/main/mqtt%2Fmqtt-classes.svg)
 - [mqtt/mqtt-flow.svg](https://raw.githubusercontent.com/crvshlab/v-app-diagrams-public/main/mqtt%2Fmqtt-flow.svg)
+- [voice/class.svg](https://raw.githubusercontent.com/crvshlab/v-app-diagrams-public/main/voice%2Fclass.svg)
+- [voice/sequence.svg](https://raw.githubusercontent.com/crvshlab/v-app-diagrams-public/main/voice%2Fsequence.svg)
 - [wrg/class.svg](https://raw.githubusercontent.com/crvshlab/v-app-diagrams-public/main/wrg%2Fclass.svg)
