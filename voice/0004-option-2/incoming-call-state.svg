@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="747px" preserveAspectRatio="none" style="width:1003px;height:747px;background:#FFFFFF;" version="1.1" viewBox="0 0 1003 747" width="1003px" zoomAndPan="magnify"><defs><filter height="300%" id="f11batclp5gfao" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[ca81195998bfa89afc1b8b0976bef982]
+cluster IncomingCall--><rect fill="#FEFECE" filter="url(#f11batclp5gfao)" height="653" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="616" x="119" y="7"/><rect fill="#FFFFFF" height="620.7031" rx="12.5" ry="12.5" style="stroke:#FFFFFF;stroke-width:1.0;" width="610" x="122" y="36.2969"/><line style="stroke:#A80036;stroke-width:1.5;" x1="119" x2="735" y1="33.2969" y2="33.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="91" x="381.5" y="23.9951">Incoming Call</text><ellipse cx="153" cy="75" fill="#000000" filter="url(#f11batclp5gfao)" rx="10" ry="10" style="stroke:none;stroke-width:1.0;"/><g id="IncomingCall.Active"><rect fill="#FEFECE" filter="url(#f11batclp5gfao)" height="50" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="61" x="555.5" y="586"/><line style="stroke:#A80036;stroke-width:1.5;" x1="555.5" x2="616.5" y1="612.2969" y2="612.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41" x="565.5" y="603.9951">Active</text></g><g id="IncomingCall.InvitationReceived"><rect fill="#FEFECE" filter="url(#f11batclp5gfao)" height="50" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="145" x="262.5" y="50"/><line style="stroke:#A80036;stroke-width:1.5;" x1="262.5" x2="407.5" y1="76.2969" y2="76.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="272.5" y="67.9951">InvitationReceived</text></g><g id="IncomingCall.Reported"><rect fill="#FEFECE" filter="url(#f11batclp5gfao)" height="50.2656" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="146" x="546" y="50"/><line style="stroke:#A80036;stroke-width:1.5;" x1="546" x2="692" y1="76.2969" y2="76.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="65" x="586.5" y="67.9951">Reported</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="126" x="551" y="92.4355">Ask WebRTC for SDP</text></g><g id="IncomingCall.Connecting"><rect fill="#FEFECE" filter="url(#f11batclp5gfao)" height="78.2031" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="201" x="465.5" y="177"/><line style="stroke:#A80036;stroke-width:1.5;" x1="465.5" x2="666.5" y1="203.2969" y2="203.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="526" y="194.9951">Connecting</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="113" x="470.5" y="219.4355">If VoiceRegistered</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="181" x="470.5" y="233.4043">Set status to inProgress 183</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="157" x="470.5" y="247.373">Set status to ringing 180</text></g><g id="IncomingCall.Ringing"><rect fill="#FEFECE" filter="url(#f11batclp5gfao)" height="50" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="72" x="530" y="332"/><line style="stroke:#A80036;stroke-width:1.5;" x1="530" x2="602" y1="358.2969" y2="358.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="52" x="540" y="349.9951">Ringing</text></g><g id="IncomingCall.Answering"><rect fill="#FEFECE" filter="url(#f11batclp5gfao)" height="50.2656" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="201" x="441.5" y="459"/><line style="stroke:#A80036;stroke-width:1.5;" x1="441.5" x2="642.5" y1="485.2969" y2="485.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="72" x="506" y="476.9951">Answering</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="181" x="446.5" y="501.4355">Set status to connected 200</text></g><ellipse cx="776" cy="725" filter="url(#f11batclp5gfao)" rx="10" ry="10" style="stroke:#000000;stroke-width:1.0;fill:none;"/><ellipse cx="776.5" cy="725.5" fill="#000000" rx="6" ry="6" style="stroke:none;stroke-width:1.0;"/><g id="CallFailed"><rect fill="#FEFECE" filter="url(#f11batclp5gfao)" height="50" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="88" x="7" y="586"/><line style="stroke:#A80036;stroke-width:1.5;" x1="7" x2="95" y1="612.2969" y2="612.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="17" y="603.9951">Call Failed</text></g><g id="CallCancelled"><rect fill="#FEFECE" filter="url(#f11batclp5gfao)" height="50" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="116" x="809" y="191"/><line style="stroke:#A80036;stroke-width:1.5;" x1="809" x2="925" y1="217.2969" y2="217.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="819" y="208.9951">Call Cancelled</text></g><g id="CallEnded"><rect fill="#FEFECE" filter="url(#f11batclp5gfao)" height="50" rx="12.5" ry="12.5" style="stroke:#A80036;stroke-width:1.5;" width="93" x="758.5" y="459"/><line style="stroke:#A80036;stroke-width:1.5;" x1="758.5" x2="851.5" y1="485.2969" y2="485.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="768.5" y="476.9951">Call Ended</text></g><!--MD5=[25218b029ee57d4d1bc6f2f6e911a324]
+link *start*IncomingCall to InvitationReceived--><path d="M163.04,75 C181.09,75 220.51,75 257.06,75 " fill="none" id="*start*IncomingCall-to-InvitationReceived" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="262.43,75,253.43,71,257.43,75,253.43,79,262.43,75" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="63" x="181.25" y="68.0669">VoIP Push</text><!--MD5=[a1929118f0f30fd8ca41bb7da1ee4d26]
+link InvitationReceived to Reported--><path d="M407.77,75 C448.51,75 499.33,75 540.9,75 " fill="none" id="InvitationReceived-to-Reported" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="545.93,75,536.93,71,540.93,75,536.93,79,545.93,75" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="102" x="425.75" y="68.0669">Report to CallKit</text><!--MD5=[9f1e9113252dc75d4c4ef76a2a8e4d15]
+link Reported to Connecting--><path d="M609.77,100.21 C602.24,119.96 591.41,148.36 582.41,171.97 " fill="none" id="Reported-to-Connecting" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="580.52,176.93,587.4699,169.9515,582.3053,172.2596,579.9973,167.095,580.52,176.93" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="88" x="598" y="143.0669">Received SDP</text><!--MD5=[5b28c77651c7a4380b724823ee00a681]
+link Connecting to CallFailed--><path d="M516.15,255.04 C412.66,334.02 176.64,514.12 86.71,582.75 " fill="none" id="Connecting-to-CallFailed" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="82.54,585.93,92.1169,583.6314,86.509,582.889,87.2513,577.2811,82.54,585.93" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="114" x="309" y="425.0669">Set Status Failure</text><!--MD5=[68b3d9b2c3bca4ea81c3a881813e4f01]
+link Connecting to Ringing--><path d="M566,255.35 C566,277.87 566,305.89 566,326.65 " fill="none" id="Connecting-to-Ringing" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="566,331.76,570,322.76,566,326.76,562,322.76,566,331.76" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="53" x="567" y="298.0669">Success</text><!--MD5=[d18bd7dc42983faf85de6f815f8c2371]
+link Ringing to Answering--><path d="M552.75,382 C548.42,391.11 544.17,401.76 542,412 C539.13,425.52 538.78,440.81 539.28,453.74 " fill="none" id="Ringing-to-Answering" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="539.52,458.75,543.0787,449.5665,539.2774,453.7559,535.0881,449.9547,539.52,458.75" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="148" x="543" y="425.0669">User Answered the Call</text><!--MD5=[74238e903e9ef50ab837c321fbc35da6]
+link Ringing to CallEnded--><path d="M602.12,370.95 C628.67,380.96 665.31,395.8 696,412 C720.62,424.99 746.79,441.92 767.32,456 " fill="none" id="Ringing-to-CallEnded" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="771.61,458.96,766.4795,450.553,767.4965,456.1177,761.9318,457.1346,771.61,458.96" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="141" x="724" y="425.0669">User Declined the Call</text><!--MD5=[575f9cc329fc45e6fc595b48c6fcbc5a]
+link Answering to Active--><path d="M550.48,509.1 C557.73,529.68 568.16,559.33 575.85,581.16 " fill="none" id="Answering-to-Active" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="577.54,585.97,578.329,576.1528,575.8819,581.2529,570.7817,578.8058,577.54,585.97" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="53" x="567" y="552.0669">Success</text><!--MD5=[8df59f8cd10846a7bf5b7a453969a3f0]
+link Answering to CallFailed--><path d="M441.74,509.03 C328.88,536.13 157.22,577.56 127,586 C118.23,588.45 108.95,591.23 99.99,594 " fill="none" id="Answering-to-CallFailed" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="95.06,595.54,104.8423,596.6835,99.8339,594.0535,102.4639,589.0452,95.06,595.54" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="42" x="317" y="552.0669">Failure</text><!--MD5=[799697833c9e057ff47c60c930d676c6]
+link IncomingCall to CallCancelled--><path d="M735.1046,84.0481 C736.6265,85.5593 738.3363,87.2569 740.2106,89.118 C747.7081,96.5622 757.84,106.6219 769.1275,117.8288 C791.7025,140.2425 818.9,167.245 838.89,187.09 " fill="none" id="IncomingCall-to-CallCancelled" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="842.66,190.84,839.0874,181.6619,839.1102,187.3188,833.4534,187.3416,842.66,190.84" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="197" x="798" y="143.0669">SessionCancelled (WebSocket)</text><!--MD5=[86d12920a26e7a6e6b0df510e416084d]
+link Active to *end--><path d="M616.53,629.99 C658.94,655 733.83,699.14 763.44,716.6 " fill="none" id="Active-to-*end" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="767.8,719.16,762.0893,711.1358,763.4962,716.6149,758.0171,718.0219,767.8,719.16" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[0693c51fcdd166c73ceda7322a7f407f]
+link CallCancelled to *end--><path d="M877.79,241.06 C889.02,268.35 905,314.47 905,356 C905,356 905,356 905,612 C905,672.25 823.78,707.4 790.23,719.35 " fill="none" id="CallCancelled-to-*end" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="785.28,721.07,795.0928,721.9121,790.006,719.4374,792.4806,714.3506,785.28,721.07" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[7780ed10865805d68427091517835cc5]
+link CallFailed to *end--><path d="M72.06,636.13 C86.07,650.41 105.75,667.34 127,676 C247.05,724.9 673.31,724.7 760.39,724.14 " fill="none" id="CallFailed-to-*end" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="765.63,724.1,756.6073,720.1515,760.6301,724.1286,756.653,728.1514,765.63,724.1" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[7fbd356eec88e71ed2d7821ec5427138]
+link CallEnded to *end--><path d="M802.06,509.23 C796.08,558.55 782.64,669.29 777.79,709.26 " fill="none" id="CallEnded-to-*end" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="777.14,714.63,782.2135,706.1885,777.7532,709.6677,774.2739,705.2074,777.14,714.63" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[92b9c7cf78810023cb776c63364e4658]
+@startuml
+
+state "Call Failed" as CallFailed { 
+
+}
+
+state "Call Cancelled" as CallCancelled {
+
+}
+
+state "Call Ended" as CallEnded {
+
+}
+
+state "Incoming Call" as IncomingCall {
+
+    state "InvitationReceived" as InvitationReceived {
+
+    }
+
+    [*] -> InvitationReceived : VoIP Push
+
+    state "Reported" as Reported {
+        Reported: Ask WebRTC for SDP
+    }
+    InvitationReceived -> Reported : Report to CallKit 
+
+    state "Connecting" as Connecting {
+        Connecting: If VoiceRegistered
+        Connecting: Set status to inProgress 183 
+        Connecting: Set status to ringing 180 
+    }
+    Reported - -> Connecting : Received SDP
+    Connecting - -> CallFailed : Set Status Failure 
+
+    state "Ringing" as Ringing {
+
+    }
+    Connecting - -> Ringing : Success
+    state "Answering" as Answering {
+       Answering: Set status to connected 200
+    }
+    Ringing - -> Answering : User Answered the Call
+    Ringing - -> CallEnded : User Declined the Call
+    Answering - -> Active : Success
+    Answering - -> CallFailed : Failure
+}
+
+IncomingCall - -> CallCancelled : SessionCancelled (WebSocket)
+
+Active - -> [*]
+CallCancelled - -> [*]
+CallFailed - -> [*]
+CallEnded - -> [*]
+
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 13:26:11 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

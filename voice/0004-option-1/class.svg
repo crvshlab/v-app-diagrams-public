@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="637px" preserveAspectRatio="none" style="width:2058px;height:637px;background:#FFFFFF;" version="1.1" viewBox="0 0 2058 637" width="2058px" zoomAndPan="magnify"><defs><filter height="300%" id="f1g36qn4awgxon" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[93369dbd818f54d42a841537181a0712]
+class Call--><rect codeLine="4" fill="#FEFECE" filter="url(#f1g36qn4awgxon)" height="124.8281" id="Call" style="stroke:#A80036;stroke-width:1.5;" width="257" x="1074" y="7"/><ellipse cx="1181.75" cy="23" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1184.7188,28.6406 Q1184.1406,28.9375 1183.5,29.0781 Q1182.8594,29.2344 1182.1563,29.2344 Q1179.6563,29.2344 1178.3281,27.5938 Q1177.0156,25.9375 1177.0156,22.8125 Q1177.0156,19.6875 1178.3281,18.0313 Q1179.6563,16.375 1182.1563,16.375 Q1182.8594,16.375 1183.5,16.5313 Q1184.1563,16.6875 1184.7188,16.9844 L1184.7188,19.7031 Q1184.0938,19.125 1183.5,18.8594 Q1182.9063,18.5781 1182.2813,18.5781 Q1180.9375,18.5781 1180.25,19.6563 Q1179.5625,20.7188 1179.5625,22.8125 Q1179.5625,24.9063 1180.25,25.9844 Q1180.9375,27.0469 1182.2813,27.0469 Q1182.9063,27.0469 1183.5,26.7813 Q1184.0938,26.5 1184.7188,25.9219 L1184.7188,28.6406 Z " fill="#000000"/><ellipse cx="1207.25" cy="22.5" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="22" x="1213.25" y="27.1543">Call</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1075" x2="1330" y1="39" y2="39"/><ellipse cx="1085" cy="50" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="67" x="1094" y="53.2104">state: State</text><ellipse cx="1085" cy="62.8047" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="71" x="1094" y="66.0151">callId: String</text><ellipse cx="1085" cy="75.6094" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="63" x="1094" y="78.8198">sdp: String</text><ellipse cx="1085" cy="88.4141" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="59" x="1094" y="91.6245">date: Date</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="1098" y="104.4292"/><rect fill="none" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1082" y="111.0234"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="231" x="1094" y="117.2339">peerConnection: WebRTCPeerConnection</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1075" x2="1330" y1="123.8281" y2="123.8281"/><!--MD5=[2d68dac7b6c87c95d060679c47e39d6a]
+class VoIPCallRepository--><rect codeLine="13" fill="#FEFECE" filter="url(#f1g36qn4awgxon)" height="73.6094" id="VoIPCallRepository" style="stroke:#A80036;stroke-width:1.5;" width="207" x="1099" y="198"/><ellipse cx="1136.05" cy="214" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1139.0188,219.6406 Q1138.4406,219.9375 1137.8,220.0781 Q1137.1594,220.2344 1136.4563,220.2344 Q1133.9563,220.2344 1132.6281,218.5938 Q1131.3156,216.9375 1131.3156,213.8125 Q1131.3156,210.6875 1132.6281,209.0313 Q1133.9563,207.375 1136.4563,207.375 Q1137.1594,207.375 1137.8,207.5313 Q1138.4563,207.6875 1139.0188,207.9844 L1139.0188,210.7031 Q1138.3938,210.125 1137.8,209.8594 Q1137.2063,209.5781 1136.5813,209.5781 Q1135.2375,209.5781 1134.55,210.6563 Q1133.8625,211.7188 1133.8625,213.8125 Q1133.8625,215.9063 1134.55,216.9844 Q1135.2375,218.0469 1136.5813,218.0469 Q1137.2063,218.0469 1137.8,217.7813 Q1138.3938,217.5 1139.0188,216.9219 L1139.0188,219.6406 Z " fill="#000000"/><ellipse cx="1159.95" cy="213.5" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="115" x="1165.95" y="218.1543">VoIPCallRepository</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1100" x2="1305" y1="230" y2="230"/><ellipse cx="1110" cy="241" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="181" x="1119" y="244.2104">query: Publisher&lt;[Call], Never&gt;</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1100" x2="1305" y1="250.8047" y2="250.8047"/><rect fill="#F24D5C" height="6" style="stroke:#C82930;stroke-width:1.0;" width="6" x="1107" y="258.8047"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="50" x="1119" y="265.0151">add(Call)</text><path d="M1341.5,222.5 L1341.5,231 L1306.16,235 L1341.5,239 L1341.5,247.6328 A0,0 0 0 0 1341.5,247.6328 L1509.5,247.6328 A0,0 0 0 0 1509.5,247.6328 L1509.5,232.5 L1499.5,222.5 L1341.5,222.5 A0,0 0 0 0 1341.5,222.5 " fill="#FBFB77" filter="url(#f1g36qn4awgxon)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1499.5,222.5 L1499.5,232.5 L1509.5,232.5 L1499.5,222.5 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="147" x="1347.5" y="239.5669">- keeps a list of all calls</text><!--MD5=[b8fb321bc829ee0ccb8b6ee66514387f]
+class VoIPStartCallUseCase--><rect codeLine="29" fill="#FEFECE" filter="url(#f1g36qn4awgxon)" height="60.8047" id="VoIPStartCallUseCase" style="stroke:#A80036;stroke-width:1.5;" width="167" x="1539" y="358"/><ellipse cx="1554" cy="374" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1556.9688,379.6406 Q1556.3906,379.9375 1555.75,380.0781 Q1555.1094,380.2344 1554.4063,380.2344 Q1551.9063,380.2344 1550.5781,378.5938 Q1549.2656,376.9375 1549.2656,373.8125 Q1549.2656,370.6875 1550.5781,369.0313 Q1551.9063,367.375 1554.4063,367.375 Q1555.1094,367.375 1555.75,367.5313 Q1556.4063,367.6875 1556.9688,367.9844 L1556.9688,370.7031 Q1556.3438,370.125 1555.75,369.8594 Q1555.1563,369.5781 1554.5313,369.5781 Q1553.1875,369.5781 1552.5,370.6563 Q1551.8125,371.7188 1551.8125,373.8125 Q1551.8125,375.9063 1552.5,376.9844 Q1553.1875,378.0469 1554.5313,378.0469 Q1555.1563,378.0469 1555.75,377.7813 Q1556.3438,377.5 1556.9688,376.9219 L1556.9688,379.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="135" x="1568" y="378.1543">VoIPStartCallUseCase</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1540" x2="1705" y1="390" y2="390"/><line style="stroke:#A80036;stroke-width:1.5;" x1="1540" x2="1705" y1="398" y2="398"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="79" x="1545" y="412.2104">start(TEL_URI)</text><!--MD5=[c0584d362fe6d201cbf2ddf6b6491907]
+class WRGService--><rect codeLine="107" fill="#FEFECE" filter="url(#f1g36qn4awgxon)" height="73.6094" id="WRGService" style="stroke:#A80036;stroke-width:1.5;" width="154" x="1661.5" y="198"/><ellipse cx="1698.55" cy="214" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1701.5188,219.6406 Q1700.9406,219.9375 1700.3,220.0781 Q1699.6594,220.2344 1698.9563,220.2344 Q1696.4563,220.2344 1695.1281,218.5938 Q1693.8156,216.9375 1693.8156,213.8125 Q1693.8156,210.6875 1695.1281,209.0313 Q1696.4563,207.375 1698.9563,207.375 Q1699.6594,207.375 1700.3,207.5313 Q1700.9563,207.6875 1701.5188,207.9844 L1701.5188,210.7031 Q1700.8938,210.125 1700.3,209.8594 Q1699.7063,209.5781 1699.0813,209.5781 Q1697.7375,209.5781 1697.05,210.6563 Q1696.3625,211.7188 1696.3625,213.8125 Q1696.3625,215.9063 1697.05,216.9844 Q1697.7375,218.0469 1699.0813,218.0469 Q1699.7063,218.0469 1700.3,217.7813 Q1700.8938,217.5 1701.5188,216.9219 L1701.5188,219.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="73" x="1717.45" y="218.1543">WRGService</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1662.5" x2="1814.5" y1="230" y2="230"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="142" x="1667.5" y="244.2104">// Defined in WRG Module</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="110" x="1667.5" y="257.0151">// Mavenir REST API</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1662.5" x2="1814.5" y1="263.6094" y2="263.6094"/><!--MD5=[a4d4ebd0a1f49a244a467ef0ab9cf2f7]
+class WebRTC--><rect fill="#FEFECE" filter="url(#f1g36qn4awgxon)" height="48" id="WebRTC" style="stroke:#A80036;stroke-width:1.5;" width="82" x="1544.5" y="211"/><ellipse cx="1559.5" cy="227" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1562.4688,232.6406 Q1561.8906,232.9375 1561.25,233.0781 Q1560.6094,233.2344 1559.9063,233.2344 Q1557.4063,233.2344 1556.0781,231.5938 Q1554.7656,229.9375 1554.7656,226.8125 Q1554.7656,223.6875 1556.0781,222.0313 Q1557.4063,220.375 1559.9063,220.375 Q1560.6094,220.375 1561.25,220.5313 Q1561.9063,220.6875 1562.4688,220.9844 L1562.4688,223.7031 Q1561.8438,223.125 1561.25,222.8594 Q1560.6563,222.5781 1560.0313,222.5781 Q1558.6875,222.5781 1558,223.6563 Q1557.3125,224.7188 1557.3125,226.8125 Q1557.3125,228.9063 1558,229.9844 Q1558.6875,231.0469 1560.0313,231.0469 Q1560.6563,231.0469 1561.25,230.7813 Q1561.8438,230.5 1562.4688,229.9219 L1562.4688,232.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="50" x="1573.5" y="231.1543">WebRTC</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1545.5" x2="1625.5" y1="243" y2="243"/><line style="stroke:#A80036;stroke-width:1.5;" x1="1545.5" x2="1625.5" y1="251" y2="251"/><path d="M1739.5,518.5 L1739.5,604.1641 A0,0 0 0 0 1739.5,604.1641 L2049.5,604.1641 A0,0 0 0 0 2049.5,604.1641 L2049.5,528.5 L2039.5,518.5 L1831.64,518.5 L1669.57,419.09 L1823.64,518.5 L1739.5,518.5 A0,0 0 0 0 1739.5,518.5 " fill="#FBFB77" filter="url(#f1g36qn4awgxon)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M2039.5,518.5 L2039.5,528.5 L2049.5,528.5 L2039.5,518.5 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="170" x="1745.5" y="535.5669">1. Reports a call to system</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="158" x="1745.5" y="550.6997">2. Adds call to repository</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="161" x="1745.5" y="565.8325">3. Setup peer connection</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="184" x="1745.5" y="580.9653">4. Starts VoIP Session (WRG)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="289" x="1745.5" y="596.0981">5. Update call state in repository (callId, SDP)</text><!--MD5=[f54b6bb85aaa6ec2b11ece58e044baf5]
+class VoIPPushRepository--><rect codeLine="47" fill="#FEFECE" filter="url(#f1g36qn4awgxon)" height="60.8047" id="VoIPPushRepository" style="stroke:#A80036;stroke-width:1.5;" width="214" x="1366.5" y="39"/><ellipse cx="1402.65" cy="55" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1405.6188,60.6406 Q1405.0406,60.9375 1404.4,61.0781 Q1403.7594,61.2344 1403.0563,61.2344 Q1400.5563,61.2344 1399.2281,59.5938 Q1397.9156,57.9375 1397.9156,54.8125 Q1397.9156,51.6875 1399.2281,50.0313 Q1400.5563,48.375 1403.0563,48.375 Q1403.7594,48.375 1404.4,48.5313 Q1405.0563,48.6875 1405.6188,48.9844 L1405.6188,51.7031 Q1404.9938,51.125 1404.4,50.8594 Q1403.8063,50.5781 1403.1813,50.5781 Q1401.8375,50.5781 1401.15,51.6563 Q1400.4625,52.7188 1400.4625,54.8125 Q1400.4625,56.9063 1401.15,57.9844 Q1401.8375,59.0469 1403.1813,59.0469 Q1403.8063,59.0469 1404.4,58.7813 Q1404.9938,58.5 1405.6188,57.9219 L1405.6188,60.6406 Z " fill="#000000"/><ellipse cx="1426.35" cy="54.5" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="124" x="1432.35" y="59.1543">VoIPPushRepository</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1367.5" x2="1579.5" y1="71" y2="71"/><ellipse cx="1377.5" cy="82" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="188" x="1386.5" y="85.2104">query: Publisher&lt;[Push], Never&gt;</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1367.5" x2="1579.5" y1="91.8047" y2="91.8047"/><!--MD5=[0c63538b48f61d033a8cfd03e82d5ee7]
+class VoIPInvitationUseCase--><rect codeLine="53" fill="#FEFECE" filter="url(#f1g36qn4awgxon)" height="60.8047" id="VoIPInvitationUseCase" style="stroke:#A80036;stroke-width:1.5;" width="171" x="1117" y="358"/><ellipse cx="1132" cy="374" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1134.9688,379.6406 Q1134.3906,379.9375 1133.75,380.0781 Q1133.1094,380.2344 1132.4063,380.2344 Q1129.9063,380.2344 1128.5781,378.5938 Q1127.2656,376.9375 1127.2656,373.8125 Q1127.2656,370.6875 1128.5781,369.0313 Q1129.9063,367.375 1132.4063,367.375 Q1133.1094,367.375 1133.75,367.5313 Q1134.4063,367.6875 1134.9688,367.9844 L1134.9688,370.7031 Q1134.3438,370.125 1133.75,369.8594 Q1133.1563,369.5781 1132.5313,369.5781 Q1131.1875,369.5781 1130.5,370.6563 Q1129.8125,371.7188 1129.8125,373.8125 Q1129.8125,375.9063 1130.5,376.9844 Q1131.1875,378.0469 1132.5313,378.0469 Q1133.1563,378.0469 1133.75,377.7813 Q1134.3438,377.5 1134.9688,376.9219 L1134.9688,379.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="139" x="1146" y="378.1543">VoIPInvitationUseCase</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1118" x2="1287" y1="390" y2="390"/><line style="stroke:#A80036;stroke-width:1.5;" x1="1118" x2="1287" y1="398" y2="398"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="94" x="1123" y="412.2104">report(Invitation)</text><path d="M847.5,338 L847.5,438.7969 A0,0 0 0 0 847.5,438.7969 L1081.5,438.7969 A0,0 0 0 0 1081.5,438.7969 L1081.5,392.5 L1116.58,388.5 L1081.5,384.5 L1081.5,348 L1071.5,338 L847.5,338 A0,0 0 0 0 847.5,338 " fill="#FBFB77" filter="url(#f1g36qn4awgxon)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1071.5,338 L1071.5,348 L1081.5,348 L1071.5,338 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="185" x="853.5" y="355.0669">1. Waits for voice registration</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="167" x="853.5" y="370.1997">2. Reports invitation to OS</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="158" x="853.5" y="385.3325">3. Adds call to repository</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="161" x="853.5" y="400.4653">4. Setup peer connection</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="213" x="853.5" y="415.5981">5. Set status to inProgress (WRG)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="189" x="853.5" y="430.731">6. Set status to ringing (WRG)</text><!--MD5=[c51997ba74dafbffe0fd6b9af86ece1e]
+class WRGStatusRepository--><rect codeLine="113" fill="#FEFECE" filter="url(#f1g36qn4awgxon)" height="86.4141" id="WRGStatusRepository" style="stroke:#A80036;stroke-width:1.5;" width="223" x="841" y="192"/><ellipse cx="881.2" cy="208" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M884.1688,213.6406 Q883.5906,213.9375 882.95,214.0781 Q882.3094,214.2344 881.6063,214.2344 Q879.1063,214.2344 877.7781,212.5938 Q876.4656,210.9375 876.4656,207.8125 Q876.4656,204.6875 877.7781,203.0313 Q879.1063,201.375 881.6063,201.375 Q882.3094,201.375 882.95,201.5313 Q883.6063,201.6875 884.1688,201.9844 L884.1688,204.7031 Q883.5438,204.125 882.95,203.8594 Q882.3563,203.5781 881.7313,203.5781 Q880.3875,203.5781 879.7,204.6563 Q879.0125,205.7188 879.0125,207.8125 Q879.0125,209.9063 879.7,210.9844 Q880.3875,212.0469 881.7313,212.0469 Q882.3563,212.0469 882.95,211.7813 Q883.5438,211.5 884.1688,210.9219 L884.1688,213.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="135" x="900.8" y="212.1543">WRGStatusRepository</text><line style="stroke:#A80036;stroke-width:1.5;" x1="842" x2="1063" y1="224" y2="224"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="142" x="847" y="238.2104">// Defined in WRG Module</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="851" y="251.0151"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="211" x="847" y="263.8198">status: Publiser&lt;WRGStatus, Never&gt;</text><line style="stroke:#A80036;stroke-width:1.5;" x1="842" x2="1063" y1="270.4141" y2="270.4141"/><!--MD5=[e4a7c51ab6d9808e46184d0171fbea64]
+class VoIPCallAnswerUseCase--><rect codeLine="73" fill="#FEFECE" filter="url(#f1g36qn4awgxon)" height="60.8047" id="VoIPCallAnswerUseCase" style="stroke:#A80036;stroke-width:1.5;" width="181" x="1323" y="358"/><ellipse cx="1338" cy="374" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1340.9688,379.6406 Q1340.3906,379.9375 1339.75,380.0781 Q1339.1094,380.2344 1338.4063,380.2344 Q1335.9063,380.2344 1334.5781,378.5938 Q1333.2656,376.9375 1333.2656,373.8125 Q1333.2656,370.6875 1334.5781,369.0313 Q1335.9063,367.375 1338.4063,367.375 Q1339.1094,367.375 1339.75,367.5313 Q1340.4063,367.6875 1340.9688,367.9844 L1340.9688,370.7031 Q1340.3438,370.125 1339.75,369.8594 Q1339.1563,369.5781 1338.5313,369.5781 Q1337.1875,369.5781 1336.5,370.6563 Q1335.8125,371.7188 1335.8125,373.8125 Q1335.8125,375.9063 1336.5,376.9844 Q1337.1875,378.0469 1338.5313,378.0469 Q1339.1563,378.0469 1339.75,377.7813 Q1340.3438,377.5 1340.9688,376.9219 L1340.9688,379.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="149" x="1352" y="378.1543">VoIPCallAnswerUseCase</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1324" x2="1503" y1="390" y2="390"/><line style="stroke:#A80036;stroke-width:1.5;" x1="1324" x2="1503" y1="398" y2="398"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="77" x="1329" y="412.2104">answer(UUID)</text><path d="M1278.5,534 L1278.5,589.3984 A0,0 0 0 0 1278.5,589.3984 L1704.5,589.3984 A0,0 0 0 0 1704.5,589.3984 L1704.5,544 L1694.5,534 L1483.35,534 L1427.09,419.29 L1475.35,534 L1278.5,534 A0,0 0 0 0 1278.5,534 " fill="#FBFB77" filter="url(#f1g36qn4awgxon)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1694.5,534 L1694.5,544 L1704.5,544 L1694.5,534 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="405" x="1284.5" y="551.0669">- Waits for correct state (voice registered + call in ringing state)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="206" x="1284.5" y="566.1997">- Set status to connected (WRG)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="149" x="1284.5" y="581.3325">- Update call repository</text><!--MD5=[2bf2e556b7b64909ef8f65fbe3331f5d]
+class VoIPWebSocketMessageUseCase--><rect codeLine="90" fill="#FEFECE" filter="url(#f1g36qn4awgxon)" height="60.8047" id="VoIPWebSocketMessageUseCase" style="stroke:#A80036;stroke-width:1.5;" width="240" x="572.5" y="358"/><ellipse cx="587.5" cy="374" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M590.4688,379.6406 Q589.8906,379.9375 589.25,380.0781 Q588.6094,380.2344 587.9063,380.2344 Q585.4063,380.2344 584.0781,378.5938 Q582.7656,376.9375 582.7656,373.8125 Q582.7656,370.6875 584.0781,369.0313 Q585.4063,367.375 587.9063,367.375 Q588.6094,367.375 589.25,367.5313 Q589.9063,367.6875 590.4688,367.9844 L590.4688,370.7031 Q589.8438,370.125 589.25,369.8594 Q588.6563,369.5781 588.0313,369.5781 Q586.6875,369.5781 586,370.6563 Q585.3125,371.7188 585.3125,373.8125 Q585.3125,375.9063 586,376.9844 Q586.6875,378.0469 588.0313,378.0469 Q588.6563,378.0469 589.25,377.7813 Q589.8438,377.5 590.4688,376.9219 L590.4688,379.6406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="208" x="601.5" y="378.1543">VoIPWebSocketMessageUseCase</text><line style="stroke:#A80036;stroke-width:1.5;" x1="573.5" x2="811.5" y1="390" y2="390"/><line style="stroke:#A80036;stroke-width:1.5;" x1="573.5" x2="811.5" y1="398" y2="398"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="35" x="578.5" y="412.2104">start()</text><path d="M6,361 L6,416.3984 A0,0 0 0 0 6,416.3984 L537,416.3984 A0,0 0 0 0 537,416.3984 L537,392.5 L572.3,388.5 L537,384.5 L537,371 L527,361 L6,361 A0,0 0 0 0 6,361 " fill="#FBFB77" filter="url(#f1g36qn4awgxon)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M527,361 L527,371 L537,371 L527,361 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="510" x="12" y="378.0669">- Updates call state in repository (.inProgress, .ringing, .connected, .terminated)</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="453" x="12" y="393.1997">- setRemotesDescription on peerConnection when received .inProgress</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="432" x="12" y="408.3325">- Reports terminated call to the system, and closes peerConnection</text><!--MD5=[fe3814da9ce45703413b85bd79913377]
+class WebSocketMessageRepository--><rect codeLine="103" fill="#FEFECE" filter="url(#f1g36qn4awgxon)" height="60.8047" id="WebSocketMessageRepository" style="stroke:#A80036;stroke-width:1.5;" width="237" x="569" y="204.5"/><ellipse cx="589.85" cy="220.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M592.8188,226.1406 Q592.2406,226.4375 591.6,226.5781 Q590.9594,226.7344 590.2563,226.7344 Q587.7563,226.7344 586.4281,225.0938 Q585.1156,223.4375 585.1156,220.3125 Q585.1156,217.1875 586.4281,215.5313 Q587.7563,213.875 590.2563,213.875 Q590.9594,213.875 591.6,214.0313 Q592.2563,214.1875 592.8188,214.4844 L592.8188,217.2031 Q592.1938,216.625 591.6,216.3594 Q591.0063,216.0781 590.3813,216.0781 Q589.0375,216.0781 588.35,217.1563 Q587.6625,218.2188 587.6625,220.3125 Q587.6625,222.4063 588.35,223.4844 Q589.0375,224.5469 590.3813,224.5469 Q591.0063,224.5469 591.6,224.2813 Q592.1938,224 592.8188,223.4219 L592.8188,226.1406 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="192" x="605.15" y="224.6543">WebSocketMessageRepository</text><line style="stroke:#A80036;stroke-width:1.5;" x1="570" x2="805" y1="236.5" y2="236.5"/><ellipse cx="580" cy="247.5" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="211" x="589" y="250.7104">query: Publisher&lt;[Message], Never&gt;</text><line style="stroke:#A80036;stroke-width:1.5;" x1="570" x2="805" y1="257.3047" y2="257.3047"/><!--MD5=[a7fb91dc7c322672e09d41c9584d6ef4]
+class VoIP--><rect codeLine="119" fill="#FEFECE" filter="url(#f1g36qn4awgxon)" height="124.8281" id="VoIP" style="stroke:#A80036;stroke-width:1.5;" width="241" x="1003" y="499"/><ellipse cx="1100.25" cy="515" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1103.2188,520.6406 Q1102.6406,520.9375 1102,521.0781 Q1101.3594,521.2344 1100.6563,521.2344 Q1098.1563,521.2344 1096.8281,519.5938 Q1095.5156,517.9375 1095.5156,514.8125 Q1095.5156,511.6875 1096.8281,510.0313 Q1098.1563,508.375 1100.6563,508.375 Q1101.3594,508.375 1102,508.5313 Q1102.6563,508.6875 1103.2188,508.9844 L1103.2188,511.7031 Q1102.5938,511.125 1102,510.8594 Q1101.4063,510.5781 1100.7813,510.5781 Q1099.4375,510.5781 1098.75,511.6563 Q1098.0625,512.7188 1098.0625,514.8125 Q1098.0625,516.9063 1098.75,517.9844 Q1099.4375,519.0469 1100.7813,519.0469 Q1101.4063,519.0469 1102,518.7813 Q1102.5938,518.5 1103.2188,517.9219 L1103.2188,520.6406 Z " fill="#000000"/><ellipse cx="1125.75" cy="514.5" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="27" x="1131.75" y="519.1543">VoIP</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1004" x2="1243" y1="531" y2="531"/><ellipse cx="1014" cy="542" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;fill:none;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="215" x="1023" y="545.2104">query: Publisher&lt;[Call.State], Never&gt;</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1004" x2="1243" y1="551.8047" y2="551.8047"/><ellipse cx="1014" cy="562.8047" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="159" x="1023" y="566.0151">startOutgoingCall(Device.ID)</text><ellipse cx="1014" cy="575.6094" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="166" x="1023" y="578.8198">reportIncomingCall(Invitation)</text><ellipse cx="1014" cy="588.4141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="122" x="1023" y="591.6245">answerIncomingCall()</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="0" x="1027" y="604.4292"/><ellipse cx="1014" cy="614.0234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="61" x="1023" y="617.2339">endCall(ID)</text><!--MD5=[265be4e4efa8af78989df8b9307d1111]
+reverse link Call to VoIPCallRepository--><path codeLine="23" d="M1202.5,145.43 C1202.5,163.62 1202.5,182.26 1202.5,197.72 " fill="none" id="Call-backto-VoIPCallRepository" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1202.5,132.31,1198.5,138.31,1202.5,144.31,1206.5,138.31,1202.5,132.31" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[9dbb4ff6f3d0b2fcd49bb6abbe68bdf0]
+reverse link VoIPCallRepository to VoIPStartCallUseCase--><path codeLine="33" d="M1318.86,276.16 C1320.76,276.78 1322.64,277.4 1324.5,278 C1411.56,306.23 1436.36,304.42 1521.5,338 C1536.3,343.84 1551.92,350.98 1566.33,358 " fill="none" id="VoIPCallRepository-backto-VoIPStartCallUseCase" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1306.24,272,1310.685,277.6782,1317.636,275.7591,1313.191,270.0809,1306.24,272" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[3b0bb1fd2bd5968186b0d8ece96639c7]
+reverse link WRGService to VoIPStartCallUseCase--><path codeLine="34" d="M1702.69,282.77 C1684.01,307.16 1661.72,336.28 1645.38,357.62 " fill="none" id="WRGService-backto-VoIPStartCallUseCase" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1710.72,272.29,1703.894,274.6151,1703.4149,281.8103,1710.2409,279.4852,1710.72,272.29" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[29d5331257e70da76285d1b8a4b15f8f]
+reverse link WebRTC to VoIPStartCallUseCase--><path codeLine="35" d="M1594.24,271.79 C1600.64,297.98 1609.21,333.09 1615.23,357.75 " fill="none" id="WebRTC-backto-VoIPStartCallUseCase" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1591.12,259.01,1588.6585,265.788,1593.9683,270.6671,1596.4299,263.8891,1591.12,259.01" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[85eaad832eb6d2d5740f8ef8849bb529]
+reverse link WRGStatusRepository to VoIPInvitationUseCase--><path codeLine="66" d="M1033.08,284.83 C1072.81,308.91 1119.42,337.15 1153.68,357.92 " fill="none" id="WRGStatusRepository-backto-VoIPInvitationUseCase" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1021.81,278,1024.8711,284.5291,1032.0754,284.2146,1029.0142,277.6855,1021.81,278" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[045fe179134b2afecc4443ba7f4e1e3d]
+reverse link WebRTC to VoIPInvitationUseCase--><path codeLine="67" d="M1547,266.78 C1540.71,270.94 1534.09,274.85 1527.5,278 C1435.26,322.03 1401.3,302.38 1305.5,338 C1290.16,343.7 1274.01,350.87 1259.16,357.97 " fill="none" id="WebRTC-backto-VoIPInvitationUseCase" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1557.89,259.12,1550.6811,259.2981,1548.0729,266.021,1555.2818,265.8429,1557.89,259.12" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[d5f871a1305b6b5db728ee8adb5ad476]
+reverse link WRGService to VoIPInvitationUseCase--><path codeLine="68" d="M1649.35,276.46 C1647.73,276.99 1646.11,277.51 1644.5,278 C1498.22,322.88 1451.14,291.09 1305.5,338 C1289.26,343.23 1272.31,350.53 1256.95,357.93 " fill="none" id="WRGService-backto-VoIPInvitationUseCase" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1661.88,272.05,1654.8929,270.2664,1650.5593,276.0301,1657.5463,277.8136,1661.88,272.05" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[472326d6c7379a526e983869a6d5853b]
+reverse link VoIPCallRepository to VoIPInvitationUseCase--><path codeLine="69" d="M1202.5,285.41 C1202.5,309.24 1202.5,337.05 1202.5,357.62 " fill="none" id="VoIPCallRepository-backto-VoIPInvitationUseCase" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1202.5,272.29,1198.5,278.29,1202.5,284.29,1206.5,278.29,1202.5,272.29" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[86e1788a1c473aa7299df6509e543fb9]
+reverse link WRGService to VoIPCallAnswerUseCase--><path codeLine="83" d="M1649.68,277.41 C1594.96,302.91 1526.1,335.01 1476.87,357.96 " fill="none" id="WRGService-backto-VoIPCallAnswerUseCase" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1661.48,271.9,1654.3514,270.8126,1650.6058,276.9746,1657.7344,278.062,1661.48,271.9" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[fe356fa4fe0cdc6b5219aa173f6a2e1b]
+reverse link VoIPCallRepository to VoIPCallAnswerUseCase--><path codeLine="84" d="M1263.77,280 C1298.59,304.99 1341.25,335.62 1372.12,357.79 " fill="none" id="VoIPCallRepository-backto-VoIPCallAnswerUseCase" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1252.77,272.1,1255.3085,278.8495,1262.5152,279.1023,1259.9767,272.3527,1252.77,272.1" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[1dda35ec5b575b5c083db514fb7e4d71]
+reverse link VoIPCallRepository to VoIPWebSocketMessageUseCase--><path codeLine="100" d="M1088.46,275.93 C1086.12,276.64 1083.8,277.33 1081.5,278 C970.98,310.25 939.82,305.05 829.5,338 C809.87,343.86 788.95,350.97 769.52,357.95 " fill="none" id="VoIPCallRepository-backto-VoIPWebSocketMessageUseCase" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1101.07,272.04,1094.1555,269.9931,1089.6067,275.5885,1096.5212,277.6354,1101.07,272.04" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[1124d9af554523c88ac8ee7e3ae593d6]
+reverse link WebSocketMessageRepository to VoIPWebSocketMessageUseCase--><path codeLine="101" d="M688.91,278.85 C689.75,304.04 690.78,335.25 691.52,357.75 " fill="none" id="WebSocketMessageRepository-backto-VoIPWebSocketMessageUseCase" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="688.48,265.57,684.6801,271.6987,688.8758,277.5635,692.6757,271.4348,688.48,265.57" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[32e76769452e00668612be4481c116a1]
+reverse link VoIPStartCallUseCase to VoIP--><path codeLine="129" d="M1555.89,424.79 C1544.6,430.01 1532.85,434.97 1521.5,439 C1409.75,478.69 1373.96,461.36 1261.5,499 C1255.78,500.91 1249.97,502.98 1244.14,505.16 " fill="none" id="VoIPStartCallUseCase-backto-VoIP" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1567.92,419.07,1560.7846,418.028,1557.0784,424.2138,1564.2138,425.2558,1567.92,419.07" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[4f90d8aa1a0896a08ff46244e3818c81]
+reverse link VoIPWebSocketMessageUseCase to VoIP--><path codeLine="130" d="M779.18,423.89 C843.34,449.34 931.57,484.35 1002.65,512.55 " fill="none" id="VoIPWebSocketMessageUseCase-backto-VoIP" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="767.08,419.09,771.1835,425.0197,778.2353,423.5125,774.1318,417.5828,767.08,419.09" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[5ac37ee19afa0bbb4766914f50a847cf]
+reverse link VoIPInvitationUseCase to VoIP--><path codeLine="131" d="M1183.19,431.29 C1173.81,451.6 1162.35,476.42 1151.98,498.85 " fill="none" id="VoIPInvitationUseCase-backto-VoIP" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1188.74,419.29,1182.5909,423.0568,1183.7029,430.1817,1189.852,426.4148,1188.74,419.29" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[b88129161421ecacff7899399f493562]
+reverse link VoIPCallAnswerUseCase to VoIP--><path codeLine="132" d="M1352.01,425.76 C1316.01,446.99 1269.57,474.37 1227.98,498.89 " fill="none" id="VoIPCallAnswerUseCase-backto-VoIP" style="stroke:#A80036;stroke-width:1.0;"/><polygon fill="#A80036" points="1363.32,419.09,1356.12,418.69,1352.9815,425.1823,1360.1815,425.5823,1363.32,419.09" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[81a26381209b47edb8c42bdf7a0d0a63]
+@startuml
+
+/' ***** Call Repository ***** '/
+
++class Call {
+    +state: State
+    +callId: String
+    +sdp: String
+    +date: Date
+
+    -peerConnection: WebRTCPeerConnection
+}
+
++class VoIPCallRepository {
+    -add(Call)
+
+    +query: Publisher<[Call], Never>
+}
+
+note right of VoIPCallRepository
+    - keeps a list of all calls
+end note
+
+Call *- - VoIPCallRepository
+
+/' ***** Outgoing Call ***** '/
+
+/' StartCallUse '/
+
+class VoIPStartCallUseCase {
+    start(TEL_URI)
+}
+
+VoIPCallRepository *- - VoIPStartCallUseCase
+WRGService *- - VoIPStartCallUseCase
+WebRTC *- - VoIPStartCallUseCase
+
+note bottom of VoIPStartCallUseCase 
+    1. Reports a call to system 
+    2. Adds call to repository
+    3. Setup peer connection
+    4. Starts VoIP Session (WRG)
+    5. Update call state in repository (callId, SDP)
+end note
+
+/' ***** Incoming Call ***** '/
+
++class VoIPPushRepository {
+    +query: Publisher<[Push], Never>
+}
+
+/' VoIPInvitationUseCase '/
+
+class VoIPInvitationUseCase {
+    report(Invitation)
+}
+
+note left of VoIPInvitationUseCase 
+    1. Waits for voice registration
+    2. Reports invitation to OS
+    3. Adds call to repository
+    4. Setup peer connection 
+    5. Set status to inProgress (WRG)
+    6. Set status to ringing (WRG)
+end note
+
+WRGStatusRepository *- - VoIPInvitationUseCase
+WebRTC *- - VoIPInvitationUseCase
+WRGService *- - VoIPInvitationUseCase
+VoIPCallRepository *- - VoIPInvitationUseCase
+
+/' VoIPCallAnswerUseCase '/
+
+class VoIPCallAnswerUseCase {
+    answer(UUID)
+}
+
+note bottom of VoIPCallAnswerUseCase
+    - Waits for correct state (voice registered + call in ringing state)
+    - Set status to connected (WRG)
+    - Update call repository
+end note
+
+WRGService *- - VoIPCallAnswerUseCase
+VoIPCallRepository *- - VoIPCallAnswerUseCase
+
+/' ***** Call ***** '/
+
+/' VoIPWebSocketMessageUseCase '/
+
+class VoIPWebSocketMessageUseCase {
+    start()
+}
+
+note left of VoIPWebSocketMessageUseCase 
+    - Updates call state in repository (.inProgress, .ringing, .connected, .terminated)
+    - setRemotesDescription on peerConnection when received .inProgress
+    - Reports terminated call to the system, and closes peerConnection
+end note
+
+VoIPCallRepository *- - VoIPWebSocketMessageUseCase
+WebSocketMessageRepository *- - VoIPWebSocketMessageUseCase
+
+class WebSocketMessageRepository {
+    +query: Publisher<[Message], Never>
+}
+
+class WRGService { 
+    // Defined in WRG Module
+    // Mavenir REST API
+
+}
+
+class WRGStatusRepository { 
+    // Defined in WRG Module
+
+    status: Publiser<WRGStatus, Never>
+}
+
++class VoIP {
+    +query: Publisher<[Call.State], Never>
+
+    +startOutgoingCall(Device.ID)
+    +reportIncomingCall(Invitation)
+    +answerIncomingCall()
+
+    +endCall(ID)
+}
+
+VoIPStartCallUseCase *- - VoIP
+VoIPWebSocketMessageUseCase *- - VoIP
+VoIPInvitationUseCase *- - VoIP
+VoIPCallAnswerUseCase *- - VoIP
+
+@enduml
+
+@startuml
+
+
++class Call {
+    +state: State
+    +callId: String
+    +sdp: String
+    +date: Date
+
+    -peerConnection: WebRTCPeerConnection
+}
+
++class VoIPCallRepository {
+    -add(Call)
+
+    +query: Publisher<[Call], Never>
+}
+
+note right of VoIPCallRepository
+    - keeps a list of all calls
+end note
+
+Call *- - VoIPCallRepository
+
+
+
+class VoIPStartCallUseCase {
+    start(TEL_URI)
+}
+
+VoIPCallRepository *- - VoIPStartCallUseCase
+WRGService *- - VoIPStartCallUseCase
+WebRTC *- - VoIPStartCallUseCase
+
+note bottom of VoIPStartCallUseCase 
+    1. Reports a call to system 
+    2. Adds call to repository
+    3. Setup peer connection
+    4. Starts VoIP Session (WRG)
+    5. Update call state in repository (callId, SDP)
+end note
+
+
++class VoIPPushRepository {
+    +query: Publisher<[Push], Never>
+}
+
+
+class VoIPInvitationUseCase {
+    report(Invitation)
+}
+
+note left of VoIPInvitationUseCase 
+    1. Waits for voice registration
+    2. Reports invitation to OS
+    3. Adds call to repository
+    4. Setup peer connection 
+    5. Set status to inProgress (WRG)
+    6. Set status to ringing (WRG)
+end note
+
+WRGStatusRepository *- - VoIPInvitationUseCase
+WebRTC *- - VoIPInvitationUseCase
+WRGService *- - VoIPInvitationUseCase
+VoIPCallRepository *- - VoIPInvitationUseCase
+
+
+class VoIPCallAnswerUseCase {
+    answer(UUID)
+}
+
+note bottom of VoIPCallAnswerUseCase
+    - Waits for correct state (voice registered + call in ringing state)
+    - Set status to connected (WRG)
+    - Update call repository
+end note
+
+WRGService *- - VoIPCallAnswerUseCase
+VoIPCallRepository *- - VoIPCallAnswerUseCase
+
+
+
+class VoIPWebSocketMessageUseCase {
+    start()
+}
+
+note left of VoIPWebSocketMessageUseCase 
+    - Updates call state in repository (.inProgress, .ringing, .connected, .terminated)
+    - setRemotesDescription on peerConnection when received .inProgress
+    - Reports terminated call to the system, and closes peerConnection
+end note
+
+VoIPCallRepository *- - VoIPWebSocketMessageUseCase
+WebSocketMessageRepository *- - VoIPWebSocketMessageUseCase
+
+class WebSocketMessageRepository {
+    +query: Publisher<[Message], Never>
+}
+
+class WRGService { 
+    // Defined in WRG Module
+    // Mavenir REST API
+
+}
+
+class WRGStatusRepository { 
+    // Defined in WRG Module
+
+    status: Publiser<WRGStatus, Never>
+}
+
++class VoIP {
+    +query: Publisher<[Call.State], Never>
+
+    +startOutgoingCall(Device.ID)
+    +reportIncomingCall(Invitation)
+    +answerIncomingCall()
+
+    +endCall(ID)
+}
+
+VoIPStartCallUseCase *- - VoIP
+VoIPWebSocketMessageUseCase *- - VoIP
+VoIPInvitationUseCase *- - VoIP
+VoIPCallAnswerUseCase *- - VoIP
+
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 13:26:11 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
