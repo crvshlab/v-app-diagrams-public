@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="420.8333px" preserveAspectRatio="none" style="width:3840px;height:420px;background:#313238;" version="1.1" viewBox="0 0 3840 420" width="3840.625px" zoomAndPan="magnify"><defs/><g><!--MD5=[7f4d61d1a62721a7e737e09ba6f50399]
+class CentralUARTService--><rect codeLine="3" fill="#313238" height="123.3154" id="CentralUARTService" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="851.0417" x="189.7083" y="55.2083"/><rect fill="#227FAB" height="35.3841" rx="4.1667" ry="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="851.0417" x="189.7083" y="55.2083"/><rect fill="#227FAB" height="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="851.0417" x="189.7083" y="86.4258"/><rect codeLine="3" fill="none" height="123.3154" id="CentralUARTService" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="851.0417" x="189.7083" y="55.2083"/><ellipse cx="542.3125" cy="72.9004" fill="#FB8500" rx="10.4167" ry="10.4167" style="stroke:#444444;stroke-width:1.0416666666666667;"/><path d="M544.2168,77.3275 Q543.7936,77.5391 543.3216,77.653 Q542.8496,77.7669 542.3451,77.7669 Q540.4896,77.7669 539.513,76.5625 Q538.5527,75.3418 538.5527,73.0469 Q538.5527,70.7357 539.513,69.5313 Q540.4896,68.3105 542.3451,68.3105 Q542.8496,68.3105 543.3216,68.4245 Q543.8099,68.5221 544.2168,68.75 L544.2168,70.752 Q543.7611,70.3288 543.3216,70.1335 Q542.8822,69.9219 542.4264,69.9219 Q541.4336,69.9219 540.929,70.7194 Q540.4245,71.5007 540.4245,73.0469 Q540.4245,74.5768 540.929,75.3581 Q541.4336,76.1393 542.4264,76.1393 Q542.8822,76.1393 543.3216,75.944 Q543.7611,75.7487 544.2168,75.3255 L544.2168,77.3275 Z " fill="#000000"/><text fill="#222222" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="127.0833" x="567.3125" y="77.2278">CentralUARTService</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="190.75" x2="1039.7083" y1="90.5924" y2="90.5924"/><rect fill="none" height="6.25" style="stroke:#C82930;stroke-width:1.0416666666666667;" width="6.25" x="198.0417" y="98.9258"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="107.2917" x="214.7083" y="110.6033">writer: UARTWriter</text><rect fill="none" height="6.25" style="stroke:#C82930;stroke-width:1.0416666666666667;" width="6.25" x="198.0417" y="122.6807"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="122.9167" x="214.7083" y="134.3582">notifier: UARTNotifier</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="190.75" x2="1039.7083" y1="146.4355" y2="146.4355"/><ellipse cx="201.1667" cy="157.8939" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="814.5833" x="214.7083" y="166.4464">writeAndWaitForNotify(message: UARTMessage, expectedNotify: UARTMessage.Command...) -&gt; AnyPublisher&lt;UARTMessage, UARTError&gt;</text><!--MD5=[3f1151c990add16bbc0891b504763aa9]
+class PeripheralUARTService--><rect codeLine="9" fill="#313238" height="123.3154" id="PeripheralUARTService" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="753.125" x="1856.375" y="55.2083"/><rect fill="#227FAB" height="35.3841" rx="4.1667" ry="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="753.125" x="1856.375" y="55.2083"/><rect fill="#227FAB" height="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="753.125" x="1856.375" y="86.4258"/><rect codeLine="9" fill="none" height="123.3154" id="PeripheralUARTService" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="753.125" x="1856.375" y="55.2083"/><ellipse cx="2150.125" cy="72.9004" fill="#FB8500" rx="10.4167" ry="10.4167" style="stroke:#444444;stroke-width:1.0416666666666667;"/><path d="M2152.0293,77.3275 Q2151.6061,77.5391 2151.1341,77.653 Q2150.6621,77.7669 2150.1576,77.7669 Q2148.3021,77.7669 2147.3255,76.5625 Q2146.3652,75.3418 2146.3652,73.0469 Q2146.3652,70.7357 2147.3255,69.5313 Q2148.3021,68.3105 2150.1576,68.3105 Q2150.6621,68.3105 2151.1341,68.4245 Q2151.6224,68.5221 2152.0293,68.75 L2152.0293,70.752 Q2151.5736,70.3288 2151.1341,70.1335 Q2150.6947,69.9219 2150.2389,69.9219 Q2149.2461,69.9219 2148.7415,70.7194 Q2148.237,71.5007 2148.237,73.0469 Q2148.237,74.5768 2148.7415,75.3581 Q2149.2461,76.1393 2150.2389,76.1393 Q2150.6947,76.1393 2151.1341,75.944 Q2151.5736,75.7487 2152.0293,75.3255 L2152.0293,77.3275 Z " fill="#000000"/><text fill="#222222" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="146.875" x="2175.125" y="77.2278">PeripheralUARTService</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="1857.4167" x2="2608.4583" y1="90.5924" y2="90.5924"/><rect fill="none" height="6.25" style="stroke:#C82930;stroke-width:1.0416666666666667;" width="6.25" x="1864.7083" y="98.9258"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="107.2917" x="1881.375" y="110.6033">writer: UARTWriter</text><rect fill="none" height="6.25" style="stroke:#C82930;stroke-width:1.0416666666666667;" width="6.25" x="1864.7083" y="122.6807"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="122.9167" x="1881.375" y="134.3582">notifier: UARTNotifier</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="1857.4167" x2="2608.4583" y1="146.4355" y2="146.4355"/><ellipse cx="1867.8333" cy="157.8939" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="716.6667" x="1881.375" y="166.4464">writeAfterNotify(expectedNotify: UARTMessage.Command, message: UARTMessage) -&gt; AnyPublisher&lt;Never, UARTError&gt;</text><!--MD5=[247f85e9b417312063a57a6992d49570]
+class UARTWriter--><rect codeLine="15" fill="#313238" height="75.8057" id="UARTWriter" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="440.625" x="2855.3333" y="326.5625"/><rect fill="#227FAB" height="35.3841" rx="4.1667" ry="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="440.625" x="2855.3333" y="326.5625"/><rect fill="#227FAB" height="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="440.625" x="2855.3333" y="357.7799"/><rect codeLine="15" fill="none" height="75.8057" id="UARTWriter" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="440.625" x="2855.3333" y="326.5625"/><ellipse cx="3030.3333" cy="344.2546" fill="#FB8500" rx="10.4167" ry="10.4167" style="stroke:#444444;stroke-width:1.0416666666666667;"/><path d="M3032.2376,348.6816 Q3031.8145,348.8932 3031.3424,349.0072 Q3030.8704,349.1211 3030.3659,349.1211 Q3028.5104,349.1211 3027.5339,347.9167 Q3026.5736,346.696 3026.5736,344.401 Q3026.5736,342.0898 3027.5339,340.8854 Q3028.5104,339.6647 3030.3659,339.6647 Q3030.8704,339.6647 3031.3424,339.7786 Q3031.8307,339.8763 3032.2376,340.1042 L3032.2376,342.1061 Q3031.7819,341.6829 3031.3424,341.4876 Q3030.903,341.276 3030.4473,341.276 Q3029.4544,341.276 3028.9499,342.0736 Q3028.4453,342.8548 3028.4453,344.401 Q3028.4453,345.931 3028.9499,346.7122 Q3029.4544,347.4935 3030.4473,347.4935 Q3030.903,347.4935 3031.3424,347.2982 Q3031.7819,347.1029 3032.2376,346.6797 L3032.2376,348.6816 Z " fill="#000000"/><text fill="#222222" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="71.875" x="3055.3333" y="348.5819">UARTWriter</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="2856.375" x2="3294.9167" y1="361.9466" y2="361.9466"/><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="2856.375" x2="3294.9167" y1="370.2799" y2="370.2799"/><ellipse cx="2866.7917" cy="381.7383" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="404.1667" x="2880.3333" y="390.2908">write(message: UARTMessage) -&gt; AnyPublisher&lt;Never, UARTError&gt;</text><!--MD5=[42ad5d78112fa68615fba7969be361fe]
+class UARTNotifier--><rect codeLine="19" fill="#313238" height="75.8057" id="UARTNotifier" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="501.0417" x="3332.4167" y="326.5625"/><rect fill="#227FAB" height="35.3841" rx="4.1667" ry="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="501.0417" x="3332.4167" y="326.5625"/><rect fill="#227FAB" height="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="501.0417" x="3332.4167" y="357.7799"/><rect codeLine="19" fill="none" height="75.8057" id="UARTNotifier" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="501.0417" x="3332.4167" y="326.5625"/><ellipse cx="3533.4583" cy="344.2546" fill="#FB8500" rx="10.4167" ry="10.4167" style="stroke:#444444;stroke-width:1.0416666666666667;"/><path d="M3535.3626,348.6816 Q3534.9395,348.8932 3534.4674,349.0072 Q3533.9954,349.1211 3533.4909,349.1211 Q3531.6354,349.1211 3530.6589,347.9167 Q3529.6986,346.696 3529.6986,344.401 Q3529.6986,342.0898 3530.6589,340.8854 Q3531.6354,339.6647 3533.4909,339.6647 Q3533.9954,339.6647 3534.4674,339.7786 Q3534.9557,339.8763 3535.3626,340.1042 L3535.3626,342.1061 Q3534.9069,341.6829 3534.4674,341.4876 Q3534.028,341.276 3533.5723,341.276 Q3532.5794,341.276 3532.0749,342.0736 Q3531.5703,342.8548 3531.5703,344.401 Q3531.5703,345.931 3532.0749,346.7122 Q3532.5794,347.4935 3533.5723,347.4935 Q3534.028,347.4935 3534.4674,347.2982 Q3534.9069,347.1029 3535.3626,346.6797 L3535.3626,348.6816 Z " fill="#000000"/><text fill="#222222" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="80.2083" x="3558.4583" y="348.5819">UARTNotifier</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="3333.4583" x2="3832.4167" y1="361.9466" y2="361.9466"/><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="3333.4583" x2="3832.4167" y1="370.2799" y2="370.2799"/><ellipse cx="3343.875" cy="381.7383" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="464.5833" x="3357.4167" y="390.2908">notify(type: UARTMessage.Command) -&gt; AnyPublisher&lt;UARTMessage, Never&gt;</text><!--MD5=[c98b665f2bfb62a5319d24a2181ce254]
+class UARTError--><rect codeLine="23" fill="#313238" height="99.5605" id="UARTError" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="114.5833" x="1385.0208" y="314.5833"/><rect fill="#227FAB" height="35.3841" rx="4.1667" ry="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="114.5833" x="1385.0208" y="314.5833"/><rect fill="#227FAB" height="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="114.5833" x="1385.0208" y="345.8008"/><rect codeLine="23" fill="none" height="99.5605" id="UARTError" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="114.5833" x="1385.0208" y="314.5833"/><ellipse cx="1402.8854" cy="332.2754" fill="#FB8500" rx="10.4167" ry="10.4167" style="stroke:#444444;stroke-width:1.0416666666666667;"/><path d="M1404.7897,336.7025 Q1404.3665,336.9141 1403.8945,337.028 Q1403.4225,337.1419 1402.918,337.1419 Q1401.0625,337.1419 1400.0859,335.9375 Q1399.1257,334.7168 1399.1257,332.4219 Q1399.1257,330.1107 1400.0859,328.9063 Q1401.0625,327.6855 1402.918,327.6855 Q1403.4225,327.6855 1403.8945,327.7995 Q1404.3828,327.8971 1404.7897,328.125 L1404.7897,330.127 Q1404.334,329.7038 1403.8945,329.5085 Q1403.4551,329.2969 1402.9993,329.2969 Q1402.0065,329.2969 1401.502,330.0944 Q1400.9974,330.8757 1400.9974,332.4219 Q1400.9974,333.9518 1401.502,334.7331 Q1402.0065,335.5143 1402.9993,335.5143 Q1403.4551,335.5143 1403.8945,335.319 Q1404.334,335.1237 1404.7897,334.7005 L1404.7897,336.7025 Z " fill="#000000"/><text fill="#222222" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="65.625" x="1422.3646" y="336.6028">UARTError</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="1386.0625" x2="1498.5625" y1="349.9674" y2="349.9674"/><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="1386.0625" x2="1498.5625" y1="358.3008" y2="358.3008"/><rect fill="#F24D5C" height="6.25" style="stroke:#C82930;stroke-width:1.0416666666666667;" width="6.25" x="1393.3542" y="366.6341"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="78.125" x="1410.0208" y="378.3117">ble(BLEError)</text><rect fill="#F24D5C" height="6.25" style="stroke:#C82930;stroke-width:1.0416666666666667;" width="6.25" x="1393.3542" y="390.389"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="53.125" x="1410.0208" y="402.0665">timeout()</text><!--MD5=[fbe39ff2b424ad20dee77df5ec87a290]
+class UARTMessage--><rect codeLine="28" fill="#313238" height="218.335" id="UARTMessage" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="190.625" x="3233.4583" y="7.2917"/><rect fill="#227FAB" height="35.3841" rx="4.1667" ry="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="190.625" x="3233.4583" y="7.2917"/><rect fill="#227FAB" height="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="190.625" x="3233.4583" y="38.5091"/><rect codeLine="28" fill="none" height="218.335" id="UARTMessage" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="190.625" x="3233.4583" y="7.2917"/><ellipse cx="3273.8229" cy="24.9837" fill="#FB8500" rx="10.4167" ry="10.4167" style="stroke:#444444;stroke-width:1.0416666666666667;"/><path d="M3275.7272,29.4108 Q3275.304,29.6224 3274.832,29.7363 Q3274.36,29.8503 3273.8555,29.8503 Q3272,29.8503 3271.0234,28.6458 Q3270.0632,27.4251 3270.0632,25.1302 Q3270.0632,22.819 3271.0234,21.6146 Q3272,20.3939 3273.8555,20.3939 Q3274.36,20.3939 3274.832,20.5078 Q3275.3203,20.6055 3275.7272,20.8333 L3275.7272,22.8353 Q3275.2715,22.4121 3274.832,22.2168 Q3274.3926,22.0052 3273.9368,22.0052 Q3272.944,22.0052 3272.4395,22.8027 Q3271.9349,23.584 3271.9349,25.1302 Q3271.9349,26.6602 3272.4395,27.4414 Q3272.944,28.2227 3273.9368,28.2227 Q3274.3926,28.2227 3274.832,28.0273 Q3275.2715,27.832 3275.7272,27.4089 L3275.7272,29.4108 Z " fill="#000000"/><text fill="#222222" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="91.6667" x="3298.3021" y="29.3111">UARTMessage</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="3234.5" x2="3423.0417" y1="42.6758" y2="42.6758"/><rect fill="none" height="6.25" style="stroke:#C82930;stroke-width:1.0416666666666667;" width="6.25" x="3241.7917" y="51.0091"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="127.0833" x="3258.4583" y="62.6867">command: Command</text><rect fill="none" height="6.25" style="stroke:#C82930;stroke-width:1.0416666666666667;" width="6.25" x="3241.7917" y="74.764"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="136.4583" x="3258.4583" y="86.4415">activationCode: String?</text><rect fill="none" height="6.25" style="stroke:#C82930;stroke-width:1.0416666666666667;" width="6.25" x="3241.7917" y="98.5189"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="154.1667" x="3258.4583" y="110.1964">confirmationCode: String?</text><rect fill="none" height="6.25" style="stroke:#C82930;stroke-width:1.0416666666666667;" width="6.25" x="3241.7917" y="122.2738"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="105.2083" x="3258.4583" y="133.9513">eSimImsi: String?</text><rect fill="none" height="6.25" style="stroke:#C82930;stroke-width:1.0416666666666667;" width="6.25" x="3241.7917" y="146.0286"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="116.6667" x="3258.4583" y="157.7062">customerId: String?</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="3234.5" x2="3423.0417" y1="169.7835" y2="169.7835"/><ellipse cx="3244.9167" cy="181.2419" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="93.75" x="3258.4583" y="189.7944">init?(data: Data)</text><ellipse cx="3244.9167" cy="204.9967" fill="#84BE84" rx="3.125" ry="3.125" style="stroke:#038048;stroke-width:1.0416666666666667;"/><text fill="#ADAFAE" font-family="Verdana" font-size="11.4583" lengthAdjust="spacing" textLength="144.7917" x="3258.4583" y="213.5493">encode() throws -&gt; Data</text><!--MD5=[9a22a64524e43dc8f123ebff45878919]
+class PairingViewModel--><rect codeLine="5" fill="#313238" height="52.0508" id="PairingViewModel" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="154.1667" x="1365.2292" y="90.625"/><rect fill="#227FAB" height="35.3841" rx="4.1667" ry="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="154.1667" x="1365.2292" y="90.625"/><rect fill="#227FAB" height="4.1667" style="stroke:#227FAB;stroke-width:1.0416666666666667;" width="154.1667" x="1365.2292" y="121.8424"/><rect codeLine="5" fill="none" height="52.0508" id="PairingViewModel" rx="4.1667" ry="4.1667" style="stroke:#55B2DE;stroke-width:1.0416666666666667;" width="154.1667" x="1365.2292" y="90.625"/><ellipse cx="1379.8125" cy="108.3171" fill="#FB8500" rx="10.4167" ry="10.4167" style="stroke:#444444;stroke-width:1.0416666666666667;"/><path d="M1381.7168,112.7441 Q1381.2936,112.9557 1380.8216,113.0697 Q1380.3496,113.1836 1379.8451,113.1836 Q1377.9896,113.1836 1377.013,111.9792 Q1376.0527,110.7585 1376.0527,108.4635 Q1376.0527,106.1523 1377.013,104.9479 Q1377.9896,103.7272 1379.8451,103.7272 Q1380.3496,103.7272 1380.8216,103.8411 Q1381.3099,103.9388 1381.7168,104.1667 L1381.7168,106.1686 Q1381.2611,105.7454 1380.8216,105.5501 Q1380.3822,105.3385 1379.9264,105.3385 Q1378.9336,105.3385 1378.429,106.1361 Q1377.9245,106.9173 1377.9245,108.4635 Q1377.9245,109.9935 1378.429,110.7747 Q1378.9336,111.556 1379.9264,111.556 Q1380.3822,111.556 1380.8216,111.3607 Q1381.2611,111.1654 1381.7168,110.7422 L1381.7168,112.7441 Z " fill="#000000"/><text fill="#222222" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="112.5" x="1398.5625" y="112.6444">PairingViewModel</text><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="1366.2708" x2="1518.3542" y1="126.0091" y2="126.0091"/><line style="stroke:#55B2DE;stroke-width:1.0416666666666667;" x1="1366.2708" x2="1518.3542" y1="134.3424" y2="134.3424"/><!--MD5=[b3cb2e259c65bfada0ed30a4ec9de4a1]
+entity BLEDevice_Central--><ellipse cx="2232.9375" cy="329.6875" rx="8.3333" ry="8.3333" style="stroke:#55B2DE;stroke-width:1.5625;fill:none;"/><path d="M2232.9375,338.0208 L2232.9375,366.1458 M2219.3958,346.3542 L2246.4792,346.3542 M2232.9375,366.1458 L2219.3958,381.7708 M2232.9375,366.1458 L2246.4792,381.7708 " fill="none" style="stroke:#55B2DE;stroke-width:1.5625;"/><text fill="#2A9FD6" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="118.75" x="2173.5625" y="401.1861">BLEDevice_Central</text><!--MD5=[2d50de57b83db8e16b305788c84b84a9]
+entity BLEDevice_Peripheral--><ellipse cx="374.6042" cy="329.6875" rx="8.3333" ry="8.3333" style="stroke:#55B2DE;stroke-width:1.5625;fill:none;"/><path d="M374.6042,338.0208 L374.6042,366.1458 M361.0625,346.3542 L388.1458,346.3542 M374.6042,366.1458 L361.0625,381.7708 M374.6042,366.1458 L388.1458,381.7708 " fill="none" style="stroke:#55B2DE;stroke-width:1.5625;"/><text fill="#2A9FD6" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="138.5417" x="305.3333" y="401.1861">BLEDevice_Peripheral</text><!--MD5=[1f85548ec93d3d0e88454b11f30f3030]
+link CentralUARTService to PairingViewModel--><path codeLine="9" d="M1046.3542,116.6667 C1166.2813,116.6667 1284.2292,116.6667 1359.7604,116.6667 " fill="none" id="CentralUARTService-PairingViewModel" style="stroke:#2A9FD6;stroke-width:3.125;"/><polygon fill="#2A9FD6" points="1365.125,116.6667,1355.75,112.5,1359.9167,116.6667,1355.75,120.8333,1365.125,116.6667" style="stroke:#2A9FD6;stroke-width:3.125;"/><polygon fill="#2A9FD6" points="1040.875,116.6667,1050.25,120.8333,1046.0833,116.6667,1050.25,112.5,1040.875,116.6667" style="stroke:#2A9FD6;stroke-width:3.125;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="276.0417" x="1064.9688" y="105.3528">Initializes when needed to act as a central</text><!--MD5=[76b27cdcd48a920f3f05946fd31080dc]
+link CentralUARTService to BLEDevice_Peripheral--><path codeLine="10" d="M640,178.1771 C649.6458,212.1354 653.8125,253.5417 631.8958,283.3333 C591.5833,338.1146 514.0938,356.5521 454.6458,362.2396 " fill="none" id="CentralUARTService-to-BLEDevice_Peripheral" style="stroke:#2A9FD6;stroke-width:3.125;"/><polygon fill="#2A9FD6" points="449.3125,362.7292,459.0288,366.0224,454.4991,362.2536,458.2679,357.7239,449.3125,362.7292" style="stroke:#2A9FD6;stroke-width:3.125;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="518.75" x="650.6458" y="275.1444">Sends `UARTMessage` to the `.transmission` characteristic using `UARTWriter`</text><!--MD5=[55eec3db2a46a0a22890a7e7255ee306]
+reverse link CentralUARTService to BLEDevice_Peripheral--><path codeLine="11" d="M236.1563,179.4583 C159.1354,199.7917 94.0417,225.5417 69.3958,257.2917 C6.25,338.6146 190.4375,357.9479 299.8333,362.375 " fill="none" id="CentralUARTService-backto-BLEDevice_Peripheral" style="stroke:#2A9FD6;stroke-width:3.125;"/><polygon fill="#2A9FD6" points="241.25,178.125,231.1288,176.4476,236.2088,179.4336,233.2227,184.5136,241.25,178.125" style="stroke:#2A9FD6;stroke-width:3.125;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="541.6667" x="75.6458" y="275.1444">Notifies about `UARTMessage`s on `.reception` characteristic using `UARTNotifier`</text><!--MD5=[0400628ebc4f5342fcf96c8c3bfc2276]
+link PairingViewModel to PeripheralUARTService--><path codeLine="13" d="M1525.2292,116.6667 C1603.9271,116.6667 1728.0833,116.6667 1850.5833,116.6667 " fill="none" id="PairingViewModel-PeripheralUARTService" style="stroke:#2A9FD6;stroke-width:3.125;"/><polygon fill="#2A9FD6" points="1856.0521,116.6667,1846.6771,112.5,1850.8438,116.6667,1846.6771,120.8333,1856.0521,116.6667" style="stroke:#2A9FD6;stroke-width:3.125;"/><polygon fill="#2A9FD6" points="1519.5521,116.6667,1528.9271,120.8333,1524.7604,116.6667,1528.9271,112.5,1519.5521,116.6667" style="stroke:#2A9FD6;stroke-width:3.125;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="288.5417" x="1543.6146" y="105.3528">Initializes when needed to act as a periheral</text><!--MD5=[f6705152a2b06439414cb2506f08fa55]
+reverse link PeripheralUARTService to BLEDevice_Central--><path codeLine="14" d="M1969.0208,180.5313 C1916.8229,205.625 1887.3333,239.2813 1921.4792,283.3333 C1951.4063,321.9479 2085.9583,345.25 2168.1146,356.1354 " fill="none" id="PeripheralUARTService-backto-BLEDevice_Central" style="stroke:#2A9FD6;stroke-width:3.125;"/><polygon fill="#2A9FD6" points="1973.8021,178.2813,1963.5452,178.4983,1969.0885,180.4968,1967.09,186.0401,1973.8021,178.2813" style="stroke:#2A9FD6;stroke-width:3.125;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="562.5" x="1927.7292" y="275.1444">Notifies about `UARTMessage`s on `.transmission` characteristic using `UARTNotifier`</text><!--MD5=[e27eedd438ed7fca544785ab5c568edc]
+link PeripheralUARTService to BLEDevice_Central--><path codeLine="15" d="M2445.9583,178.2188 C2499.3958,204.4583 2533.3542,239.3854 2500.6458,283.3333 C2476.9583,315.1458 2374.3438,339.0417 2303.2604,352.1563 " fill="none" id="PeripheralUARTService-to-BLEDevice_Central" style="stroke:#2A9FD6;stroke-width:3.125;"/><polygon fill="#2A9FD6" points="2297.7813,353.1563,2307.7535,355.5659,2302.9044,352.218,2306.2523,347.3689,2297.7813,353.1563" style="stroke:#2A9FD6;stroke-width:3.125;"/><text fill="#FFFFFF" font-family="Verdana" font-size="12.5" lengthAdjust="spacing" textLength="497.9167" x="2519.3958" y="275.1444">Sends `UARTMessage` to the `.reception` characteristic using `UARTWriter`</text><!--MD5=[7de3695f8d278b5b0cd08ba99343e374]
+link UARTMessage to UARTNotifier--><path codeLine="17" d="M3428.0625,213.75 C3467.125,251.5313 3509.8542,292.8542 3540.5208,322.5208 " fill="none" id="UARTMessage-UARTNotifier" style="stroke:#2A9FD6;stroke-width:3.125;"/><polygon fill="#2A9FD6" points="3544.5729,326.4375,3540.7166,316.9306,3540.8237,322.8222,3534.9321,322.9293,3544.5729,326.4375" style="stroke:#2A9FD6;stroke-width:3.125;"/><polygon fill="#2A9FD6" points="3424.1354,209.9479,3427.9533,219.4703,3427.87,213.5783,3433.7619,213.495,3424.1354,209.9479" style="stroke:#2A9FD6;stroke-width:3.125;"/><!--MD5=[6f0d1245b0611ffea0000294b7be5848]
+link UARTMessage to UARTWriter--><path codeLine="18" d="M3229.5104,214.1042 C3190.6667,251.8333 3148.2083,293.0625 3117.75,322.6458 " fill="none" id="UARTMessage-UARTWriter" style="stroke:#2A9FD6;stroke-width:3.125;"/><polygon fill="#2A9FD6" points="3113.7292,326.5521,3123.3557,323.005,3117.4637,322.9217,3117.547,317.0297,3113.7292,326.5521" style="stroke:#2A9FD6;stroke-width:3.125;"/><polygon fill="#2A9FD6" points="3233.4271,210.3021,3223.8006,213.8492,3229.6925,213.9325,3229.6092,219.8245,3233.4271,210.3021" style="stroke:#2A9FD6;stroke-width:3.125;"/><!--MD5=[28af108a24002c50c115cd10fb4a8cbc]
+link PeripheralUARTService to UARTError--><path codeLine="20" d="M2038.5104,178.1563 C1864.1563,232.375 1618.8021,308.6667 1504.9167,344.0729 " fill="none" id="PeripheralUARTService-to-UARTError" style="stroke:#2A9FD6;stroke-width:3.125;"/><polygon fill="#2A9FD6" points="1499.9271,345.625,1510.1169,346.8161,1504.8999,344.0766,1507.6394,338.8596,1499.9271,345.625" style="stroke:#2A9FD6;stroke-width:3.125;"/><!--MD5=[1501a9664540161e361d6719188f91eb]
+link CentralUARTService to UARTError--><path codeLine="21" d="M897.4583,178.1667 C989.6146,200.2396 1091.9063,227.25 1183.9792,257.2917 C1252.3021,279.5938 1328.1146,311.6875 1379.8333,334.7604 " fill="none" id="CentralUARTService-to-UARTError" style="stroke:#2A9FD6;stroke-width:3.125;"/><polygon fill="#2A9FD6" points="1384.7604,336.9583,1377.9011,329.3293,1380.0053,334.8334,1374.5012,336.9375,1384.7604,336.9583" style="stroke:#2A9FD6;stroke-width:3.125;"/><!--MD5=[49f70585d285f0c409608b5d756a085a]
+link UARTError to PairingViewModel--><path codeLine="22" d="M1442.3125,314.1771 C1442.3125,264.7083 1442.3125,190.0833 1442.3125,148.4896 " fill="none" id="UARTError-to-PairingViewModel" style="stroke:#2A9FD6;stroke-width:3.125;"/><polygon fill="#2A9FD6" points="1442.3125,143.0938,1438.1458,152.4688,1442.3125,148.3021,1446.4792,152.4688,1442.3125,143.0938" style="stroke:#2A9FD6;stroke-width:3.125;"/><!--MD5=[d1781960522f6d392189e1c589fa6dbf]
+@startuml
+!include ../../design.puml
+!include bluetooth-uart-classes.puml
+allowmixing
+
+class PairingViewModel
+actor BLEDevice_Central
+actor BLEDevice_Peripheral
+
+PairingViewModel <-l-> CentralUARTService: Initializes when needed to act as a central
+CentralUARTService -d-> BLEDevice_Peripheral: Sends `UARTMessage` to the `.transmission` characteristic using `UARTWriter`
+CentralUARTService <- - BLEDevice_Peripheral: Notifies about `UARTMessage`s on `.reception` characteristic using `UARTNotifier`
+
+PairingViewModel <-r-> PeripheralUARTService: Initializes when needed to act as a periheral
+PeripheralUARTService <- - BLEDevice_Central: Notifies about `UARTMessage`s on `.transmission` characteristic using `UARTNotifier`
+PeripheralUARTService -d-> BLEDevice_Central: Sends `UARTMessage` to the `.reception` characteristic using `UARTWriter`
+
+UARTMessage <-d-> UARTNotifier
+UARTMessage <-d-> UARTWriter
+
+PeripheralUARTService - -> UARTError
+CentralUARTService - -> UARTError
+UARTError - -> PairingViewModel
+@enduml
+
+@startuml
+
+
+
+
+skinparam backgroundColor transparent
+skinparam useBetaStyle false
+
+
+
+
+
+
+
+skinparam defaultFontName       "Verdana"
+skinparam defaultFontSize       12
+skinparam dpi                   100
+skinparam shadowing             false
+skinparam roundcorner           8
+skinparam ParticipantPadding    40
+skinparam BoxPadding            40
+skinparam Padding               5
+skinparam ArrowColor            #ADAFAE
+skinparam stereotype {
+    CBackgroundColor #777777
+    CBorderColor #444444
+    ABackgroundColor #5F8F00
+    ABorderColor #92C233
+    IBackgroundColor #a30000
+    IBorderColor #D63333
+    EBackgroundColor #cc6d00
+    EBorderColor #FFA033
+    NBackgroundColor #7a29a3
+    NBorderColor #AD5CD6
+}
+skinparam title {
+	FontColor	                 #2A9FD6
+	BorderColor	                 #777777
+	FontSize	    	         20
+	BorderRoundCorner            8
+	BorderThickness 	         1
+	BackgroundColor              transparent
+}
+
+skinparam legend {
+	BackgroundColor transparent
+	BorderColor #777777
+	FontColor #ADAFAE
+}
+
+skinparam swimlane {
+	BorderColor #9933CC
+	BorderThickness 2
+	TitleBackgroundColor  #444444-#555
+	TitleFontColor #2A9FD6
+}
+
+
+skinparam activity {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	BarColor #77B300
+	StartColor #9933CC
+	EndColor #9933CC
+	DiamondBackgroundColor transparent
+  	DiamondBorderColor #777777
+  	DiamondFontColor #777777
+}
+
+
+skinparam participant {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	ParticipantBorderThickness 2
+}
+
+
+skinparam actor {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+skinparam arrow {
+	Thickness 3
+	Color #2A9FD6
+	FontColor #FFF
+}
+
+
+skinparam sequence {
+	BorderColor #2A9FD6
+	TitleFontColor #2A9FD6
+	BackgroundColor transparent
+	StartColor #2A9FD6
+	EndColor #2A9FD6
+	BoxBackgroundColor transparent
+	BoxBorderColor #ADAFAE
+	BoxFontColor #ADAFAE
+	DelayFontColor #ADAFAE
+	LifeLineBorderColor #555
+	LifeLineBorderThickness 2
+	LifeLineBackgroundColor transparent
+	GroupBorderColor #ADAFAE
+	GroupFontColor #ADAFAE
+	GroupHeaderFontColor #9933CC
+	GroupBackgroundColor transparent
+	GroupBodyBackgroundColor transparent
+	GroupHeaderBackgroundColor transparent
+	DividerBackgroundColor transparent
+    DividerBorderColor #ADAFAE
+    DividerBorderThickness 2
+    DividerFontColor #ADAFAE
+	ReferenceBackgroundColor transparent
+	ReferenceBorderColor #ADAFAE
+	ReferenceFontColor #ADAFAE
+	ReferenceHeaderFontColor #9933CC
+	ReferenceHeaderBackgroundColor transparent
+	StereotypeFontColor #2A9FD6
+}
+
+
+skinparam partition {
+	BorderColor #2A9FD6
+	FontColor #2A9FD6
+	BackgroundColor transparent
+}
+
+
+skinparam collections {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+}
+
+
+skinparam control {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+skinparam entity {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+skinparam boundary {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+skinparam agent {
+	BackgroundColor transparent
+	BorderColor #cc6d00
+	FontColor #ADAFAE
+}
+
+
+skinparam note {
+	BorderThickness 1
+	BackgroundColor transparent
+	BorderColor #AD5CD6
+	FontColor #AD5CD6
+}
+
+
+skinparam artifact {
+	BackgroundColor transparent
+	BorderColor #BDBFBE
+	FontColor #BDBFBE
+}
+
+
+skinparam component {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+}
+
+
+skinparam interface {
+	BackgroundColor  transparent
+	BorderColor  #CC0000
+	FontColor #ADAFAE
+}
+
+
+skinparam storage {
+	BackgroundColor transparent
+  	BorderColor #FFA033
+	FontColor #FF8800
+}
+
+
+skinparam node {
+	BackgroundColor  transparent
+	BorderColor #ADAFAE
+	FontColor #ADAFAE
+}
+
+
+skinparam cloud {
+	BackgroundColor transparent
+	BorderColor #F2FCFE
+	FontColor #ADAFAE
+}
+
+
+skinparam database {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	FontColor #2A9FD6
+}
+
+
+
+skinparam class {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+        FontColor #222
+	HeaderBackgroundColor #227FAB
+	StereotypeFontColor #ADAFAE
+	BorderThickness 1
+	AttributeFontColor #ADAFAE
+	AttributeFontSize 11
+}
+
+
+skinparam object {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	StereotypeFontColor #ADAFAE
+	BorderThickness 1
+	AttributeFontColor #777777
+	AttributeFontSize 11
+}
+
+
+skinparam usecase {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	BorderThickness 2
+	StereotypeFontColor #2A9FD6
+}
+
+
+skinparam rectangle {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	BorderThickness 2
+	StereotypeFontColor #2A9FD6
+}
+
+
+skinparam package {
+	BackgroundColor transparent
+  	BorderColor #2A9FD6
+	FontColor #2A9FD6
+	BorderThickness 2
+}
+
+
+skinparam folder {
+	BackgroundColor transparent
+  	BorderColor #FF8800
+	FontColor #FF8800
+	BorderThickness 2
+}
+
+
+skinparam frame {
+	BackgroundColor transparent
+  	BorderColor #9933CC
+	FontColor #9933CC
+	BorderThickness 2
+}
+
+
+skinparam state {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+	StartColor #9933CC
+	EndColor #9933CC
+	AttributeFontColor #777777
+	AttributeFontSize 11
+}
+
+
+skinparam queue {
+		FontColor #2A9FD6
+	BorderColor #55B2DE
+	BackgroundColor transparent
+}
+
+
+skinparam card {
+	BackgroundColor transparent
+	BorderColor #9933CC
+	FontColor #9933CC
+}
+
+
+skinparam file {
+	BackgroundColor transparent
+	BorderColor #555
+	FontColor #555
+}
+
+
+
+skinparam BackgroundColor #313238
+skinparam StereotypeCBackgroundColor #fb8500
+
+skinparam StereotypeCBackgroundColor<<S>> #e840e8
+skinparam SpotChar<<S>> S
+hide <<S>> stereotype
+
+skinparam StereotypeCBackgroundColor<<E>> #10FF30
+skinparam SpotChar<<E>> E
+hide <<E>> stereotype
+
+
+
+
+class CentralUARTService {
+    - writer: UARTWriter
+    - notifier: UARTNotifier
+    + writeAndWaitForNotify(message: UARTMessage, expectedNotify: UARTMessage.Command...) -> AnyPublisher<UARTMessage, UARTError>
+}
+
+class PeripheralUARTService {
+    - writer: UARTWriter
+    - notifier: UARTNotifier
+    + writeAfterNotify(expectedNotify: UARTMessage.Command, message: UARTMessage) -> AnyPublisher<Never, UARTError>
+}
+
+class UARTWriter {
+    + write(message: UARTMessage) -> AnyPublisher<Never, UARTError> 
+}
+
+class UARTNotifier {
+    + notify(type: UARTMessage.Command) -> AnyPublisher<UARTMessage, Never>
+}
+
+class UARTError {
+    - ble(BLEError)
+    - timeout()
+}
+
+class UARTMessage {
+    - command: Command
+    - activationCode: String?
+    - confirmationCode: String?
+    - eSimImsi: String?
+    - customerId: String?
+    + init?(data: Data)
+    + encode() throws -> Data
+}
+
+
+allowmixing
+
+class PairingViewModel
+actor BLEDevice_Central
+actor BLEDevice_Peripheral
+
+PairingViewModel <-l-> CentralUARTService: Initializes when needed to act as a central
+CentralUARTService -d-> BLEDevice_Peripheral: Sends `UARTMessage` to the `.transmission` characteristic using `UARTWriter`
+CentralUARTService <- - BLEDevice_Peripheral: Notifies about `UARTMessage`s on `.reception` characteristic using `UARTNotifier`
+
+PairingViewModel <-r-> PeripheralUARTService: Initializes when needed to act as a periheral
+PeripheralUARTService <- - BLEDevice_Central: Notifies about `UARTMessage`s on `.transmission` characteristic using `UARTNotifier`
+PeripheralUARTService -d-> BLEDevice_Central: Sends `UARTMessage` to the `.reception` characteristic using `UARTWriter`
+
+UARTMessage <-d-> UARTNotifier
+UARTMessage <-d-> UARTWriter
+
+PeripheralUARTService - -> UARTError
+CentralUARTService - -> UARTError
+UARTError - -> PairingViewModel
+@enduml
+
+PlantUML version 1.2021.11(Sat Oct 02 13:26:11 GMT 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>
