@@ -36,6 +36,7 @@
 - [bluetooth/android/Pairing overview.svg](https://raw.githubusercontent.com/crvshlab/v-app-diagrams-public/main/bluetooth%2Fandroid%2FPairing%20overview.svg)
 - [bluetooth/desired/Bluetooth Notify changes to characteristic.svg](https://raw.githubusercontent.com/crvshlab/v-app-diagrams-public/main/bluetooth%2Fdesired%2FBluetooth%20Notify%20changes%20to%20characteristic.svg)
 - [bluetooth/desired/Bluetooth Read Happy Path 2.svg](https://raw.githubusercontent.com/crvshlab/v-app-diagrams-public/main/bluetooth%2Fdesired%2FBluetooth%20Read%20Happy%20Path%202.svg)
+- [bluetooth/desired/class-diagram.svg](https://raw.githubusercontent.com/crvshlab/v-app-diagrams-public/main/bluetooth%2Fdesired%2Fclass-diagram.svg)
 - [bluetooth/ios/Bluetooth Manager On demand connection.svg](https://raw.githubusercontent.com/crvshlab/v-app-diagrams-public/main/bluetooth%2Fios%2FBluetooth%20Manager%20On%20demand%20connection.svg)
 - [bluetooth/ios/Bluetooth Read Happy Path 2.svg](https://raw.githubusercontent.com/crvshlab/v-app-diagrams-public/main/bluetooth%2Fios%2FBluetooth%20Read%20Happy%20Path%202.svg)
 - [bluetooth/ios/Bluetooth Remove DeviceState.svg](https://raw.githubusercontent.com/crvshlab/v-app-diagrams-public/main/bluetooth%2Fios%2FBluetooth%20Remove%20DeviceState.svg)
